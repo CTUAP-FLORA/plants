@@ -1,0 +1,377 @@
+# Campus plant data: the ONLY file you need to edit.
+#
+# RULES
+#  * slug is PERMANENT. It is printed inside the QR code. Never change or delete it.
+#  * Optional fields (description, uses, native_to, flowering_season, photos, notes)
+#    are shown on the plant's page only when they have a value. Leave them empty
+#    until real, checked information is available.
+#  * Text fields can be one line, or several paragraphs using  |  (see README.md).
+#  * photos: a list of files placed in the photos/ folder, e.g.
+#      photos:
+#        - file: azadirachta-indica-1.jpg
+#          caption: Flowering branch
+#          credit: Photo by ...
+#
+# See README.md for step-by-step instructions.
+
+plants:
+
+  - slug: alstonia-scholaris
+    scientific_name: Alstonia scholaris
+    synonym: 
+    common_names: ["Devil tree", "Blackboard tree"]
+    family: Apocynaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: araucaria-columnaris
+    scientific_name: Araucaria columnaris
+    synonym: 
+    common_names: ["Christmas tree"]
+    family: Araucariaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: azadirachta-indica
+    scientific_name: Azadirachta indica
+    synonym: 
+    common_names: ["Neem", "Vepa", "Margosa"]
+    family: Meliaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: bauhinia-variegata
+    scientific_name: Bauhinia variegata
+    synonym: 
+    common_names: ["Deva Kanchanamu"]
+    family: Fabaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: bougainvillea-glabra
+    scientific_name: Bougainvillea glabra
+    synonym: 
+    common_names: ["Paper flower"]
+    family: Nyctaginaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: caryota-urens
+    scientific_name: Caryota urens
+    synonym: 
+    common_names: ["Jeelugu Chettu", "Fishtail palm"]
+    family: Arecaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: ceiba-pentandra
+    scientific_name: Ceiba pentandra
+    synonym: 
+    common_names: ["Kapok tree", "White silk cotton"]
+    family: Malvaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: chamaecostus-cuspidatus
+    scientific_name: Chamaecostus cuspidatus
+    synonym: 
+    common_names: ["Insulin plant"]
+    family: Costaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: citrus-limon
+    scientific_name: Citrus limon
+    synonym: 
+    common_names: ["Lemon"]
+    family: Rutaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: cocos-nucifera
+    scientific_name: Cocos nucifera
+    synonym: 
+    common_names: ["Coconut tree"]
+    family: Arecaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: codiaeum-variegatum
+    scientific_name: Codiaeum variegatum
+    synonym: 
+    common_names: ["Croton", "Variegated croton"]
+    family: Euphorbiaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: delonix-regia
+    scientific_name: Delonix regia
+    synonym: 
+    common_names: ["Thurai", "Kodipunju Chettu"]
+    family: Fabaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: pongamia-pinnata
+    scientific_name: Pongamia pinnata
+    synonym: "Derris indica"
+    common_names: ["Kanuga", "Indian beech tree", "Pongam tree"]
+    family: Fabaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: dracaena-marginata
+    scientific_name: Dracaena marginata
+    synonym: 
+    common_names: ["Dragon tree"]
+    family: Asparagaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: dypsis-lutescens
+    scientific_name: Dypsis lutescens
+    synonym: 
+    common_names: ["Areca palm", "Butterfly palm", "Bamboo palm"]
+    family: Arecaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: mangifera-indica
+    scientific_name: Mangifera indica
+    synonym: 
+    common_names: ["Mango"]
+    family: Anacardiaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: millingtonia-hortensis
+    scientific_name: Millingtonia hortensis
+    synonym: 
+    common_names: ["Indian cork tree", "Tree jasmine", "Akasha Malli"]
+    family: Bignoniaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: muntingia-calabura
+    scientific_name: Muntingia calabura
+    synonym: 
+    common_names: ["Jamaica cherry", "Singapore cherry", "Nakkaregu"]
+    family: Muntingiaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: nerium-oleander
+    scientific_name: Nerium oleander
+    synonym: "Nerium odorum"
+    common_names: ["Ganneru", "Erra ganneru", "Oleander"]
+    family: Apocynaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: peltophorum-pterocarpum
+    scientific_name: Peltophorum pterocarpum
+    synonym: 
+    common_names: ["Copper pod tree", "Konda chinta"]
+    family: Fabaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: psidium-guajava
+    scientific_name: Psidium guajava
+    synonym: 
+    common_names: ["Guava"]
+    family: Myrtaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: rosa-indica
+    scientific_name: Rosa indica
+    synonym: 
+    common_names: ["Rose"]
+    family: Rosaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: syzygium-cumini
+    scientific_name: Syzygium cumini
+    synonym: 
+    common_names: ["Neredu", "Malabar plum", "Black plum"]
+    family: Myrtaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: syzygium-samarangense
+    scientific_name: Syzygium samarangense
+    synonym: 
+    common_names: ["Wax apple", "Water apple"]
+    family: Myrtaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: terminalia-catappa
+    scientific_name: Terminalia catappa
+    synonym: 
+    common_names: ["Natu badam", "Indian almond"]
+    family: Combretaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: thuja-occidentalis
+    scientific_name: Thuja occidentalis
+    synonym: 
+    common_names: ["White cedar"]
+    family: Cupressaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: hibiscus-rosa-sinensis
+    scientific_name: Hibiscus rosa-sinensis
+    synonym: 
+    common_names: ["China rose", "Mandara"]
+    family: Malvaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: roystonea-regia
+    scientific_name: Roystonea regia
+    synonym: 
+    common_names: ["Royal palm"]
+    family: Arecaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: ravenala-madagascariensis
+    scientific_name: Ravenala madagascariensis
+    synonym: 
+    common_names: ["Traveller's tree"]
+    family: Strelitziaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: tabernaemontana-divaricata
+    scientific_name: Tabernaemontana divaricata
+    synonym: 
+    common_names: ["Nandivardhanamu"]
+    family: Apocynaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:

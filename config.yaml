@@ -1,0 +1,9 @@
+# Site settings. Read by every script in scripts/.
+#
+# base_url is encoded inside every printed QR code.
+# It must be final BEFORE tags are printed, and must never change afterwards.
+# Format: https://<account>.github.io/<repository>   (no trailing slash)
+base_url: https://ctuap-flora.github.io/plants
+
+university_name: Central Tribal University of Andhra Pradesh
+site_title: Campus Flora

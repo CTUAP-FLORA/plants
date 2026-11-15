@@ -1,0 +1,32 @@
+# Slugs that have QR codes. Do not edit. The build fails if any of these disappear
+# from data/plants.yaml, because printed tags point to them.
+alstonia-scholaris
+araucaria-columnaris
+azadirachta-indica
+bauhinia-variegata
+bougainvillea-glabra
+caryota-urens
+ceiba-pentandra
+chamaecostus-cuspidatus
+citrus-limon
+cocos-nucifera
+codiaeum-variegatum
+delonix-regia
+dracaena-marginata
+dypsis-lutescens
+hibiscus-rosa-sinensis
+mangifera-indica
+millingtonia-hortensis
+muntingia-calabura
+nerium-oleander
+peltophorum-pterocarpum
+pongamia-pinnata
+psidium-guajava
+ravenala-madagascariensis
+rosa-indica
+roystonea-regia
+syzygium-cumini
+syzygium-samarangense
+tabernaemontana-divaricata
+terminalia-catappa
+thuja-occidentalis

@@ -1,0 +1,304 @@
+{
+ "slug": "millingtonia-hortensis",
+ "scientific_name": "Millingtonia hortensis",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Lamiales"
+    ],
+    [
+     "Family",
+     "Bignoniaceae"
+    ],
+    [
+     "Subfamily",
+     null
+    ],
+    [
+     "Tribe",
+     "Oroxyleae"
+    ],
+    [
+     "Genus",
+     "Millingtonia"
+    ],
+    [
+     "Species",
+     "Millingtonia hortensis"
+    ]
+   ],
+   "authority": "Millingtonia hortensis L.fil.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 7629955)",
+     "https://www.gbif.org/species/7629955"
+    ],
+    [
+     "NCBI Taxonomy (ID 680227)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=680227"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "Acetyloleanolic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45050658",
+     "refs": []
+    },
+    {
+     "name": "Apigenin 7-glucuronide",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5319484",
+     "refs": []
+    },
+    {
+     "name": "Apigenin-7-o-glucuronide",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12912214",
+     "refs": []
+    },
+    {
+     "name": "CID 11809239",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11809239",
+     "refs": []
+    },
+    {
+     "name": "cirsimaritin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/188323",
+     "refs": []
+    },
+    {
+     "name": "Cornoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3084796",
+     "refs": []
+    },
+    {
+     "name": "p-coumaryl alcohol 4-glucoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280847",
+     "refs": []
+    },
+    {
+     "name": "beta-D-Glucosylisoeugenol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14189874",
+     "refs": []
+    },
+    {
+     "name": "hispidulin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281628",
+     "refs": []
+    },
+    {
+     "name": "homoplantaginin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5318083",
+     "refs": []
+    },
+    {
+     "name": "isoeugenol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7338",
+     "refs": []
+    },
+    {
+     "name": "Millingtonine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/57327193",
+     "refs": []
+    },
+    {
+     "name": "Pectolinarigenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5320438",
+     "refs": []
+    },
+    {
+     "name": "2-Phenylethyl D-rutinoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11166301",
+     "refs": []
+    },
+    {
+     "name": "Rengyol",
+     "url": "http://www.wikidata.org/entity/Q27155115",
+     "refs": []
+    },
+    {
+     "name": "(+)-Rengyolone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10725564",
+     "refs": []
+    },
+    {
+     "name": "Rengyoside A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10958239",
+     "refs": []
+    },
+    {
+     "name": "Rengyoside B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11045420",
+     "refs": []
+    },
+    {
+     "name": "salidroside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/159278",
+     "refs": []
+    },
+    {
+     "name": "scutellarein",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281697",
+     "refs": []
+    },
+    {
+     "name": "verbascoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281800",
+     "refs": []
+    },
+    {
+     "name": "2,3,3a,6,7,7abeta-Hexahydrobenzofuran-3abeta,6alpha-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101921142",
+     "refs": []
+    },
+    {
+     "name": "(3aR,4aS,8aR,8bS)-4a-[2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyethyl]-3-[4-[2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyethyl]phenyl]-1,2,3a,8,8a,8b-hexahydro-[1]benzofuro[2,3-b]pyrrol-7-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162996641",
+     "refs": []
+    },
+    {
+     "name": "(3aR,6R,7aS)-hexahydro-2H-1-benzofuran-3a,6-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11744892",
+     "refs": []
+    },
+    {
+     "name": "(3aR,6S,7aS)-hexahydro-2H-1-benzofuran-3a,6-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11084146",
+     "refs": []
+    },
+    {
+     "name": "(3aR,7aS)-3a-hydroxy-hexahydro-1-benzofuran-6-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10975728",
+     "refs": []
+    },
+    {
+     "name": "(4S,5S)-4,5-Dihydroxy-4-[2-(beta-D-glucopyranosyloxy)ethyl]-2-cyclohexen-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101999361",
+     "refs": []
+    },
+    {
+     "name": "2-(3,4-dihydroxyphenyl)-ethyl-O-beta-D-glucopyranoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5316821",
+     "refs": []
+    },
+    {
+     "name": "Hispidulin 7-O-beta-D-methylglucuronopyranoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15219280",
+     "refs": []
+    },
+    {
+     "name": "(2S,3S)-3-hydroxy-2-(4-hydroxyphenyl)-6,7-dimethoxy-2,3-dihydrochromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163194781",
+     "refs": []
+    },
+    {
+     "name": "4beta-Hydroxy-4-[2-(beta-D-glucopyranosyloxy)ethyl]-2-cyclohexen-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101921144",
+     "refs": []
+    },
+    {
+     "name": "(4S,5S)-4-hydroxy-5-methoxy-4-[2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyethyl]cyclohex-2-en-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162905289",
+     "refs": []
+    },
+    {
+     "name": "1-(2-hydroxyethyl)cyclohexane-1,4-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/363707",
+     "refs": []
+    },
+    {
+     "name": "(1r,4r)-1-(2-hydroxyethyl)cyclohexane-1,4-diol",
+     "url": "http://www.wikidata.org/entity/Q105265971",
+     "refs": []
+    },
+    {
+     "name": "(2R,3S,4S,5R,6S)-2-(hydroxymethyl)-6-[2-(4-hydroxyphenyl)ethoxy]oxane-3,4,5-triol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/440895",
+     "refs": []
+    },
+    {
+     "name": "(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-{2-[(1r,4r)-1,4-dihydroxycyclohexyl]ethoxy}oxane-3,4,5-triol",
+     "url": "http://www.wikidata.org/entity/Q105384304",
+     "refs": []
+    },
+    {
+     "name": "(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-{2-[(1s,4s)-1,4-dihydroxycyclohexyl]ethoxy}oxane-3,4,5-triol",
+     "url": "http://www.wikidata.org/entity/Q105384303",
+     "refs": []
+    },
+    {
+     "name": "(2S,6r,9r)-2-propyl-1,3-dioxaspiro[5.5]undecan-9-ol",
+     "url": "http://www.wikidata.org/entity/Q105307179",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q1549453"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/7629955"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/7629955"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Millingtonia%20hortensis"
+    ]
+   ]
+  }
+ }
+}

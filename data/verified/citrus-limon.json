@@ -1,0 +1,101 @@
+{
+ "slug": "citrus-limon",
+ "scientific_name": "Citrus limon",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Sapindales"
+    ],
+    [
+     "Family",
+     "Rutaceae"
+    ],
+    [
+     "Subfamily",
+     null
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Citrus"
+    ],
+    [
+     "Species",
+     "Citrus limon"
+    ]
+   ],
+   "authority": "Citrus × limon (L.) Osbeck",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 7647136)",
+     "https://www.gbif.org/species/7647136"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [],
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "NE",
+    "Not Evaluated"
+   ],
+   "india": [
+    [
+     "Assam",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/7647136"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/7647136"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Citrus%20limon"
+    ]
+   ]
+  }
+ }
+}

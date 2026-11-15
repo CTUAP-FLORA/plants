@@ -1,0 +1,225 @@
+{
+ "slug": "araucaria-columnaris",
+ "scientific_name": "Araucaria columnaris",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Pinopsida"
+    ],
+    [
+     "Subclass",
+     "Pinidae"
+    ],
+    [
+     "Order",
+     "Pinales"
+    ],
+    [
+     "Family",
+     "Araucariaceae"
+    ],
+    [
+     "Subfamily",
+     null
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Araucaria"
+    ],
+    [
+     "Species",
+     "Araucaria columnaris"
+    ]
+   ],
+   "authority": "Araucaria columnaris (J.R.Forst.) Hook.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 2684921)",
+     "https://www.gbif.org/species/2684921"
+    ],
+    [
+     "NCBI Taxonomy (ID 60858)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=60858"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "caryophyllene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281515",
+     "refs": []
+    },
+    {
+     "name": "7,7''-Dimethoxyamentoflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13871759",
+     "refs": []
+    },
+    {
+     "name": "dolabradiene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12309316",
+     "refs": []
+    },
+    {
+     "name": "epizonarene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/595385",
+     "refs": []
+    },
+    {
+     "name": "(-)-germacrene D",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5317570",
+     "refs": []
+    },
+    {
+     "name": "(-)-Kaur-16-ene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/129648882",
+     "refs": []
+    },
+    {
+     "name": "(-)-sandaracopimaradiene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/443469",
+     "refs": []
+    },
+    {
+     "name": "sclarene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11323257",
+     "refs": []
+    },
+    {
+     "name": "4',7,7''-Trimethoxyamentoflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12018906",
+     "refs": []
+    },
+    {
+     "name": "Agathisflavone 4''',7,7''-trimethyl ether",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101423563",
+     "refs": []
+    },
+    {
+     "name": "(3S)-5-[(4aR,5R,8aR)-5-[(1S)-1-hydroxyethyl]-2,8a-dimethyl-4,4a,5,6,7,8-hexahydro-3H-naphthalen-1-yl]-3-methylpent-1-en-3-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163103764",
+     "refs": []
+    },
+    {
+     "name": "(E)-5-[(4aR,5S,8aS)-5-(hydroxymethyl)-2,5,8a-trimethyl-3,4,4a,6,7,8-hexahydronaphthalen-1-yl]-3-methylpent-2-enoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163104399",
+     "refs": []
+    },
+    {
+     "name": "(1R,4aR,5S,8aS)-5-[(3R)-3-hydroxy-3-methylpent-4-enyl]-1,4a-dimethyl-6-methylidene-3,4,5,7,8,8a-hexahydro-2H-naphthalen-1-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162883458",
+     "refs": []
+    },
+    {
+     "name": "(1S,4aR,5S,8aS)-5-[(3R)-3-hydroxy-3-methylpent-4-enyl]-1,4a-dimethyl-6-methylidene-3,4,5,7,8,8a-hexahydro-2H-naphthalen-1-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162883457",
+     "refs": []
+    },
+    {
+     "name": "(1S,4aR,5S,8aS)-5-[(3R)-3-hydroxy-3-methylpent-4-enyl]-1,4a-dimethyl-6-methylidene-3,4,5,7,8,8a-hexahydro-2H-naphthalene-1-carbaldehyde",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/154497601",
+     "refs": []
+    },
+    {
+     "name": "(1S,4aR,8aS)-5-[(3S)-3-hydroxy-3-methylpent-4-enyl]-1,4a,6-trimethyl-2,3,4,7,8,8a-hexahydronaphthalene-1-carbaldehyde",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162880196",
+     "refs": []
+    },
+    {
+     "name": "(1S,4aS,8aR)-5-[(E)-5-hydroxy-3-methylpent-3-enyl]-1,4a,6-trimethyl-2,3,4,7,8,8a-hexahydronaphthalene-1-carbaldehyde",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163102614",
+     "refs": []
+    },
+    {
+     "name": "(4aS,8R,8aS)-4,4,8a-trimethyl-7-methylidene-8-(3-methylidenepent-4-enyl)-2,3,4a,5,6,8-hexahydro-1H-naphthalene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/90659283",
+     "refs": []
+    },
+    {
+     "name": "5,5'-dihydroxy-2,2'-bis(4-hydroxyphenyl)-7,7'-dimethoxy-4H,4'H-[6,8'-bichromene]-4,4'-dione",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9985405",
+     "refs": []
+    },
+    {
+     "name": "(1R,2S,7S,8S)-1,3-dimethyl-8-propan-2-yltricyclo[4.4.0.02,7]dec-3-ene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92042749",
+     "refs": []
+    },
+    {
+     "name": "5-Hydroxy-8-[5-hydroxy-7-methoxy-2-(4-methoxyphenyl)-4-oxochromen-8-yl]-7-methoxy-2-(4-methoxyphenyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11103936",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q134045"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Assam",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "introduced",
+     "Global Register of Introduced and Invasive Species - India"
+    ]
+   ],
+   "endemic": [
+    "New Caledonia"
+   ],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2684921"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2684921"
+    ],
+    [
+     "Wikidata: 'endemic to' statement",
+     "http://www.wikidata.org/entity/Q134045"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Araucaria%20columnaris"
+    ]
+   ]
+  }
+ }
+}

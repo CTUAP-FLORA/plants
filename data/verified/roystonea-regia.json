@@ -1,0 +1,105 @@
+{
+ "slug": "roystonea-regia",
+ "scientific_name": "Roystonea regia",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Liliopsida"
+    ],
+    [
+     "Subclass",
+     "Petrosaviidae"
+    ],
+    [
+     "Order",
+     "Arecales"
+    ],
+    [
+     "Family",
+     "Arecaceae"
+    ],
+    [
+     "Subfamily",
+     "Arecoideae"
+    ],
+    [
+     "Tribe",
+     "Roystoneeae"
+    ],
+    [
+     "Genus",
+     "Roystonea"
+    ],
+    [
+     "Species",
+     "Roystonea regia"
+    ]
+   ],
+   "authority": "Roystonea regia (Kunth) O.F.Cook",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 2733755)",
+     "https://www.gbif.org/species/2733755"
+    ],
+    [
+     "NCBI Taxonomy (ID 145709)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=145709"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [],
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Assam",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "India",
+     "introduced",
+     "Global Register of Introduced and Invasive Species - India"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2733755"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2733755"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Roystonea%20regia"
+    ]
+   ]
+  }
+ }
+}

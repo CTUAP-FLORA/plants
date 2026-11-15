@@ -1,0 +1,204 @@
+{
+ "slug": "delonix-regia",
+ "scientific_name": "Delonix regia",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Fabales"
+    ],
+    [
+     "Family",
+     "Fabaceae"
+    ],
+    [
+     "Subfamily",
+     "Caesalpinioideae"
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Delonix"
+    ],
+    [
+     "Species",
+     "Delonix regia"
+    ]
+   ],
+   "authority": "Delonix regia (Bojer ex Hook.) Raf.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 2956176)",
+     "https://www.gbif.org/species/2956176"
+    ],
+    [
+     "NCBI Taxonomy (ID 72433)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=72433"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "(S)-2-azetidinecarboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11862171",
+     "refs": []
+    },
+    {
+     "name": "δ-carotene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6384254",
+     "refs": []
+    },
+    {
+     "name": "trans-3-hydroxy-L-proline",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11877126",
+     "refs": []
+    },
+    {
+     "name": "linoleic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280450",
+     "refs": []
+    },
+    {
+     "name": "malvalic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10416",
+     "refs": []
+    },
+    {
+     "name": "myristic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11005",
+     "refs": []
+    },
+    {
+     "name": "Oleanolic acid 3-acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/151202",
+     "refs": []
+    },
+    {
+     "name": "oleic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/445639",
+     "refs": []
+    },
+    {
+     "name": "oxoacetic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/760",
+     "refs": []
+    },
+    {
+     "name": "palmitic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/135369651",
+     "refs": []
+    },
+    {
+     "name": "Propelargonidin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/102115502",
+     "refs": []
+    },
+    {
+     "name": "pyruvic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1060",
+     "refs": []
+    },
+    {
+     "name": "stearic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/139057051",
+     "refs": []
+    },
+    {
+     "name": "sterculic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12921",
+     "refs": []
+    },
+    {
+     "name": "7,7',9,9'-tetra-cis-lycopene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10918539",
+     "refs": []
+    },
+    {
+     "name": "3'-O-methylcyanidin 3-O-beta-D-glucoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/443654",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q238486"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "Assam",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "India",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "Nicobar Is.",
+     "introduced",
+     "Catalogue of Life"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2956176"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2956176"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Delonix%20regia"
+    ]
+   ]
+  }
+ }
+}

@@ -74,8 +74,34 @@ error if a slug listed in `qr/slugs.lock` disappears.
 2. Set `slug` to genus-species in lowercase with hyphens, e.g. `ficus-religiosa`.
    It must be unique. **Choose it carefully. It is permanent once printed.**
 3. Commit. The page appears at `https://ctuap-flora.github.io/plants/p/ficus-religiosa/`.
-4. Make the QR code and tag on a computer (below), check them with `verify.py`, and print
+4. Run `python scripts/fetch_verified.py <slug>` to collect its Taxonomy, Phytochemicals
+   and Conservation data, and commit the new file in `data/verified/`.
+5. Make the QR code and tag on a computer (below), check them with `verify.py`, and print
    only the new tag. Existing QR codes do not change, because they depend only on their own slug.
+
+## The 3 buttons: Taxonomy, Phytochemicals, Conservation
+
+Each plant page has 3 buttons. Their content is collected automatically from verified
+scientific databases. It is **not typed by hand**, so do not edit these files manually.
+
+| Button | Comes from |
+|---|---|
+| Taxonomy | GBIF Backbone Taxonomy, NCBI Taxonomy (ranks with no record are hidden) |
+| Phytochemicals | LOTUS natural products database (via Wikidata); each compound links to PubChem |
+| Conservation | IUCN Red List category (via GBIF); native/introduced status in India from published checklists (WCVP, GRIIS); endemism (Wikidata) |
+
+The data is saved in `data/verified/<slug>.json`, one file per plant. Each file also keeps
+the exact source links and the date the data was retrieved (the links are not shown on
+the page). When a database has no record, the page says "Not recorded in these databases".
+
+**To refresh the data** (for example once a year, or after adding a new plant):
+
+```bash
+python scripts/fetch_verified.py                    # all plants (takes a few minutes)
+python scripts/fetch_verified.py ficus-religiosa    # just one plant
+```
+
+Then commit the changed files in `data/verified/`.
 
 ## Running the scripts on a computer
 
@@ -83,6 +109,7 @@ Needs Python 3.10+ (and `pdftoppm` from poppler-utils if you want `verify.py` to
 
 ```bash
 pip install -r requirements.txt
+python scripts/fetch_verified.py # Taxonomy / Phytochemicals / Conservation → data/verified/
 python scripts/build.py          # website → _site/ (GitHub does this automatically)
 python scripts/make_qr.py        # qr/<slug>.png and qr/<slug>.svg for every plant
 python scripts/make_tags.py      # tags.pdf: A4, 5 tags per page, dashed cut lines
@@ -96,6 +123,7 @@ Commit the new files in `qr/` and `tags.pdf` afterwards.
 | Path | What it is |
 |---|---|
 | `data/plants.yaml` | **All plant information.** The only file you normally edit. |
+| `data/verified/` | Taxonomy, phytochemicals and conservation data (automatic, with sources) |
 | `config.yaml` | Website address (`base_url`) and university name |
 | `photos/` | Plant photos used on the pages |
 | `qr/` | QR codes (PNG for printing, SVG for designers) + `slugs.lock` |

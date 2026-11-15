@@ -1,0 +1,100 @@
+{
+ "slug": "dypsis-lutescens",
+ "scientific_name": "Dypsis lutescens",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Liliopsida"
+    ],
+    [
+     "Subclass",
+     "Petrosaviidae"
+    ],
+    [
+     "Order",
+     "Arecales"
+    ],
+    [
+     "Family",
+     "Arecaceae"
+    ],
+    [
+     "Subfamily",
+     "Arecoideae"
+    ],
+    [
+     "Tribe",
+     "Areceae"
+    ],
+    [
+     "Genus",
+     "Dypsis"
+    ],
+    [
+     "Species",
+     "Dypsis lutescens"
+    ]
+   ],
+   "authority": "Dypsis lutescens (H.Wendl.) Beentje & J.Dransf.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 2735935)",
+     "https://www.gbif.org/species/2735935"
+    ],
+    [
+     "NCBI Taxonomy (ID 131267)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=131267"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [],
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "NT",
+    "Near Threatened"
+   ],
+   "india": [
+    [
+     "India",
+     "introduced",
+     "Global Register of Introduced and Invasive Species - India"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2735935"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2735935"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Dypsis%20lutescens"
+    ]
+   ]
+  }
+ }
+}

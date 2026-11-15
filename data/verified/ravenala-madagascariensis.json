@@ -1,0 +1,100 @@
+{
+ "slug": "ravenala-madagascariensis",
+ "scientific_name": "Ravenala madagascariensis",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Liliopsida"
+    ],
+    [
+     "Subclass",
+     "Petrosaviidae"
+    ],
+    [
+     "Order",
+     "Zingiberales"
+    ],
+    [
+     "Family",
+     "Strelitziaceae"
+    ],
+    [
+     "Subfamily",
+     null
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Ravenala"
+    ],
+    [
+     "Species",
+     "Ravenala madagascariensis"
+    ]
+   ],
+   "authority": "Ravenala madagascariensis Sonn.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 2763095)",
+     "https://www.gbif.org/species/2763095"
+    ],
+    [
+     "NCBI Taxonomy (ID 4664)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4664"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [],
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "India",
+     "introduced",
+     "Global Register of Introduced and Invasive Species - India"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2763095"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2763095"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Ravenala%20madagascariensis"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,329 @@
+{
+ "slug": "terminalia-catappa",
+ "scientific_name": "Terminalia catappa",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Myrtales"
+    ],
+    [
+     "Family",
+     "Combretaceae"
+    ],
+    [
+     "Subfamily",
+     null
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Terminalia"
+    ],
+    [
+     "Species",
+     "Terminalia catappa"
+    ]
+   ],
+   "authority": "Terminalia catappa L.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 3189394)",
+     "https://www.gbif.org/species/3189394"
+    ],
+    [
+     "NCBI Taxonomy (ID 39993)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39993"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "asiatic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/119034",
+     "refs": []
+    },
+    {
+     "name": "castalagin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12302513",
+     "refs": []
+    },
+    {
+     "name": "chebulagic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/442674",
+     "refs": []
+    },
+    {
+     "name": "CID 5464368",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5464368",
+     "refs": []
+    },
+    {
+     "name": "corilagin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73568",
+     "refs": []
+    },
+    {
+     "name": "cryptoxanthin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281235",
+     "refs": []
+    },
+    {
+     "name": "1-Desgalloyleugeniin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9918701",
+     "refs": []
+    },
+    {
+     "name": "ellagic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281855",
+     "refs": []
+    },
+    {
+     "name": "Epicatechin gallate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/107905",
+     "refs": []
+    },
+    {
+     "name": "epigallocatechin gallate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65064",
+     "refs": []
+    },
+    {
+     "name": "gallic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/370",
+     "refs": []
+    },
+    {
+     "name": "2''-O-Galloylvitexin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11813924",
+     "refs": []
+    },
+    {
+     "name": "geraniin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3001497",
+     "refs": []
+    },
+    {
+     "name": "isoorientin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/114776",
+     "refs": []
+    },
+    {
+     "name": "isovitexin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162350",
+     "refs": []
+    },
+    {
+     "name": "lutein",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281243",
+     "refs": []
+    },
+    {
+     "name": "3-O-methylellagic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13915428",
+     "refs": []
+    },
+    {
+     "name": "Pelargonin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/441772",
+     "refs": []
+    },
+    {
+     "name": "2-pentadecanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/61303",
+     "refs": []
+    },
+    {
+     "name": "procyanidin B1",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11250133",
+     "refs": []
+    },
+    {
+     "name": "procyanidin B2 3'-O-gallate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15593124",
+     "refs": []
+    },
+    {
+     "name": "rutin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280805",
+     "refs": []
+    },
+    {
+     "name": "squalene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/638072",
+     "refs": []
+    },
+    {
+     "name": "taraxanthin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281244",
+     "refs": []
+    },
+    {
+     "name": "Tellimagradin I",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73179",
+     "refs": []
+    },
+    {
+     "name": "terflavin B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14886031",
+     "refs": []
+    },
+    {
+     "name": "ursolic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/64945",
+     "refs": []
+    },
+    {
+     "name": "violaxanthin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/448438",
+     "refs": []
+    },
+    {
+     "name": "vitexin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280441",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3S,4R,5S,6S)-6-[5,7-dihydroxy-2-(4-hydroxyphenyl)-4-oxochromen-6-yl]-3,4,5-trihydroxyoxan-2-yl]methyl 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162955056",
+     "refs": []
+    },
+    {
+     "name": "[(2S,3R,4S,5S,6R)-2-[5,7-dihydroxy-2-(4-hydroxyphenyl)-4-oxochromen-6-yl]-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10929956",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3S,4S,5R,6S)-6-(3,4-dihydroxy-5-methoxyphenoxy)-3,4,5-trihydroxyoxan-2-yl]methyl 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162853221",
+     "refs": []
+    },
+    {
+     "name": "(3S,8R,9R,10R,13R,14R,17R)-17-[(2R,5R)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11870456",
+     "refs": []
+    },
+    {
+     "name": "[(3S,8R,9S,10R,13R,14R,17R)-17-[(2R,5S)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl] hexadecanoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162846946",
+     "refs": []
+    },
+    {
+     "name": "[(1R,19R,21S,22R,23R)-6,7,8,11,12,13,22-heptahydroxy-3,16-dioxo-21-(3,4,5-trihydroxybenzoyl)oxy-2,17,20-trioxatetracyclo[17.3.1.04,9.010,15]tricosa-4,6,8,10,12,14-hexaen-23-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14411426",
+     "refs": []
+    },
+    {
+     "name": "2,3-(S)-hexahydroxydiphenoyl-D-glucose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11754973",
+     "refs": []
+    },
+    {
+     "name": "4-Hydroxy-3,5-dimethoxyphenyl 6-O-galloyl-beta-D-glucopyranoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/100916644",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3S,4R,5R,6R)-4,5,6-trihydroxy-2-[(3,4,5-trihydroxybenzoyl)oxymethyl]oxan-3-yl] 3,4,5-trihydroxy-2-(6,7,13,14-tetrahydroxy-3,10-dioxo-2,9-dioxatetracyclo[6.6.2.04,16.011,15]hexadeca-1(15),4(16),5,7,11,13-hexaen-5-yl)benzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101587736",
+     "refs": []
+    },
+    {
+     "name": "(1,16,17,18,21,22,23,34,35,39,39-Undecahydroxy-2,5,13,26,31-pentaoxo-6,9,12,27,30,40-hexaoxaoctacyclo[34.3.1.04,38.07,28.010,29.014,19.020,25.032,37]tetraconta-3,14,16,18,20,22,24,32,34,36-decaen-8-yl) 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/131752181",
+     "refs": []
+    },
+    {
+     "name": "(1S,2S,24R,25R,29S)-7,8,9,12,13,14,17,18,19,25,29-undecahydroxy-24-(hydroxymethyl)-3,23,26-trioxahexacyclo[13.10.3.12,6.05,10.011,28.016,21]nonacosa-5(10),6,8,11,13,15(28),16,18,20-nonaene-4,22,27-trione",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/102505445",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q271179"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Assam",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Laccadive Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Nicobar Is.",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/3189394"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/3189394"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Terminalia%20catappa"
+    ]
+   ]
+  }
+ }
+}

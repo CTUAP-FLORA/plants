@@ -1,0 +1,579 @@
+{
+ "slug": "muntingia-calabura",
+ "scientific_name": "Muntingia calabura",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Malvales"
+    ],
+    [
+     "Family",
+     "Muntingiaceae"
+    ],
+    [
+     "Subfamily",
+     null
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Muntingia"
+    ],
+    [
+     "Species",
+     "Muntingia calabura"
+    ]
+   ],
+   "authority": "Muntingia calabura L.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 3152036)",
+     "https://www.gbif.org/species/3152036"
+    ],
+    [
+     "NCBI Taxonomy (ID 45164)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=45164"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "alnustin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14138832",
+     "refs": []
+    },
+    {
+     "name": "beta-Amyrone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12306160",
+     "refs": []
+    },
+    {
+     "name": "buddlenoid A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5315462",
+     "refs": []
+    },
+    {
+     "name": "chrysin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281607",
+     "refs": []
+    },
+    {
+     "name": "chrysin 5,7-dimethyl ether",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/88881",
+     "refs": []
+    },
+    {
+     "name": "3,3'-di-O-methylquercetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5316900",
+     "refs": []
+    },
+    {
+     "name": "2',4'-dihydroxychalcone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5376979",
+     "refs": []
+    },
+    {
+     "name": "ellagic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281855",
+     "refs": []
+    },
+    {
+     "name": "ermanin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5352001",
+     "refs": []
+    },
+    {
+     "name": "flindulatin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5466138",
+     "refs": []
+    },
+    {
+     "name": "D-fructopyranose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2723872",
+     "refs": []
+    },
+    {
+     "name": "galangin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281616",
+     "refs": []
+    },
+    {
+     "name": "gallic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/370",
+     "refs": []
+    },
+    {
+     "name": "gnaphaliin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9972910",
+     "refs": []
+    },
+    {
+     "name": "Gnaphaliin B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5491798",
+     "refs": []
+    },
+    {
+     "name": "Gnaphalin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44584264",
+     "refs": []
+    },
+    {
+     "name": "GU17;ISL;Isoliquiritigen",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/425",
+     "refs": []
+    },
+    {
+     "name": "Herbacetin 3,7,8-trimethyl ether",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5748562",
+     "refs": []
+    },
+    {
+     "name": "herbacetin 3,8-dimethyl ether",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13983738",
+     "refs": []
+    },
+    {
+     "name": "(S)-7-hydroxyflavanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/688857",
+     "refs": []
+    },
+    {
+     "name": "7-hydroxyflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281894",
+     "refs": []
+    },
+    {
+     "name": "7-hydroxyisoflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5376891",
+     "refs": []
+    },
+    {
+     "name": "beta-Hydroxypropiosyringone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/54353627",
+     "refs": []
+    },
+    {
+     "name": "6beta-hydroxystigmast-4-en-3-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9823926",
+     "refs": []
+    },
+    {
+     "name": "Isalpinin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5318691",
+     "refs": []
+    },
+    {
+     "name": "isoliquiritigenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/638278",
+     "refs": []
+    },
+    {
+     "name": "isosinensetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/632135",
+     "refs": []
+    },
+    {
+     "name": "Isovanillic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12575",
+     "refs": []
+    },
+    {
+     "name": "kaempferol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280863",
+     "refs": []
+    },
+    {
+     "name": "keto-D-fructose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5984",
+     "refs": []
+    },
+    {
+     "name": "kumatakenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5318869",
+     "refs": []
+    },
+    {
+     "name": "Larrein",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9993268",
+     "refs": []
+    },
+    {
+     "name": "Liquiritigenin 7-methylether",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14157884",
+     "refs": []
+    },
+    {
+     "name": "lupenone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92158",
+     "refs": []
+    },
+    {
+     "name": "maslinic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73659",
+     "refs": []
+    },
+    {
+     "name": "3-methoxyapigenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280862",
+     "refs": []
+    },
+    {
+     "name": "7-methoxyflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/466268",
+     "refs": []
+    },
+    {
+     "name": "8-methoxygalangin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5378234",
+     "refs": []
+    },
+    {
+     "name": "methyl (E)-4-hydroxycinnamate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5319562",
+     "refs": []
+    },
+    {
+     "name": "methyl gallate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7428",
+     "refs": []
+    },
+    {
+     "name": "methyl hydroxycinnamate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92203",
+     "refs": []
+    },
+    {
+     "name": "3-O-methylgalangin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281946",
+     "refs": []
+    },
+    {
+     "name": "methylgnaphaliin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/21632881",
+     "refs": []
+    },
+    {
+     "name": "methylparaben",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7456",
+     "refs": []
+    },
+    {
+     "name": "mosloflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/471722",
+     "refs": []
+    },
+    {
+     "name": "oroxylin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5320315",
+     "refs": []
+    },
+    {
+     "name": "3',4',5',7,8-Pentamethoxyflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24750458",
+     "refs": []
+    },
+    {
+     "name": "pinobanksin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73202",
+     "refs": []
+    },
+    {
+     "name": "pinocembrin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/68071",
+     "refs": []
+    },
+    {
+     "name": "pinostrobin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73201",
+     "refs": []
+    },
+    {
+     "name": "quercetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280343",
+     "refs": []
+    },
+    {
+     "name": "beta-sitostenone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5484202",
+     "refs": []
+    },
+    {
+     "name": "beta-sitosterol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/222284",
+     "refs": []
+    },
+    {
+     "name": "sucrose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5988",
+     "refs": []
+    },
+    {
+     "name": "syringic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10742",
+     "refs": []
+    },
+    {
+     "name": "tectochrysin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281954",
+     "refs": []
+    },
+    {
+     "name": "Tetracosyl ferulate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14238617",
+     "refs": []
+    },
+    {
+     "name": "tiliroside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5320686",
+     "refs": []
+    },
+    {
+     "name": "δ-tocopherol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92094",
+     "refs": []
+    },
+    {
+     "name": "alpha-tocopherylquinone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2734086",
+     "refs": []
+    },
+    {
+     "name": "3',4',7-Trimethoxyisoflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/628528",
+     "refs": []
+    },
+    {
+     "name": "vanillic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8468",
+     "refs": []
+    },
+    {
+     "name": "(S)-2,3-Dihydro-5-hydroxy-7-methoxy-2-phenyl-4-benzopyrone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6950539",
+     "refs": []
+    },
+    {
+     "name": "4',8-Dihydroxy-3',5',7-trimethoxyflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/102169932",
+     "refs": []
+    },
+    {
+     "name": "1-(2,4-Dihydroxy-3-methoxyphenyl)-3-(4-hydroxyphenyl)propan-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/131837761",
+     "refs": []
+    },
+    {
+     "name": "(3S)-1-(2,4-dihydroxy-3-methoxyphenyl)-3-hydroxy-3-phenylpropan-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92466579",
+     "refs": []
+    },
+    {
+     "name": "1-(2,4-Dihydroxy-3-methoxyphenyl)-3-phenylprop-2-en-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71407261",
+     "refs": []
+    },
+    {
+     "name": "1-(2,4-Dihydroxy-3-methoxyphenyl)-3-phenylpropan-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/86236273",
+     "refs": []
+    },
+    {
+     "name": "3-(2,3-Dihydroxy-4-methoxyphenyl)-1-(3,4,5-trimethoxyphenyl)propan-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/17757652",
+     "refs": []
+    },
+    {
+     "name": "3,5-dihydroxy-6,7-dimethoxy-2-phenylchromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13291608",
+     "refs": []
+    },
+    {
+     "name": "(2r,3r)-(-)-3,5-Dihydroxy-6,7-dimethoxyflavanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/145706492",
+     "refs": []
+    },
+    {
+     "name": "(2S)-8,2'-dihydroxy-7,3',4',5'-tetramethoxyflavan",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44567055",
+     "refs": []
+    },
+    {
+     "name": "(2S)-8,5'-dihydroxy-7,3',4'-trimethoxyflavan",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44567056",
+     "refs": []
+    },
+    {
+     "name": "8,3'-Dihydroxy-7,4',5'-trimethoxyflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44257590",
+     "refs": []
+    },
+    {
+     "name": "1-(2,4-dihydroxyphenyl)-3-phenylprop-2-en-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/344530",
+     "refs": []
+    },
+    {
+     "name": "1-(2,4-dihydroxyphenyl)-3-phenylpropan-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/586491",
+     "refs": []
+    },
+    {
+     "name": "6,7-Dimethoxy-3-(2,4,5-trimethoxyphenyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/632958",
+     "refs": []
+    },
+    {
+     "name": "4H-1-Benzopyran-4-one, 5-hydroxy-3,7-dimethoxy-2-phenyl-",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5748697",
+     "refs": []
+    },
+    {
+     "name": "1-hydroxy-3-methoxy-10H-5,11-dioxatetraphen-12-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162851289",
+     "refs": []
+    },
+    {
+     "name": "3'-Hydroxy-4',5',7,8-tetramethoxyflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44257591",
+     "refs": []
+    },
+    {
+     "name": "(2S)-2-(3-hydroxy-4,5-dimethoxyphenyl)-5-[(2S)-8-hydroxy-2-(3-hydroxy-4,5-dimethoxyphenyl)-7-methoxy-3,4-dihydro-2H-chromen-5-yl]-7-methoxy-3,4-dihydro-2H-chromen-8-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44567058",
+     "refs": []
+    },
+    {
+     "name": "(2S)-2-(3-hydroxy-4,5-dimethoxyphenyl)-5-[(2S)-8-hydroxy-7-methoxy-2-(3,4,5-trimethoxyphenyl)-3,4-dihydro-2H-chromen-5-yl]-7-methoxy-3,4-dihydro-2H-chromen-8-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44567057",
+     "refs": []
+    },
+    {
+     "name": "(2S)-2-(3-hydroxy-4,5-dimethoxyphenyl)-7,8-dimethoxy-2,3-dihydrochromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163087692",
+     "refs": []
+    },
+    {
+     "name": "(2S)-8-hydroxy-7,3',4',5'-tetramethoxyflavan",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44567048",
+     "refs": []
+    },
+    {
+     "name": "8-Hydroxy-7,3',4',5'-tetramethoxyflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/129847689",
+     "refs": []
+    },
+    {
+     "name": "(2S)-5'-hydroxy-7,3',4'-trimethoxyflavan",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44567045",
+     "refs": []
+    },
+    {
+     "name": "(2s)-(-)-5'-Hydroxy-7,3',4'-trimethoxyflavanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/91312526",
+     "refs": []
+    },
+    {
+     "name": "(2S)-2'-hydroxy-7,8,3',4',5'-pentamethoxyflavan",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44567046",
+     "refs": []
+    },
+    {
+     "name": "(2S)-5'-hydroxy-7,8,3',4'-tetramethoxyflavan",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44567047",
+     "refs": []
+    },
+    {
+     "name": "(2S)-7-Hydroxy-8-methoxyflavanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15549894",
+     "refs": []
+    },
+    {
+     "name": "(2R,3R)-7-Methoxy-3,5,8-trihydroxyflavanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/639682",
+     "refs": []
+    },
+    {
+     "name": "(2S)-7,8,3',4',5'-pentamethoxyflavan",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/23730738",
+     "refs": []
+    },
+    {
+     "name": "Tetracosyl 3-(4-hydroxy-3-methoxyphenyl)prop-2-enoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/54412038",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q1915507"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/3152036"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/3152036"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Muntingia%20calabura"
+    ]
+   ]
+  }
+ }
+}

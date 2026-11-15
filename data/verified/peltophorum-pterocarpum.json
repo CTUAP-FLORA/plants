@@ -1,0 +1,229 @@
+{
+ "slug": "peltophorum-pterocarpum",
+ "scientific_name": "Peltophorum pterocarpum",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Fabales"
+    ],
+    [
+     "Family",
+     "Fabaceae"
+    ],
+    [
+     "Subfamily",
+     "Caesalpinioideae"
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Peltophorum"
+    ],
+    [
+     "Species",
+     "Peltophorum pterocarpum"
+    ]
+   ],
+   "authority": "Peltophorum pterocarpum (DC.) Backer ex K.Heyne",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 2952775)",
+     "https://www.gbif.org/species/2952775"
+    ],
+    [
+     "NCBI Taxonomy (ID 162876)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=162876"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "avicularin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5490064",
+     "refs": []
+    },
+    {
+     "name": "bergenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/66065",
+     "refs": []
+    },
+    {
+     "name": "bis-ferulamidobutane",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5321825",
+     "refs": []
+    },
+    {
+     "name": "eucalrobusone A",
+     "url": "http://www.wikidata.org/entity/Q125034046",
+     "refs": []
+    },
+    {
+     "name": "eucalrobusone B",
+     "url": "http://www.wikidata.org/entity/Q125034048",
+     "refs": []
+    },
+    {
+     "name": "eucalrobusone C",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71722133",
+     "refs": []
+    },
+    {
+     "name": "eucalrobusone F",
+     "url": "http://www.wikidata.org/entity/Q125034067",
+     "refs": []
+    },
+    {
+     "name": "heptacosanol",
+     "url": "http://www.wikidata.org/entity/Q125034036",
+     "refs": []
+    },
+    {
+     "name": "4-hydroxyquinoline",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/69141",
+     "refs": []
+    },
+    {
+     "name": "isoborreverine",
+     "url": "http://www.wikidata.org/entity/Q125034015",
+     "refs": []
+    },
+    {
+     "name": "lomatiol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44144321",
+     "refs": []
+    },
+    {
+     "name": "pentacosanol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/66552743",
+     "refs": []
+    },
+    {
+     "name": "Propelargonidin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/102115502",
+     "refs": []
+    },
+    {
+     "name": "pterosin D",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101333534",
+     "refs": []
+    },
+    {
+     "name": "pterosin L",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10966260",
+     "refs": []
+    },
+    {
+     "name": "4-O-p-coumaroyl-D-glucose, 2-O-acetate",
+     "url": "http://www.wikidata.org/entity/Q125034012",
+     "refs": []
+    },
+    {
+     "name": "5,7-Dihydroxy-3-(2,3,4-trimethoxyphenyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163082606",
+     "refs": []
+    },
+    {
+     "name": "1,2-Hexadecanediol, 7,11,15-trimethyl-3-methylene-",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10638889",
+     "refs": []
+    },
+    {
+     "name": "Kaempferol-3-glucoside-3''-rhamnoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/23815431",
+     "refs": []
+    },
+    {
+     "name": "2,6,6-Trimethyl-4-oxo-2-cyclohexene-1-acetic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/70541071",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q1499330"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "Assam",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "India",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "Laccadive Is.",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "Nicobar Is.",
+     "introduced",
+     "Catalogue of Life"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2952775"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2952775"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Peltophorum%20pterocarpum"
+    ]
+   ]
+  }
+ }
+}

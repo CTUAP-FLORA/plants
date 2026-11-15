@@ -1,0 +1,914 @@
+{
+ "slug": "tabernaemontana-divaricata",
+ "scientific_name": "Tabernaemontana divaricata",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Gentianales"
+    ],
+    [
+     "Family",
+     "Apocynaceae"
+    ],
+    [
+     "Subfamily",
+     "Rauvolfioideae"
+    ],
+    [
+     "Tribe",
+     "Tabernaemontaneae"
+    ],
+    [
+     "Genus",
+     "Tabernaemontana"
+    ],
+    [
+     "Species",
+     "Tabernaemontana divaricata"
+    ]
+   ],
+   "authority": "Tabernaemontana divaricata (L.) R.Br. ex Roem. & Schult.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 3169625)",
+     "https://www.gbif.org/species/3169625"
+    ],
+    [
+     "NCBI Taxonomy (ID 52861)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=52861"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "O-Acetylvallesamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101287841",
+     "refs": []
+    },
+    {
+     "name": "akuammicine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10314057",
+     "refs": []
+    },
+    {
+     "name": "α-amyrin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73170",
+     "refs": []
+    },
+    {
+     "name": "beta-Amyrin palmitate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13915599",
+     "refs": []
+    },
+    {
+     "name": "(-)-Apparicine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281349",
+     "refs": []
+    },
+    {
+     "name": "apparicine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6436240",
+     "refs": []
+    },
+    {
+     "name": "apparicine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6447828",
+     "refs": []
+    },
+    {
+     "name": "Asperglaucide",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10026486",
+     "refs": []
+    },
+    {
+     "name": "aspidospermine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/227613",
+     "refs": []
+    },
+    {
+     "name": "benzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/20144841",
+     "refs": []
+    },
+    {
+     "name": "campesterol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/173183",
+     "refs": []
+    },
+    {
+     "name": "18:2 Campesteryl ester",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/69169003",
+     "refs": []
+    },
+    {
+     "name": "campesteryl palmitate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13747841",
+     "refs": []
+    },
+    {
+     "name": "catharanthine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5458190",
+     "refs": []
+    },
+    {
+     "name": "CID 11404482",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11404482",
+     "refs": []
+    },
+    {
+     "name": "CID 6912322",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6912322",
+     "refs": []
+    },
+    {
+     "name": "(E)-coniferyl alcohol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1549095",
+     "refs": []
+    },
+    {
+     "name": "Conoflorine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/453208",
+     "refs": []
+    },
+    {
+     "name": "conofoline",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15215005",
+     "refs": []
+    },
+    {
+     "name": "conolidine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/51051652",
+     "refs": []
+    },
+    {
+     "name": "(-)-Conolidine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/51051654",
+     "refs": []
+    },
+    {
+     "name": "conopharyngine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/134716654",
+     "refs": []
+    },
+    {
+     "name": "Conophyllidine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44566831",
+     "refs": []
+    },
+    {
+     "name": "Conophylline",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15226696",
+     "refs": []
+    },
+    {
+     "name": "conophylline",
+     "url": "http://www.wikidata.org/entity/Q117835250",
+     "refs": []
+    },
+    {
+     "name": "Conophyllinine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10887328",
+     "refs": []
+    },
+    {
+     "name": "coronaridine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6426909",
+     "refs": []
+    },
+    {
+     "name": "Coronaridine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163078697",
+     "refs": []
+    },
+    {
+     "name": "coronaridine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/278173",
+     "refs": []
+    },
+    {
+     "name": "Coronaridine hydroxyindolenine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14061706",
+     "refs": []
+    },
+    {
+     "name": "cycloartenol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92110",
+     "refs": []
+    },
+    {
+     "name": "16'-decarbomethoxyvoacamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15940271",
+     "refs": []
+    },
+    {
+     "name": "Dehydroxyervataminol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16104886",
+     "refs": []
+    },
+    {
+     "name": "19,20-Didehydroervatamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14707491",
+     "refs": []
+    },
+    {
+     "name": "Dihydrocondylocarpine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/100004",
+     "refs": []
+    },
+    {
+     "name": "19,20-Dihydrotabernamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44418787",
+     "refs": []
+    },
+    {
+     "name": "Dregamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162948661",
+     "refs": []
+    },
+    {
+     "name": "Dregamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/99108",
+     "refs": []
+    },
+    {
+     "name": "endabuse",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/442108",
+     "refs": []
+    },
+    {
+     "name": "epi-catharanthine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/197771",
+     "refs": []
+    },
+    {
+     "name": "20-epi-Ervatamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12308875",
+     "refs": []
+    },
+    {
+     "name": "19-Epivoacristine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/56842093",
+     "refs": []
+    },
+    {
+     "name": "Ervachinine A",
+     "url": "http://www.wikidata.org/entity/Q124634314",
+     "refs": []
+    },
+    {
+     "name": "Ervatamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/161765",
+     "refs": []
+    },
+    {
+     "name": "gentisic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3469",
+     "refs": []
+    },
+    {
+     "name": "Gomezine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5320486",
+     "refs": []
+    },
+    {
+     "name": "Hazuntamine",
+     "url": "http://www.wikidata.org/entity/Q124634283",
+     "refs": []
+    },
+    {
+     "name": "Hecubine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11438319",
+     "refs": []
+    },
+    {
+     "name": "heyneanine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44566758",
+     "refs": []
+    },
+    {
+     "name": "19(R)-Heyneanine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44566753",
+     "refs": []
+    },
+    {
+     "name": "Heyneaninehydroxyindolenine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/157416",
+     "refs": []
+    },
+    {
+     "name": "4-hydroxybenzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3702506",
+     "refs": []
+    },
+    {
+     "name": "ibogaine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/197060",
+     "refs": []
+    },
+    {
+     "name": "ibogaline",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/193302",
+     "refs": []
+    },
+    {
+     "name": "ibogamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/100217",
+     "refs": []
+    },
+    {
+     "name": "16R,19E-isositsirikine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6436828",
+     "refs": []
+    },
+    {
+     "name": "Isovoacangine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/494627",
+     "refs": []
+    },
+    {
+     "name": "Isovoacristine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10362598",
+     "refs": []
+    },
+    {
+     "name": "Lochnericine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11382599",
+     "refs": []
+    },
+    {
+     "name": "Lochnericine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/317834",
+     "refs": []
+    },
+    {
+     "name": "loganin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/87691",
+     "refs": []
+    },
+    {
+     "name": "lupeol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/259846",
+     "refs": []
+    },
+    {
+     "name": "lupeol acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92157",
+     "refs": []
+    },
+    {
+     "name": "NSC306218",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/432336",
+     "refs": []
+    },
+    {
+     "name": "3-Oxo-coronaridine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14061714",
+     "refs": []
+    },
+    {
+     "name": "3-Oxocoronaridine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/102121234",
+     "refs": []
+    },
+    {
+     "name": "3-Oxovoacangine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12110672",
+     "refs": []
+    },
+    {
+     "name": "Peduncularidine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101931861",
+     "refs": []
+    },
+    {
+     "name": "perivine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6473766",
+     "refs": []
+    },
+    {
+     "name": "Pseudovobparicine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/102146725",
+     "refs": []
+    },
+    {
+     "name": "raubasine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/441975",
+     "refs": []
+    },
+    {
+     "name": "salicylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/338",
+     "refs": []
+    },
+    {
+     "name": "sinapyl alcohol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280507",
+     "refs": []
+    },
+    {
+     "name": "sitogluside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5742590",
+     "refs": []
+    },
+    {
+     "name": "beta-sitosterol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/222284",
+     "refs": []
+    },
+    {
+     "name": "stigmasterol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280794",
+     "refs": []
+    },
+    {
+     "name": "3alpha(S)-strictosidine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/161336",
+     "refs": []
+    },
+    {
+     "name": "syringic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10742",
+     "refs": []
+    },
+    {
+     "name": "tabernaemontanine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12309360",
+     "refs": []
+    },
+    {
+     "name": "tabersonine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/20485",
+     "refs": []
+    },
+    {
+     "name": "tryptamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1150",
+     "refs": []
+    },
+    {
+     "name": "tryptophan",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6923516",
+     "refs": []
+    },
+    {
+     "name": "20(R)-tubotaiwine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9973540",
+     "refs": []
+    },
+    {
+     "name": "20(S)-tubotaiwine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13783720",
+     "refs": []
+    },
+    {
+     "name": "ursolic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/64945",
+     "refs": []
+    },
+    {
+     "name": "vanillic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8468",
+     "refs": []
+    },
+    {
+     "name": "vinervine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6875257",
+     "refs": []
+    },
+    {
+     "name": "voacamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/90479276",
+     "refs": []
+    },
+    {
+     "name": "voacamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11953931",
+     "refs": []
+    },
+    {
+     "name": "voacangine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73255",
+     "refs": []
+    },
+    {
+     "name": "voacangine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10361692",
+     "refs": []
+    },
+    {
+     "name": "Voacangine-7-hydroxyindolinine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/633463",
+     "refs": []
+    },
+    {
+     "name": "voacristine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/196982",
+     "refs": []
+    },
+    {
+     "name": "Voafinidine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11121012",
+     "refs": []
+    },
+    {
+     "name": "Voafinine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11833936",
+     "refs": []
+    },
+    {
+     "name": "Voaharine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101243263",
+     "refs": []
+    },
+    {
+     "name": "Voalenine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10860385",
+     "refs": []
+    },
+    {
+     "name": "Voaphylline",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10469868",
+     "refs": []
+    },
+    {
+     "name": "Voaphylline indolenine, hydroxy-",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/176976",
+     "refs": []
+    },
+    {
+     "name": "Voastrictine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101106477",
+     "refs": []
+    },
+    {
+     "name": "vobasine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/20840254",
+     "refs": []
+    },
+    {
+     "name": "(2beta,5alpha,12beta,19alpha)-6beta,7beta-Epoxyaspidospermidine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11781450",
+     "refs": []
+    },
+    {
+     "name": "(1S,17S,18S)-17-ethoxy-19-oxa-5,15-diazapentacyclo[13.6.1.01,18.04,12.06,11]docosa-4(12),6,8,10-tetraene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162928772",
+     "refs": []
+    },
+    {
+     "name": "(1R,17S,18R)-17-ethoxy-19-oxa-5,15-diazapentacyclo[13.6.1.01,18.04,12.06,11]docosa-4(12),6,8,10-tetraene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163187470",
+     "refs": []
+    },
+    {
+     "name": "(15R,16S,17S)-15-ethyl-11-methyl-1,11-diazatetracyclo[13.3.1.04,12.05,10]nonadeca-4(12),5,7,9-tetraene-16,17-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101243262",
+     "refs": []
+    },
+    {
+     "name": "15-Ethyl-11-methyl-17-oxa-1,11-diazapentacyclo[13.4.1.04,12.05,10.016,18]icosa-4(12),5,7,9-tetraene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72961635",
+     "refs": []
+    },
+    {
+     "name": "(2R,15R,16S,18R)-15-ethyl-17-oxa-1,11-diazapentacyclo[13.4.1.04,12.05,10.016,18]icosa-4(12),5,7,9-tetraen-2-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162850756",
+     "refs": []
+    },
+    {
+     "name": "(2R,15S,16S,18R)-15-ethyl-17-oxa-1,11-diazapentacyclo[13.4.1.04,12.05,10.016,18]icosa-4(12),5,7,9-tetraen-2-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163186208",
+     "refs": []
+    },
+    {
+     "name": "(4S,15R,16R,18S)-15-ethyl-17-oxa-1,11-diazapentacyclo[13.4.1.04,12.05,10.016,18]icosa-5,7,9,11-tetraen-4-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162213031",
+     "refs": []
+    },
+    {
+     "name": "(1R,15S,17S)-17-ethyl-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/51055165",
+     "refs": []
+    },
+    {
+     "name": "(1R,15S,16R,18S)-16-ethyl-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163186489",
+     "refs": []
+    },
+    {
+     "name": "1-[(1R,14R,15S,17S,18S)-17-ethyl-7-methoxy-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4(9),5,7-tetraen-14-yl]propan-2-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72191029",
+     "refs": []
+    },
+    {
+     "name": "(15S,16S,18R)-15-ethyl-8-hydroxy-17-oxa-1,11-diazapentacyclo[13.4.1.04,12.05,10.016,18]icosa-4(12),5(10),6,8-tetraen-2-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163103554",
+     "refs": []
+    },
+    {
+     "name": "(1R,9R,12R,13R,15S,20S)-12-ethyl-8-methyl-14-oxa-8,17-diazahexacyclo[10.7.1.01,9.02,7.013,15.017,20]icosa-2,4,6-triene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163049447",
+     "refs": []
+    },
+    {
+     "name": "12-Ethyl-8-methyl-14-oxa-8,17-diazahexacyclo[10.7.1.01,9.02,7.013,15.017,20]icosa-2,4,6-triene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72952784",
+     "refs": []
+    },
+    {
+     "name": "(1R,9R,12R,13S,15R,20S)-12-ethyl-8-methyl-14-oxa-8,17-diazahexacyclo[10.7.1.01,9.02,7.013,15.017,20]icosa-2,4,6-triene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163049446",
+     "refs": []
+    },
+    {
+     "name": "(1S,9S,12S,13S,15R,20R)-12-ethyl-8-methyl-14-oxa-8,17-diazahexacyclo[10.7.1.01,9.02,7.013,15.017,20]icosa-2,4,6-triene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11415660",
+     "refs": []
+    },
+    {
+     "name": "(1S,9S,12R,13S,15R,20S)-12-ethyl-8-methyl-14-oxa-8,17-diazahexacyclo[10.7.1.01,9.02,7.013,15.017,20]icosa-2,4,6-triene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163049448",
+     "refs": []
+    },
+    {
+     "name": "[(1R,3S,16R,17S)-17-ethyl-9-methoxy-5,14-diazapentacyclo[12.4.1.03,16.04,12.06,11]nonadeca-4(12),6(11),7,9-tetraen-3-yl] acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163195511",
+     "refs": []
+    },
+    {
+     "name": "(12R,13R,14E)-14-ethylidene-12-methyl-1,10-diazatetracyclo[11.2.2.03,11.04,9]heptadeca-3(11),4,6,8-tetraen-12-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163188308",
+     "refs": []
+    },
+    {
+     "name": "(1S,12S,13E,18S)-13-ethylidene-9,15-diazapentacyclo[10.5.2.02,11.03,8.015,18]nonadeca-2(11),3,5,7,9-pentaen-1-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/21603359",
+     "refs": []
+    },
+    {
+     "name": "9beta-Hydroxy-9-hydro-16-dehydro-12-methoxyibogamine-18-carboxylic acid methyl ester",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/21604116",
+     "refs": []
+    },
+    {
+     "name": "3'-hydroxy-N4-demethyltabernamine",
+     "url": "http://www.wikidata.org/entity/Q124634308",
+     "refs": []
+    },
+    {
+     "name": "Ibogamine-18-carboxylic acid, 13-methoxy-, methyl ester",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/99199",
+     "refs": []
+    },
+    {
+     "name": "methyl (12S,13S,14E)-14-ethylidene-12-(hydroxymethyl)-1,10-diazatetracyclo[11.2.2.0³,¹¹.0⁴,⁹]heptadeca-3(11),4,6,8-tetraene-12-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13783712",
+     "refs": []
+    },
+    {
+     "name": "methyl (15S)-15-ethyl-12-[16-ethyl-8-methoxy-18-(2-methoxy-2-oxoethyl)-2,12-diazapentacyclo[15.1.1.02,15.05,13.06,11]nonadeca-5(13),6,8,10-tetraen-9-yl]-17-methyl-10,17-diazatetracyclo[12.3.1.03,11.04,9]octadeca-3(11),4,6,8-tetraene-18-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5317192",
+     "refs": []
+    },
+    {
+     "name": "methyl (1R,11R,12E,17S)-12-ethylidene-8,14-diazapentacyclo[9.5.2.01,9.02,7.014,17]octadeca-2,4,6,9-tetraene-10-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162899063",
+     "refs": []
+    },
+    {
+     "name": "methyl (1R,12S,13S,15R,20R)-12-ethyl-14-oxa-8,17-diazahexacyclo[10.7.1.01,9.02,7.013,15.017,20]icosa-2,4,6,9-tetraene-10-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/21586675",
+     "refs": []
+    },
+    {
+     "name": "methyl (1R,12S,13S,15R,20R)-12-ethyl-4-hydroxy-5,6-dimethoxy-14-oxa-8,17-diazahexacyclo[10.7.1.01,9.02,7.013,15.017,20]icosa-2,4,6,9-tetraene-10-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11761758",
+     "refs": []
+    },
+    {
+     "name": "methyl (1R,12S,14R,15S,18S)-15-ethyl-12-[(1R,15R,17S,18S)-17-ethyl-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4(9),5,7-tetraen-5-yl]-17-methyl-10,17-diazatetracyclo[12.3.1.03,11.04,9]octadeca-3(11),4,6,8-tetraene-18-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163106399",
+     "refs": []
+    },
+    {
+     "name": "methyl (1R,14R,15R,18S)-15-ethyl-17-methyl-12-oxo-10,17-diazatetracyclo[12.3.1.03,11.04,9]octadeca-3(11),4,6,8-tetraene-18-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/53298708",
+     "refs": []
+    },
+    {
+     "name": "methyl (1R,15S,17R,18S)-17-ethyl-7-methoxy-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4(9),5,7-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/134688048",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,10R,15R,17S,18S)-10-hydroxy-17-[(1S)-1-hydroxyethyl]-7-methoxy-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2,4(9),5,7-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162989056",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,10R,15R,17S,18S)-17-ethyl-10-hydroxy-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2,4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/154496378",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,10R,15S,16R,18S)-16-ethyl-10-hydroxy-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2,4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162865197",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,12R,15S,16R,18S)-16-ethyl-12-hydroxy-11-oxo-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163189434",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,12S,13R,14S,15R)-15-ethyl-6-methoxy-3-methyl-3,17-diazapentacyclo[12.3.1.02,10.04,9.012,17]octadeca-2(10),4(9),5,7-tetraene-13-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162968966",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,12S,15R,17S,18S)-17-ethyl-12-hydroxy-11-oxo-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162821401",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,14R,15Z,18S)-15-ethylidene-17-methyl-12-oxo-10,17-diazatetracyclo[12.3.1.03,11.04,9]octadeca-3(11),4,6,8-tetraene-18-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101281359",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,14S,15S,18R)-15-ethyl-17-methyl-12-oxo-10,17-diazatetracyclo[12.3.1.03,11.04,9]octadeca-3(11),4,6,8-tetraene-18-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45268651",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,15R,17R,18S)-17-[(1S)-1-hydroxyethyl]-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/102067253",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,15R,17S,18S)-17-[(1S)-1-hydroxyethyl]-6-methoxy-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4(9),5,7-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101243095",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,15R,17S,18S)-17-ethyl-11-oxo-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163067417",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,15R,17S,18S)-17-ethyl-12-oxo-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162908468",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,15R,17S,18S)-17-ethyl-14-oxo-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/131878933",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,15S,16R,18S)-16-[(1S)-1-hydroxyethyl]-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163186958",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,15S,16R,18S)-16-ethyl-11-oxo-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163193418",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,15S,16R,18S)-16-ethyl-12-oxo-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163191250",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,15S,17S,18S)-17-ethyl-6-methoxy-3,13-diazapentacyclo[13.3.1.0²,¹⁰.0⁴,⁹.0¹³,¹⁸]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44393473",
+     "refs": []
+    },
+    {
+     "name": "methyl (1S,17R,18S)-18-ethyl-8,14-diazapentacyclo[9.5.2.01,9.02,7.014,17]octadeca-2,4,6,9-tetraene-10-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/134716702",
+     "refs": []
+    },
+    {
+     "name": "methyl (2S,3R,8S)-7-ethylidene-2-hydroxy-5-methyl-10-oxo-5,12-diazatetracyclo[9.7.0.03,8.013,18]octadeca-1(11),13,15,17-tetraene-3-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163050498",
+     "refs": []
+    },
+    {
+     "name": "Methyl 17-(1-hydroxyethyl)-6-methoxy-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4(9),5,7-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12304496",
+     "refs": []
+    },
+    {
+     "name": "Methyl 17-ethyl-10-hydroxy-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2,4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14061705",
+     "refs": []
+    },
+    {
+     "name": "Methyl 17-ethyl-14-oxo-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3949725",
+     "refs": []
+    },
+    {
+     "name": "Methyl 17-ethyl-5-(15-ethylidene-18-methoxycarbonyl-17-methyl-10,17-diazatetracyclo[12.3.1.03,11.04,9]octadeca-3(11),4,6,8-tetraen-12-yl)-6-methoxy-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4(9),5,7-tetraene-1-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/431073",
+     "refs": []
+    },
+    {
+     "name": "Methyl 7-ethyl-5-methyl-10-oxo-5,12-diazatetracyclo[9.7.0.03,8.013,18]octadeca-1(11),13,15,17-tetraene-3-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12308874",
+     "refs": []
+    },
+    {
+     "name": "(1R,10S,12R,13R,16R,17S)-16-methyl-15-oxa-8,19-diazahexacyclo[11.8.0.01,9.02,7.010,19.012,17]henicosa-2,4,6,8-tetraene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162939603",
+     "refs": []
+    },
+    {
+     "name": "16-Methyl-15-oxa-8,19-diazahexacyclo[11.8.0.01,9.02,7.010,19.012,17]henicosa-2,4,6,8-tetraene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162939602",
+     "refs": []
+    },
+    {
+     "name": "1-Methyl-2,3-[[(R)-1-hydroxyethylene][(1beta,6beta)-5beta-ethyl-3-aza-7-oxabicyclo[4.1.0]heptane-5,3-diyl]ethylene]-1H-indole",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11759202",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] 10,11-dihydroxy-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5315231",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q45150"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Assam",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/3169625"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/3169625"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Tabernaemontana%20divaricata"
+    ]
+   ]
+  }
+ }
+}

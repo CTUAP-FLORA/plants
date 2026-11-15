@@ -1,0 +1,134 @@
+{
+ "slug": "bougainvillea-glabra",
+ "scientific_name": "Bougainvillea glabra",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Caryophyllales"
+    ],
+    [
+     "Family",
+     "Nyctaginaceae"
+    ],
+    [
+     "Subfamily",
+     null
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Bougainvillea"
+    ],
+    [
+     "Species",
+     "Bougainvillea glabra"
+    ]
+   ],
+   "authority": "Bougainvillea glabra Choisy",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 5384862)",
+     "https://www.gbif.org/species/5384862"
+    ],
+    [
+     "NCBI Taxonomy (ID 3541)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3541"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "Gomphrenin I",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/90658633",
+     "refs": []
+    },
+    {
+     "name": "(2S)-4-[2-[(2S)-2-carboxy-5-hydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,3-dihydroindol-1-yl]ethenyl]-2,3-dihydropyridine-2,6-dicarboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163187783",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q159984"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Assam",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Nicobar Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "introduced",
+     "Global Register of Introduced and Invasive Species - India"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/5384862"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/5384862"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Bougainvillea%20glabra"
+    ]
+   ]
+  }
+ }
+}

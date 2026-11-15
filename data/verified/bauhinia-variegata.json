@@ -1,0 +1,169 @@
+{
+ "slug": "bauhinia-variegata",
+ "scientific_name": "Bauhinia variegata",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Fabales"
+    ],
+    [
+     "Family",
+     "Fabaceae"
+    ],
+    [
+     "Subfamily",
+     "Cercidoideae"
+    ],
+    [
+     "Tribe",
+     "Cercideae"
+    ],
+    [
+     "Genus",
+     "Bauhinia"
+    ],
+    [
+     "Species",
+     "Bauhinia variegata"
+    ]
+   ],
+   "authority": "Bauhinia variegata L.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 2953251)",
+     "https://www.gbif.org/species/2953251"
+    ],
+    [
+     "NCBI Taxonomy (ID 167791)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=167791"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "Astragalin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5282102",
+     "refs": []
+    },
+    {
+     "name": "kaempferol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280863",
+     "refs": []
+    },
+    {
+     "name": "rhamnetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281691",
+     "refs": []
+    },
+    {
+     "name": "(2S)-4',5,7-Trimethoxyflavanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/57404369",
+     "refs": []
+    },
+    {
+     "name": "(2S)-2-[4-[(2S,3S,4S,5S,6R)-3,4-dihydroxy-6-(hydroxymethyl)-5-[(2S,3S,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxyphenyl]-5,7-dimethoxy-2,3-dihydrochromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163074601",
+     "refs": []
+    },
+    {
+     "name": "5-[(2S,3S,4R,5R,6R)-4,5-dihydroxy-6-methyl-3-[(2S,3S,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxyoxan-2-yl]oxy-7-methoxy-2-(3,4,5-trimethoxyphenyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162912529",
+     "refs": []
+    },
+    {
+     "name": "(2S)-5,7-Dimethoxy-3',4'-methylenedioxyflavanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10336604",
+     "refs": []
+    },
+    {
+     "name": "8,9-Dimethoxy-7-methyl-10,11-dihydrodibenzo[b,f]oxepine-1,6-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/641747",
+     "refs": []
+    },
+    {
+     "name": "(4S)-4-hydroxy-3,5,5-trimethyl-4-[(1E,3R)-3-{[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}but-1-en-1-yl]cyclohex-2-en-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9930064",
+     "refs": []
+    },
+    {
+     "name": "5-hydroxy-7-methoxy-2-(4-methoxyphenyl)-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/124708166",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q840341"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Assam",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "introduced",
+     "Global Register of Introduced and Invasive Species - India"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2953251"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2953251"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Bauhinia%20variegata"
+    ]
+   ]
+  }
+ }
+}

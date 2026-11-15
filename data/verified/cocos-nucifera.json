@@ -1,0 +1,604 @@
+{
+ "slug": "cocos-nucifera",
+ "scientific_name": "Cocos nucifera",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Liliopsida"
+    ],
+    [
+     "Subclass",
+     "Petrosaviidae"
+    ],
+    [
+     "Order",
+     "Arecales"
+    ],
+    [
+     "Family",
+     "Arecaceae"
+    ],
+    [
+     "Subfamily",
+     "Arecoideae"
+    ],
+    [
+     "Tribe",
+     "Cocoseae"
+    ],
+    [
+     "Genus",
+     "Cocos"
+    ],
+    [
+     "Species",
+     "Cocos nucifera"
+    ]
+   ],
+   "authority": "Cocos nucifera L.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 2735117)",
+     "https://www.gbif.org/species/2735117"
+    ],
+    [
+     "NCBI Taxonomy (ID 13894)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=13894"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "abscisic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280896",
+     "refs": []
+    },
+    {
+     "name": "acrylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6581",
+     "refs": []
+    },
+    {
+     "name": "L-alanine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7311724",
+     "refs": []
+    },
+    {
+     "name": "D-Alanine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7311725",
+     "refs": []
+    },
+    {
+     "name": "apigenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280443",
+     "refs": []
+    },
+    {
+     "name": "L-arginine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6322",
+     "refs": []
+    },
+    {
+     "name": "L-aspartic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5960",
+     "refs": []
+    },
+    {
+     "name": "D-aspartic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/83887",
+     "refs": []
+    },
+    {
+     "name": "butyroin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/219794",
+     "refs": []
+    },
+    {
+     "name": "trans-caffeic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/689043",
+     "refs": []
+    },
+    {
+     "name": "campesterol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/173183",
+     "refs": []
+    },
+    {
+     "name": "(+)-catechin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9064",
+     "refs": []
+    },
+    {
+     "name": "(E)-chlorogenic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1794427",
+     "refs": []
+    },
+    {
+     "name": "Chlorophyll b'",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/122706609",
+     "refs": []
+    },
+    {
+     "name": "(E)-p-coumaric acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/637542",
+     "refs": []
+    },
+    {
+     "name": "2,4-dihydroxybenzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1491",
+     "refs": []
+    },
+    {
+     "name": "3,4-dihydroxybenzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72",
+     "refs": []
+    },
+    {
+     "name": "dihydrozeatin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/688447",
+     "refs": []
+    },
+    {
+     "name": "Dihydrozeatin O-beta-D-Glucoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73036075",
+     "refs": []
+    },
+    {
+     "name": "(−)-epicatechin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72276",
+     "refs": []
+    },
+    {
+     "name": "(-)-epigallocatechin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72277",
+     "refs": []
+    },
+    {
+     "name": "ethyl DL-lactate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7344",
+     "refs": []
+    },
+    {
+     "name": "ferulic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/445858",
+     "refs": []
+    },
+    {
+     "name": "galactitol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11850",
+     "refs": []
+    },
+    {
+     "name": "gentisic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3469",
+     "refs": []
+    },
+    {
+     "name": "Gibberellic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6466",
+     "refs": []
+    },
+    {
+     "name": "L-glutamic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/33032",
+     "refs": []
+    },
+    {
+     "name": "glycine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/750",
+     "refs": []
+    },
+    {
+     "name": "2-heptanol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10976",
+     "refs": []
+    },
+    {
+     "name": "hesperetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72281",
+     "refs": []
+    },
+    {
+     "name": "L-histidine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6971009",
+     "refs": []
+    },
+    {
+     "name": "(2E)-2-hydroxycinnamic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/637540",
+     "refs": []
+    },
+    {
+     "name": "indolebutyric acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8617",
+     "refs": []
+    },
+    {
+     "name": "L-isoleucine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7043901",
+     "refs": []
+    },
+    {
+     "name": "isoorientin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/114776",
+     "refs": []
+    },
+    {
+     "name": "isovitexin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162350",
+     "refs": []
+    },
+    {
+     "name": "kaempferol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280863",
+     "refs": []
+    },
+    {
+     "name": "kinetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3830",
+     "refs": []
+    },
+    {
+     "name": "Kinetin riboside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/20345",
+     "refs": []
+    },
+    {
+     "name": "lauric acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3893",
+     "refs": []
+    },
+    {
+     "name": "lauryl alcohol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8193",
+     "refs": []
+    },
+    {
+     "name": "L-leucine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7045798",
+     "refs": []
+    },
+    {
+     "name": "(±)-limonene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/22311",
+     "refs": []
+    },
+    {
+     "name": "linoleic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280450",
+     "refs": []
+    },
+    {
+     "name": "Lupeol methyl ether",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15226333",
+     "refs": []
+    },
+    {
+     "name": "luteolin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280445",
+     "refs": []
+    },
+    {
+     "name": "L-lysine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71774817",
+     "refs": []
+    },
+    {
+     "name": "D-(-)-mannitol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6251",
+     "refs": []
+    },
+    {
+     "name": "p-menthan-3-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1254",
+     "refs": []
+    },
+    {
+     "name": "D-methionine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/84815",
+     "refs": []
+    },
+    {
+     "name": "L-methionine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6137",
+     "refs": []
+    },
+    {
+     "name": "methyl laurate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8139",
+     "refs": []
+    },
+    {
+     "name": "2-methylbutyric acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8314",
+     "refs": []
+    },
+    {
+     "name": "myricetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281672",
+     "refs": []
+    },
+    {
+     "name": "myristic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11005",
+     "refs": []
+    },
+    {
+     "name": "myristyl alcohol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8209",
+     "refs": []
+    },
+    {
+     "name": "N6-benzyladenine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/62389",
+     "refs": []
+    },
+    {
+     "name": "N6-Benzyladenosine-5'-phosphate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/318601",
+     "refs": []
+    },
+    {
+     "name": "1-naphthaleneacetic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6862",
+     "refs": []
+    },
+    {
+     "name": "naringenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/439246",
+     "refs": []
+    },
+    {
+     "name": "oleic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/445639",
+     "refs": []
+    },
+    {
+     "name": "palmitic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/985",
+     "refs": []
+    },
+    {
+     "name": "phenyl-Alanine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6946449",
+     "refs": []
+    },
+    {
+     "name": "D-phenylalanine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6919011",
+     "refs": []
+    },
+    {
+     "name": "pheophorbide a",
+     "url": "http://www.wikidata.org/entity/Q105185003",
+     "refs": []
+    },
+    {
+     "name": "phthalic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/18183610",
+     "refs": []
+    },
+    {
+     "name": "L-proline",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6971047",
+     "refs": []
+    },
+    {
+     "name": "quercetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280343",
+     "refs": []
+    },
+    {
+     "name": "scyllo-inositol",
+     "url": "http://www.wikidata.org/entity/Q3023527",
+     "refs": []
+    },
+    {
+     "name": "L-serine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6857581",
+     "refs": []
+    },
+    {
+     "name": "(E)-sinapic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/637775",
+     "refs": []
+    },
+    {
+     "name": "beta-sitosterol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/222284",
+     "refs": []
+    },
+    {
+     "name": "Skimmiwallin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/102003023",
+     "refs": []
+    },
+    {
+     "name": "D-sorbitol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5780",
+     "refs": []
+    },
+    {
+     "name": "stearic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281",
+     "refs": []
+    },
+    {
+     "name": "syringic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10742",
+     "refs": []
+    },
+    {
+     "name": "alpha-terpineol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/17100",
+     "refs": []
+    },
+    {
+     "name": "L-threonine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6288",
+     "refs": []
+    },
+    {
+     "name": "tryptophan",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6923516",
+     "refs": []
+    },
+    {
+     "name": "L-tyrosine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6942100",
+     "refs": []
+    },
+    {
+     "name": "umbelliferone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281426",
+     "refs": []
+    },
+    {
+     "name": "L-valine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/88733505",
+     "refs": []
+    },
+    {
+     "name": "vanillic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8468",
+     "refs": []
+    },
+    {
+     "name": "(2S,3R,4S,5R,6S)-2-[5,7-dihydroxy-2-(4-hydroxy-3,5-dimethoxyphenyl)chromenylium-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/154497274",
+     "refs": []
+    },
+    {
+     "name": "5,7-dihydroxy-2-(4-hydroxyphenyl)-8-[(2S,3R,4R,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/154497677",
+     "refs": []
+    },
+    {
+     "name": "[3,4-Dihydroxy-5-[6-(3-methylbut-2-enylamino)purin-9-yl]oxolan-2-yl]methyl dihydrogen phosphate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/320410",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3S,4R,5R)-3,4-dihydroxy-5-[6-[(4-hydroxy-3-methylbut-2-enyl)amino]purin-9-yl]oxolan-2-yl]methyl dihydrogen phosphate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/57357421",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3R,4R,5S)-3,4-dihydroxy-5-[6-[[(3S)-4-hydroxy-3-methylbutyl]amino]purin-9-yl]oxolan-2-yl]methyl dihydrogen phosphate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163010460",
+     "refs": []
+    },
+    {
+     "name": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3S,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxychromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/125528541",
+     "refs": []
+    },
+    {
+     "name": "(1S,3R,6S,8R,11S,12S,15R,16R)-15-[(2R)-5,5-dimethyl-6-methylideneoctan-2-yl]-6-methoxy-7,7,12,16-tetramethylpentacyclo[9.7.0.01,3.03,8.012,16]octadecane",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163044228",
+     "refs": []
+    },
+    {
+     "name": "(1S,3R,6S,8R,11S,12S,15R,16R)-15-[(2R,5R)-5-ethyl-5,6-dimethylhept-6-en-2-yl]-6-methoxy-7,7,12,16-tetramethylpentacyclo[9.7.0.01,3.03,8.012,16]octadecane",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162883155",
+     "refs": []
+    },
+    {
+     "name": "17-[(E)-5-ethyl-6-methylhept-3-en-2-yl]-10,13-dimethyl-2,3,4,9,11,12,14,15,16,17-decahydro-1H-cyclopenta[a]phenanthren-3-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5379591",
+     "refs": []
+    },
+    {
+     "name": "[5-[6-(2-Furylmethylamino)purin-9-yl]-3,4-dihydroxy-oxolan-2-yl]methoxyphosphonic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/324451",
+     "refs": []
+    },
+    {
+     "name": "(E)-3-(3-hydroxy-4-methoxyphenyl)-1-[2-hydroxy-6-methoxy-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxyphenyl]prop-2-en-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163059796",
+     "refs": []
+    },
+    {
+     "name": "2-(hydroxymethyl)-6-[2-methyl-4-(7H-purin-6-ylamino)but-2-enoxy]oxane-3,4,5-triol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3253682",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q13187"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "NE",
+    "Not Evaluated"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "Assam",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "India",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "Laccadive Is.",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "Nicobar Is.",
+     "introduced",
+     "Catalogue of Life"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2735117"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2735117"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Cocos%20nucifera"
+    ]
+   ]
+  }
+ }
+}

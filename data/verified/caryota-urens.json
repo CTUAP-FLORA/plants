@@ -1,0 +1,115 @@
+{
+ "slug": "caryota-urens",
+ "scientific_name": "Caryota urens",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Liliopsida"
+    ],
+    [
+     "Subclass",
+     "Petrosaviidae"
+    ],
+    [
+     "Order",
+     "Arecales"
+    ],
+    [
+     "Family",
+     "Arecaceae"
+    ],
+    [
+     "Subfamily",
+     "Coryphoideae"
+    ],
+    [
+     "Tribe",
+     "Caryoteae"
+    ],
+    [
+     "Genus",
+     "Caryota"
+    ],
+    [
+     "Species",
+     "Caryota urens"
+    ]
+   ],
+   "authority": "Caryota urens L.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 2738914)",
+     "https://www.gbif.org/species/2738914"
+    ],
+    [
+     "NCBI Taxonomy (ID 561305)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=561305"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [],
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "Assam",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "India",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "introduced",
+     "Global Register of Introduced and Invasive Species - India"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2738914"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2738914"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Caryota%20urens"
+    ]
+   ]
+  }
+ }
+}

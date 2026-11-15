@@ -1,0 +1,609 @@
+{
+ "slug": "thuja-occidentalis",
+ "scientific_name": "Thuja occidentalis",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Pinopsida"
+    ],
+    [
+     "Subclass",
+     "Pinidae"
+    ],
+    [
+     "Order",
+     "Pinales"
+    ],
+    [
+     "Family",
+     "Cupressaceae"
+    ],
+    [
+     "Subfamily",
+     null
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Thuja"
+    ],
+    [
+     "Species",
+     "Thuja occidentalis"
+    ]
+   ],
+   "authority": "Thuja occidentalis L.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 2684178)",
+     "https://www.gbif.org/species/2684178"
+    ],
+    [
+     "NCBI Taxonomy (ID 3317)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3317"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "abieta-7,13-diene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/443470",
+     "refs": []
+    },
+    {
+     "name": "abietal",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/443479",
+     "refs": []
+    },
+    {
+     "name": "abietatriene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6432211",
+     "refs": []
+    },
+    {
+     "name": "amentoflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281600",
+     "refs": []
+    },
+    {
+     "name": "benzyl alcohol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/244",
+     "refs": []
+    },
+    {
+     "name": "Beyerene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/107412",
+     "refs": []
+    },
+    {
+     "name": "borneol",
+     "url": "http://www.wikidata.org/entity/Q27103499",
+     "refs": []
+    },
+    {
+     "name": "bornyl acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6448",
+     "refs": []
+    },
+    {
+     "name": "(+)-δ-cadinene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/441005",
+     "refs": []
+    },
+    {
+     "name": "delta-cadinol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3084311",
+     "refs": []
+    },
+    {
+     "name": "(-)-α-cadinol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10398656",
+     "refs": []
+    },
+    {
+     "name": "camphene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6616",
+     "refs": []
+    },
+    {
+     "name": "camphor",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2537",
+     "refs": []
+    },
+    {
+     "name": "carvacrol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10364",
+     "refs": []
+    },
+    {
+     "name": "carvacrol methyl ether",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/80790",
+     "refs": []
+    },
+    {
+     "name": "carveol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7438",
+     "refs": []
+    },
+    {
+     "name": "trans-(-)-carveol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/94221",
+     "refs": []
+    },
+    {
+     "name": "caryophyllene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281515",
+     "refs": []
+    },
+    {
+     "name": "β-caryophyllene oxide",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1742210",
+     "refs": []
+    },
+    {
+     "name": "cedrol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65575",
+     "refs": []
+    },
+    {
+     "name": "cupressuflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281609",
+     "refs": []
+    },
+    {
+     "name": "p-cymen-8-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14529",
+     "refs": []
+    },
+    {
+     "name": "p-cymene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7463",
+     "refs": []
+    },
+    {
+     "name": "4'-Demethyltraxillagenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11406596",
+     "refs": []
+    },
+    {
+     "name": "deoxypodophyllotoxin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/345501",
+     "refs": []
+    },
+    {
+     "name": "dihydroanhydropodorhizol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/442835",
+     "refs": []
+    },
+    {
+     "name": "epipinoresinol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/637584",
+     "refs": []
+    },
+    {
+     "name": "gamma-eudesmol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6432005",
+     "refs": []
+    },
+    {
+     "name": "α-eudesmol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92762",
+     "refs": []
+    },
+    {
+     "name": "β-eudesmol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/91457",
+     "refs": []
+    },
+    {
+     "name": "fenchone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14525",
+     "refs": []
+    },
+    {
+     "name": "(1R,4S)-fenchone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/82229",
+     "refs": []
+    },
+    {
+     "name": "fenchyl acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/107217",
+     "refs": []
+    },
+    {
+     "name": "ferruginol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/442027",
+     "refs": []
+    },
+    {
+     "name": "geranyl acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1549026",
+     "refs": []
+    },
+    {
+     "name": "Guaia-3,10(14)-dien-11-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15227485",
+     "refs": []
+    },
+    {
+     "name": "1-hexanol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8103",
+     "refs": []
+    },
+    {
+     "name": "hinokiflavone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281627",
+     "refs": []
+    },
+    {
+     "name": "Hinokione",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11700871",
+     "refs": []
+    },
+    {
+     "name": "Isopicrodeoxypodophyllotoxin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9978176",
+     "refs": []
+    },
+    {
+     "name": "isopimaric acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/442048",
+     "refs": []
+    },
+    {
+     "name": "4-isopropylbenzyl alcohol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/325",
+     "refs": []
+    },
+    {
+     "name": "(±)-limonene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/22311",
+     "refs": []
+    },
+    {
+     "name": "(+)-limonene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/440917",
+     "refs": []
+    },
+    {
+     "name": "(±)-linalyl acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8294",
+     "refs": []
+    },
+    {
+     "name": "linoleic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280450",
+     "refs": []
+    },
+    {
+     "name": "matairesinol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/119205",
+     "refs": []
+    },
+    {
+     "name": "2-methylbutyric acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8314",
+     "refs": []
+    },
+    {
+     "name": "myrcene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/31253",
+     "refs": []
+    },
+    {
+     "name": "myrtanol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/521314",
+     "refs": []
+    },
+    {
+     "name": "Nortrachelogenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/394846",
+     "refs": []
+    },
+    {
+     "name": "occidentalol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11138655",
+     "refs": []
+    },
+    {
+     "name": "occidiol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/122201253",
+     "refs": []
+    },
+    {
+     "name": "occidol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11020369",
+     "refs": []
+    },
+    {
+     "name": "oct-1-en-3-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/18827",
+     "refs": []
+    },
+    {
+     "name": "3-octanol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11527",
+     "refs": []
+    },
+    {
+     "name": "palmitic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/135369651",
+     "refs": []
+    },
+    {
+     "name": "β-phellandrene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11142",
+     "refs": []
+    },
+    {
+     "name": "(+)-α-pinene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/82227",
+     "refs": []
+    },
+    {
+     "name": "beta-pinene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14896",
+     "refs": []
+    },
+    {
+     "name": "alpha-pinene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6654",
+     "refs": []
+    },
+    {
+     "name": "(+)-pinoresinol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73399",
+     "refs": []
+    },
+    {
+     "name": "rhodoxanthin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281251",
+     "refs": []
+    },
+    {
+     "name": "rimuene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12314971",
+     "refs": []
+    },
+    {
+     "name": "sabinene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/18818",
+     "refs": []
+    },
+    {
+     "name": "sclarene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11323257",
+     "refs": []
+    },
+    {
+     "name": "beta-sitosterol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/222284",
+     "refs": []
+    },
+    {
+     "name": "sugiol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/94162",
+     "refs": []
+    },
+    {
+     "name": "terpinen-4-ol acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/68749986",
+     "refs": []
+    },
+    {
+     "name": "α-terpinene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7462",
+     "refs": []
+    },
+    {
+     "name": "γ‑terpinene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7461",
+     "refs": []
+    },
+    {
+     "name": "terpinene 4-acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/20960",
+     "refs": []
+    },
+    {
+     "name": "alpha-terpineol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/17100",
+     "refs": []
+    },
+    {
+     "name": "(+/-)-4-terpineol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11230",
+     "refs": []
+    },
+    {
+     "name": "terpinolene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11463",
+     "refs": []
+    },
+    {
+     "name": "(1R,4R,5S)-thujan-3-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12304613",
+     "refs": []
+    },
+    {
+     "name": "thujaplicatin methyl ether",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/192827",
+     "refs": []
+    },
+    {
+     "name": "β-thujaplicin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3611",
+     "refs": []
+    },
+    {
+     "name": "gamma-Thujaplicin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12649",
+     "refs": []
+    },
+    {
+     "name": "(-)-α-thujene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/637518",
+     "refs": []
+    },
+    {
+     "name": "α-thujene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6451618",
+     "refs": []
+    },
+    {
+     "name": "(−)-α-thujone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/261491",
+     "refs": []
+    },
+    {
+     "name": "cis-thujone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/249286",
+     "refs": []
+    },
+    {
+     "name": "(+)-alpha-thujone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12304612",
+     "refs": []
+    },
+    {
+     "name": "β-thujone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/91456",
+     "refs": []
+    },
+    {
+     "name": "totarol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92783",
+     "refs": []
+    },
+    {
+     "name": "tricyclene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/79035",
+     "refs": []
+    },
+    {
+     "name": "5aalpha,6,7,8,9,9a-Hexahydro-alpha,alpha,5,9aalpha-tetramethyl-3-benzoxepine-7alpha-methanol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15601430",
+     "refs": []
+    },
+    {
+     "name": "2-[(5aR,8R,9aR)-5a-methyl-7,8,9,9a-tetrahydro-6H-3-benzoxepin-8-yl]propan-2-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163086105",
+     "refs": []
+    },
+    {
+     "name": "(2S,4aS,10aR)-7-isopropyl-1,1,4a-trimethyl-2,3,4,9,10,10a-hexahydrophenanthrene-2,6-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12310492",
+     "refs": []
+    },
+    {
+     "name": "2-[(2R,4aS,8aR)-4a,8-dimethyl-2,3,4,8a-tetrahydro-1H-naphthalen-2-yl]propan-2-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162874778",
+     "refs": []
+    },
+    {
+     "name": "(4aS,8R,8aS)-4,4,8a-trimethyl-7-methylidene-8-(3-methylidenepent-4-enyl)-2,3,4a,5,6,8-hexahydro-1H-naphthalene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/90659283",
+     "refs": []
+    },
+    {
+     "name": "(3R,4R)-4-(1,3-benzodioxol-5-ylmethyl)-3-[(4-hydroxy-3,5-dimethoxyphenyl)methyl]oxolan-2-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10045680",
+     "refs": []
+    },
+    {
+     "name": "2,4,6-Cycloheptatrien-1-one, 2-hydroxy-3-(1-methylethyl)-",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/80297",
+     "refs": []
+    },
+    {
+     "name": "2-[(2R)-5,8-dimethyl-1,2,3,4-tetrahydronaphthalen-2-yl]propan-2-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10998493",
+     "refs": []
+    },
+    {
+     "name": "(3S,4R)-3-hydroxy-3-[(4-hydroxy-3,5-dimethoxyphenyl)methyl]-4-[(4-hydroxy-3-methoxyphenyl)methyl]oxolan-2-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162908310",
+     "refs": []
+    },
+    {
+     "name": "1-(2-methoxypropan-2-yl)-4-methylbenzene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14121774",
+     "refs": []
+    },
+    {
+     "name": "(13R)-7-Oxopimara-8(14),15-diene-18-oic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/21606659",
+     "refs": []
+    },
+    {
+     "name": "(13S)-7-Oxopimara-8,15-diene-18-oic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/38349737",
+     "refs": []
+    },
+    {
+     "name": "(1R,3R,7S,9R)-4,11,11-trimethyl-8-methylidene-10-oxatricyclo[7.2.1.03,7]dodec-4-ene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15227484",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q147468"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Assam",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2684178"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2684178"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Thuja%20occidentalis"
+    ]
+   ]
+  }
+ }
+}

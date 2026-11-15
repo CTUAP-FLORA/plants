@@ -1,0 +1,194 @@
+{
+ "slug": "codiaeum-variegatum",
+ "scientific_name": "Codiaeum variegatum",
+ "retrieved": "2026-11-15",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Malpighiales"
+    ],
+    [
+     "Family",
+     "Euphorbiaceae"
+    ],
+    [
+     "Subfamily",
+     "Crotonoideae"
+    ],
+    [
+     "Tribe",
+     "Codiaeae"
+    ],
+    [
+     "Genus",
+     "Codiaeum"
+    ],
+    [
+     "Species",
+     "Codiaeum variegatum"
+    ]
+   ],
+   "authority": "Codiaeum variegatum (L.) Rumph. ex A.Juss.",
+   "note": null,
+   "sources": [
+    [
+     "GBIF Backbone Taxonomy (key 3071476)",
+     "https://www.gbif.org/species/3071476"
+    ],
+    [
+     "NCBI Taxonomy (ID 138558)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=138558"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "aldehydo-D-glucose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/107526",
+     "refs": []
+    },
+    {
+     "name": "(E)-chlorogenic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1794427",
+     "refs": []
+    },
+    {
+     "name": "3,4-dihydroxybenzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72",
+     "refs": []
+    },
+    {
+     "name": "ellagic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281855",
+     "refs": []
+    },
+    {
+     "name": "cis-ferulic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1548883",
+     "refs": []
+    },
+    {
+     "name": "ferulic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/445858",
+     "refs": []
+    },
+    {
+     "name": "D-fructopyranose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2723872",
+     "refs": []
+    },
+    {
+     "name": "D-glucopyranose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5793",
+     "refs": []
+    },
+    {
+     "name": "4-hydroxybenzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/135",
+     "refs": []
+    },
+    {
+     "name": "keto-D-fructose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5984",
+     "refs": []
+    },
+    {
+     "name": "propionylcholine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/75612",
+     "refs": []
+    },
+    {
+     "name": "L-rhamnopyranose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/25310",
+     "refs": []
+    },
+    {
+     "name": "rhamnose (aldehydo)",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/19233",
+     "refs": []
+    },
+    {
+     "name": "sucrose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5988",
+     "refs": []
+    },
+    {
+     "name": "vanillic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8468",
+     "refs": []
+    },
+    {
+     "name": "2-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]prop-2-enenitrile",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162982122",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q1345646"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "introduced",
+     "Global Register of Introduced and Invasive Species - India"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/3071476"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/3071476"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Codiaeum%20variegatum"
+    ]
+   ]
+  }
+ }
+}

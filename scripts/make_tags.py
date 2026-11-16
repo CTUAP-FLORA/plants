@@ -1,6 +1,7 @@
 """Make tags.pdf: printable A4 sheet, 5 tags per page, with dashed cut lines.
 
-Each tag: scientific name (italic), synonym if any, common names, family,
+Each tag has labelled lines so visitors without botany training can read it:
+"Scientific name:" (italic), "Synonym:" if any, "Common names:", "Family:",
 QR code on the right, university name in small text.
 The QR code is drawn as vector squares (sharp at any print size) from the
 same qrcode data and settings as scripts/make_qr.py.
@@ -9,7 +10,6 @@ Usage:  python scripts/make_tags.py
 """
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
-from reportlab.lib.utils import simpleSplit
 from reportlab.pdfgen import canvas
 
 from common import ROOT, load_config, load_plants, page_url
@@ -62,40 +62,65 @@ def draw_tag(c, p, cfg, x, y):
     c.setFillColorRGB(*GREEN)
     c.rect(x + 1.6 * mm, y + PAD, 1.6 * mm, TAG_H - 2 * PAD, stroke=0, fill=1)
 
-    # Scientific name, italic
-    size = fit(p["scientific_name"], "Times-BoldItalic", 32, 18, text_w, c)
-    ty -= size * 0.8
+    # Every line starts with a plain-English label, for visitors without botany training.
+    LBL, LBL_SIZE = "Helvetica", 13
+    GREY = (0.33, 0.33, 0.33)
+
+    def label(text, y_):
+        c.setFont(LBL, LBL_SIZE)
+        c.setFillColorRGB(*GREY)
+        c.drawString(tx, y_, text)
+        return tx + c.stringWidth(text, LBL, LBL_SIZE)
+
+    # Scientific name: <italic name>
+    lw = c.stringWidth("Scientific name: ", LBL, LBL_SIZE)
+    size = fit(p["scientific_name"], "Times-BoldItalic", 28, 15, text_w - lw, c)
+    ty -= 22
+    vx = label("Scientific name: ", ty)
     c.setFillColorRGB(0, 0, 0)
     c.setFont("Times-BoldItalic", size)
-    c.drawString(tx, ty, p["scientific_name"])
+    c.drawString(vx, ty, p["scientific_name"])
 
     if p.get("synonym"):
         ty -= 17
+        vx = label("Synonym: ", ty)
         c.setFont("Times-Italic", 13)
-        c.setFillColorRGB(0.3, 0.3, 0.3)
-        c.drawString(tx, ty, f"Syn. {p['synonym']}")
+        c.drawString(vx, ty, p["synonym"])
 
-    # Common names, wrapped, shrink if needed
-    common = ", ".join(p["common_names"])
-    cs = 19
+    # Common name(s): <names>, wrapped; the first line starts after the label
+    lab = "Common names: " if len(p["common_names"]) > 1 else "Common name: "
+    words = ", ".join(p["common_names"]).split(" ")
+    lw = c.stringWidth(lab, LBL, LBL_SIZE)
+    cs = 17
     while True:
-        lines = simpleSplit(common, "Helvetica-Bold", cs, text_w)
-        if len(lines) <= 2 or cs <= 13:
+        lines, cur, avail = [], "", text_w - lw
+        for w in words:
+            t = (cur + " " + w).strip()
+            if not cur or c.stringWidth(t, "Helvetica-Bold", cs) <= avail:
+                cur = t
+            else:
+                lines.append(cur)
+                cur, avail = w, text_w
+        lines.append(cur)
+        if len(lines) <= 2 or cs <= 12:
             break
         cs -= 0.5
+    busy = bool(p.get("synonym")) and len(lines) > 1      # lots of text: tighter spacing
+    ty -= 22 if busy else 26
+    vx = label(lab, ty)
     c.setFillColorRGB(0.1, 0.1, 0.1)
     c.setFont("Helvetica-Bold", cs)
-    ty -= 10
-    for line in lines:
-        ty -= cs * 1.15
-        c.drawString(tx, ty, line)
+    for k, line in enumerate(lines):
+        if k:
+            ty -= cs * 1.2
+        c.drawString(vx if k == 0 else tx, ty, line)
 
-    # Family
-    ty -= 24
-    c.setFont("Helvetica", 16)
-    c.drawString(tx, ty, "Family: ")
+    # Family: <family>
+    ty -= 21 if busy else 24
+    vx = label("Family: ", ty)
+    c.setFillColorRGB(0.1, 0.1, 0.1)
     c.setFont("Helvetica-Bold", 16)
-    c.drawString(tx + c.stringWidth("Family: ", "Helvetica", 16), ty, p["family"])
+    c.drawString(vx, ty, p["family"])
 
     # University (small) at the bottom
     c.setFont("Helvetica", 9.5)

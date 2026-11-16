@@ -130,11 +130,14 @@ a{color:inherit}
 .hero-body{margin-top:auto;padding-top:40px}
 .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;opacity:.92}
 .eyebrow .ic{width:16px;height:16px}
-.hero h1{font-family:var(--serif);font-style:italic;font-weight:700;font-size:min(68px,11vw,calc((100vw - 34px) / (var(--chars,10) * .62)));line-height:1;overflow-wrap:break-word;letter-spacing:-.01em;margin:10px 0 8px;
+.hero h1{font-family:var(--serif);font-style:italic;font-weight:700;font-size:min(68px,11vw,calc((100vw - 34px) / (var(--chars,10) * .62)));line-height:1;overflow-wrap:break-word;letter-spacing:-.01em;margin:4px 0 8px;
  text-shadow:0 4px 30px rgba(0,0,0,.25)}
 .hero h1 .sp{display:block}
 .hero .syn{margin:0;opacity:.88;font-size:15px}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0;padding:0;list-style:none}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 0;padding:0;list-style:none}
+.lbl{display:block;margin:20px 0 0;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;opacity:.85}
+.lbl.first{margin-top:16px}
+.grid .cn b{font-weight:600;color:var(--ink)}
 .chips li{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
  padding:7px 15px;border-radius:999px;font-weight:600;font-size:16px}
 /* entrance animation */
@@ -282,10 +285,12 @@ def plant_page(p, cfg, plants):
          f'<span class="uni">{e(cfg["university_name"])}</span></div>',
          '<div class="hero-body">',
          f'<div class="eyebrow rise">{icon("leaf")}{e(cfg["site_title"])} · {e(p["family"])}</div>',
+         '<span class="lbl first rise d1">Scientific name</span>',
          f'<h1 class="rise d1" style="--chars:{max(len(w) for w in p["scientific_name"].split())}">{sci_name_html(p["scientific_name"])}</h1>']
     if p.get("synonym"):
         h.append(f'<p class="syn rise d2">Synonym: <i>{e(p["synonym"])}</i></p>')
     if p["common_names"]:
+        h.append(f'<span class="lbl rise d3">{"Common names" if len(p["common_names"]) > 1 else "Common name"}</span>')
         h.append('<ul class="chips rise d3">' + "".join(f"<li>{e(n)}</li>" for n in p["common_names"]) + "</ul>")
     h.append(f"</div></div>{WAVE}</header>")
 
@@ -335,7 +340,7 @@ def index_page(plants, cfg):
             f'<li data-s="{e(search)}" data-f="{e(p["family"])}" style="{theme(p["family"])}"><a href="p/{p["slug"]}/">'
             f'<span class="badge">{e(p["scientific_name"][0])}</span><span class="tx">'
             f'<span class="sci">{e(p["scientific_name"])}</span>'
-            f'<span class="cn">{e(", ".join(p["common_names"]))}</span>'
+            f'<span class="cn"><b>Common {"names" if len(p["common_names"]) > 1 else "name"}:</b> {e(", ".join(p["common_names"]))}</span>'
             f'<span class="fam">{e(p["family"])}</span></span></a></li>')
     fams = sorted({p["family"] for p in plants})
     fam_buttons = ['<button type="button" aria-pressed="true" data-f="" style="--c1:#123d27;--c2:#1f6b52;--c3:#7fdc9f"><i></i>All</button>']

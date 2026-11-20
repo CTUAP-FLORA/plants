@@ -78,5 +78,29 @@
   "licence": "CC BY-SA 3.0",
   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
   "photo": "delonix-regia-wiki.jpg"
+ },
+ "cocos-nucifera": {
+  "file": "1859-Martinique.web.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:1859-Martinique.web.jpg",
+  "artist": "Patrick Verdier, Free On Line Photos",
+  "licence": "Copyrighted free use",
+  "licence_url": "",
+  "photo": "cocos-nucifera-wiki.jpg"
+ },
+ "pongamia-pinnata": {
+  "file": "Pongamia pinnata Blanco2.417-cropped.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pongamia_pinnata_Blanco2.417-cropped.jpg",
+  "artist": "Francisco Manuel Blanco (O.S.A.)",
+  "licence": "Public domain",
+  "licence_url": "",
+  "photo": "pongamia-pinnata-wiki.jpg"
+ },
+ "dracaena-reflexa-angustifolia": {
+  "file": "Dracaena marginata IndoorPlant 0605k.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dracaena_marginata_IndoorPlant_0605k.jpg",
+  "artist": "Unknown",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "photo": "dracaena-reflexa-angustifolia-wiki.jpg"
  }
 }

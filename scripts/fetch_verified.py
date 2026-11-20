@@ -143,6 +143,7 @@ def wikidata_taxa(p, g):
     parts = [f'{{ ?t wdt:P225 "{n}" }}' for n in sorted(names)] + [f'{{ ?t wdt:P846 "{k}" }}' for k in sorted(keys)]
     rows = sparql("SELECT DISTINCT ?t WHERE { " + " UNION ".join(parts) + " }")
     items = sorted({r["t"]["value"].rsplit("/", 1)[1] for r in rows})
+    items = [q for q in items if re.fullmatch(r"Q\d+", q)]      # plant items only (not dictionary entries)
     return " ".join(f"wd:{q}" for q in items) or None
 
 

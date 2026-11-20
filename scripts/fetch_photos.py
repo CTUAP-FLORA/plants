@@ -1,6 +1,7 @@
 """Download one freely licensed photo per plant from Wikimedia Commons.
 
-The photo is the one Wikidata links to the species (property P18, "image"). Only files under
+The photo is the one Wikidata links to the species (property P18, "image"); if none is usable,
+a Commons file named after the species is taken. Only files under
 licences that allow reuse with credit (CC0, public domain, CC BY, CC BY-SA) are taken.
 Each photo is resized for phones and saved as photos/<slug>-wiki.jpg, and data/photo_credits.json
 records the photographer, licence and source page, which the plant page shows under the photo.
@@ -81,6 +82,14 @@ def images_for(p):
     return list(dict.fromkeys(files))
 
 
+def commons_search(p, limit=8):
+    """Fallback: photos on Commons whose file name contains the scientific name."""
+    r = wm_get("https://commons.wikimedia.org/w/api.php",
+               {"action": "query", "list": "search", "srnamespace": 6, "srlimit": limit, "format": "json",
+                "srsearch": f'intitle:"{p["scientific_name"]}" filetype:bitmap'}).json()
+    return [h["title"].split(":", 1)[1] for h in r.get("query", {}).get("search", [])]
+
+
 def main():
     only = set(sys.argv[1:])
     credits = json.loads(CREDITS.read_text()) if CREDITS.exists() else {}
@@ -93,7 +102,7 @@ def main():
         if slug in credits and not only:
             continue
         got = None
-        for fname in images_for(p):
+        for fname in images_for(p) + commons_search(p):
             time.sleep(2)
             info = fv.safe(commons_info, fname)
             # a file smaller than the size asked for comes back as the original, which Wikimedia

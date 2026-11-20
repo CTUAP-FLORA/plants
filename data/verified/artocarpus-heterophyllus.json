@@ -1,0 +1,683 @@
+{
+ "slug": "artocarpus-heterophyllus",
+ "scientific_name": "Artocarpus heterophyllus",
+ "retrieved": "2026-11-20",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Rosales"
+    ],
+    [
+     "Family",
+     "Moraceae"
+    ],
+    [
+     "Subfamily",
+     null
+    ],
+    [
+     "Tribe",
+     "Artocarpeae"
+    ],
+    [
+     "Genus",
+     "Artocarpus"
+    ],
+    [
+     "Species",
+     "Artocarpus heterophyllus"
+    ]
+   ],
+   "authority": "Artocarpus heterophyllus Lam.",
+   "note": null,
+   "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207309438)",
+     "https://www.gbif.org/species/207309438"
+    ],
+    [
+     "GBIF Backbone Taxonomy (key 2984565)",
+     "https://www.gbif.org/species/2984565"
+    ],
+    [
+     "NCBI Taxonomy (ID 3489)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3489"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "Albanin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5481961",
+     "refs": []
+    },
+    {
+     "name": "Artocarpanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15298902",
+     "refs": []
+    },
+    {
+     "name": "artocarpanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12000157",
+     "refs": []
+    },
+    {
+     "name": "Artocarpesin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/399491",
+     "refs": []
+    },
+    {
+     "name": "artocarpetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12308618",
+     "refs": []
+    },
+    {
+     "name": "Artocarpetin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/390520",
+     "refs": []
+    },
+    {
+     "name": "artocarpetin B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15231525",
+     "refs": []
+    },
+    {
+     "name": "artocarpin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5458461",
+     "refs": []
+    },
+    {
+     "name": "artocarpin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44258292",
+     "refs": []
+    },
+    {
+     "name": "artoindonesianin F",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10267519",
+     "refs": []
+    },
+    {
+     "name": "artonin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14557102",
+     "refs": []
+    },
+    {
+     "name": "Artonin B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11964501",
+     "refs": []
+    },
+    {
+     "name": "Artonin C",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14681571",
+     "refs": []
+    },
+    {
+     "name": "Artonin D",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14681573",
+     "refs": []
+    },
+    {
+     "name": "artonin J",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44258663",
+     "refs": []
+    },
+    {
+     "name": "artonin U",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44258358",
+     "refs": []
+    },
+    {
+     "name": "Artonin Y",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15541482",
+     "refs": []
+    },
+    {
+     "name": "4-coumaric acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/322",
+     "refs": []
+    },
+    {
+     "name": "(E)-p-coumaric acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/637542",
+     "refs": []
+    },
+    {
+     "name": "cudraflavone B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5319925",
+     "refs": []
+    },
+    {
+     "name": "cudraflavone C",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5319924",
+     "refs": []
+    },
+    {
+     "name": "cyanomaclurin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44257130",
+     "refs": []
+    },
+    {
+     "name": "cycloart-23-ene-3beta,25-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5470009",
+     "refs": []
+    },
+    {
+     "name": "cycloartenol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/500213",
+     "refs": []
+    },
+    {
+     "name": "cycloartocarpesin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15224382",
+     "refs": []
+    },
+    {
+     "name": "cycloartocarpin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44258300",
+     "refs": []
+    },
+    {
+     "name": "cyclorigidol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44226791",
+     "refs": []
+    },
+    {
+     "name": "heteroartonin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15231526",
+     "refs": []
+    },
+    {
+     "name": "heterophyllin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14557105",
+     "refs": []
+    },
+    {
+     "name": "4-hydroxybenzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3702506",
+     "refs": []
+    },
+    {
+     "name": "hydroxyresveratrol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281717",
+     "refs": []
+    },
+    {
+     "name": "kuwanon T",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15231527",
+     "refs": []
+    },
+    {
+     "name": "licoflavone c",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10246505",
+     "refs": []
+    },
+    {
+     "name": "linoleic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280450",
+     "refs": []
+    },
+    {
+     "name": "Lup-20(29)-ene-3beta,28-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/221023",
+     "refs": []
+    },
+    {
+     "name": "Moracin C",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/155248",
+     "refs": []
+    },
+    {
+     "name": "Mulberrin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5481958",
+     "refs": []
+    },
+    {
+     "name": "norartocarpetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5481970",
+     "refs": []
+    },
+    {
+     "name": "octadeca-9,12-dienoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3931",
+     "refs": []
+    },
+    {
+     "name": "palmitic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/135369651",
+     "refs": []
+    },
+    {
+     "name": "3-Prenyl luteolin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/91374192",
+     "refs": []
+    },
+    {
+     "name": "6-Prenylapigenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10382485",
+     "refs": []
+    },
+    {
+     "name": "4'-Prenyloxyresveratrol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281724",
+     "refs": []
+    },
+    {
+     "name": "squalene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/638072",
+     "refs": []
+    },
+    {
+     "name": "(E,E,E,E)-Squalene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1105",
+     "refs": []
+    },
+    {
+     "name": "stearic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/139057051",
+     "refs": []
+    },
+    {
+     "name": "stigmasterol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280794",
+     "refs": []
+    },
+    {
+     "name": "vanillic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8468",
+     "refs": []
+    },
+    {
+     "name": "veraphenol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/185848",
+     "refs": []
+    },
+    {
+     "name": "6aalpha,7,12,12abeta-Tetrahydro-9,11-dimethoxy-6,6-dimethyl-8-(3-methyl-2-butenyl)-6H-benzo[b]naphtho[2,3-d]pyran-3-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101929070",
+     "refs": []
+    },
+    {
+     "name": "(6aR,12aS)-9,11-dimethoxy-6,6-dimethyl-8-(3-methylbut-2-enyl)-6a,7,12,12a-tetrahydronaphtho[2,3-c]chromen-3-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162915650",
+     "refs": []
+    },
+    {
+     "name": "(24R)-Cycloarta-25-ene-3beta,24-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14313591",
+     "refs": []
+    },
+    {
+     "name": "(24R)-cycloartane-24,25-diol-3-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/91895426",
+     "refs": []
+    },
+    {
+     "name": "(2S)-2,3-Dihydro-5,7-dihydroxy-8-(3-methyl-2-buten-1-yl)-2-(2,4,6-trimethoxyphenyl)-4H-1-benzopyran-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101722635",
+     "refs": []
+    },
+    {
+     "name": "3,8-dihydroxy-10-methoxy-9-[(E)-3-methylbut-1-enyl]-6-(2-methylprop-1-enyl)-6H-chromeno[4,3-b]chromen-7-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5458462",
+     "refs": []
+    },
+    {
+     "name": "1-[3-[6-[2,4-Dihydroxy-3-(3-methylbut-1-enyl)benzoyl]-5-(2,4-dihydroxyphenyl)-3-methylcyclohex-2-en-1-yl]-2,4-dihydroxyphenyl]-3-(2,4-dihydroxyphenyl)prop-2-en-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/123562766",
+     "refs": []
+    },
+    {
+     "name": "(E)-1-[3-[(1S,5S,6R)-6-[2,4-dihydroxy-3-(3-methylbut-2-enyl)benzoyl]-5-(2,4-dihydroxyphenyl)-3-methylcyclohex-2-en-1-yl]-2,4-dihydroxyphenyl]-3-(4-hydroxyphenyl)prop-2-en-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10723048",
+     "refs": []
+    },
+    {
+     "name": "(E)-1-[3-[(1S,5S,6R)-6-[2,4-dihydroxy-3-[(E)-3-methylbut-1-enyl]benzoyl]-5-(2,4-dihydroxyphenyl)-3-methylcyclohex-2-en-1-yl]-2,4-dihydroxyphenyl]-3-(4-hydroxyphenyl)prop-2-en-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163194405",
+     "refs": []
+    },
+    {
+     "name": "(6R)-8,10-dihydroxy-3-methoxy-9-[(E)-3-methylbut-1-enyl]-6-(2-methylprop-1-enyl)-6H-chromeno[4,3-b]chromen-7-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162972402",
+     "refs": []
+    },
+    {
+     "name": "(13R)-8,17-dihydroxy-6,19-dimethoxy-14,14-dimethyl-3,15-dioxapentacyclo[11.6.1.02,11.04,9.016,20]icosa-1(19),2(11),4,6,8,16(20),17-heptaen-10-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/154496195",
+     "refs": []
+    },
+    {
+     "name": "(6S)-3,9-dihydroxy-6-(2-hydroxypropan-2-yl)-11-methoxy-10-(3-methylbut-2-enyl)-6,7-dihydrochromeno[3,2-d][1]benzoxepin-8-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163057021",
+     "refs": []
+    },
+    {
+     "name": "(6R)-3,9-dihydroxy-6-(2-hydroxypropan-2-yl)-11-methoxy-10-(3-methylbut-2-enyl)-6,7-dihydrochromeno[3,2-d][1]benzoxepin-8-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163057022",
+     "refs": []
+    },
+    {
+     "name": "2-(2,4-Dihydroxy-6-methoxyphenyl)-5-hydroxy-7-methoxy-6-(3-methylbut-1-enyl)-3-(3-methylbut-2-enyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/74332619",
+     "refs": []
+    },
+    {
+     "name": "2-(2,4-dihydroxy-6-methoxyphenyl)-5-hydroxy-7-methoxy-6-[(E)-3-methylbut-1-enyl]-3-(3-methylbut-2-enyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24850607",
+     "refs": []
+    },
+    {
+     "name": "(15S)-11,19-dihydroxy-7,7-dimethyl-15-(2-methylprop-1-enyl)-2,8,16-trioxapentacyclo[12.8.0.03,12.04,9.017,22]docosa-1(14),3(12),4(9),5,10,17(22),18,20-octaen-13-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92471957",
+     "refs": []
+    },
+    {
+     "name": "3-(2,4-Dihydroxyphenyl)-1-[3-[5-(2,4-dihydroxyphenyl)-6-(5-hydroxy-2,2-dimethylchromene-6-carbonyl)-3-methylcyclohex-2-en-1-yl]-2,4-dihydroxyphenyl]prop-2-en-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/123160082",
+     "refs": []
+    },
+    {
+     "name": "2-(2,4-Dihydroxyphenyl)-3,10-bis(3-methyl-2-butenyl)-8,8-dimethyl-5-hydroxy-4H,8H-benzo[1,2-b:5,4-b']dipyran-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44226793",
+     "refs": []
+    },
+    {
+     "name": "2-(2,4-Dihydroxyphenyl)-5,7-dihydroxy-6-(3-methylbut-1-enyl)-3-(3-methylbut-2-enyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/74332618",
+     "refs": []
+    },
+    {
+     "name": "2-(2,4-dihydroxyphenyl)-5,7-dihydroxy-6-[(E)-3-methylbut-1-enyl]-3-(3-methylbut-2-enyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24850606",
+     "refs": []
+    },
+    {
+     "name": "2-(2,4-Dihydroxyphenyl)-5-hydroxy-7-methoxy-6-(3-methylbut-1-enyl)-3-(3-methylbut-2-enyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5358260",
+     "refs": []
+    },
+    {
+     "name": "5-[2-(2,4-Dihydroxyphenyl)ethenyl]-2-(3-methylbut-1-enyl)benzene-1,3-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/54124404",
+     "refs": []
+    },
+    {
+     "name": "5-[2-(2,4-dihydroxyphenyl)ethenyl]benzene-1,3-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73197",
+     "refs": []
+    },
+    {
+     "name": "17-(5-ethyl-6-methylheptan-2-yl)-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/86821",
+     "refs": []
+    },
+    {
+     "name": "(2Z,4E)-5-[(1S,3S,5R,8S)-8-hydroxy-1,5-dimethyl-3-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6-oxabicyclo[3.2.1]octan-8-yl]-3-methylpenta-2,4-dienoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162939836",
+     "refs": []
+    },
+    {
+     "name": "5-(6-Hydroxy-1-benzofuran-2-yl)-4-(3-methylbut-1-enyl)benzene-1,3-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162965093",
+     "refs": []
+    },
+    {
+     "name": "5-(6-hydroxy-1-benzofuran-2-yl)-4-[(1E)-3-methylbut-1-en-1-yl]benzene-1,3-diol",
+     "url": "http://www.wikidata.org/entity/Q105300518",
+     "refs": []
+    },
+    {
+     "name": "4-[(1E)-2-(5-Hydroxy-2,2-dimethyl-2H-1-benzopyran-7-yl)ethenyl]-1,3-benzenediol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11722912",
+     "refs": []
+    },
+    {
+     "name": "4-[2-(5-Hydroxy-2,2-dimethylchromen-7-yl)ethenyl]benzene-1,3-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73073812",
+     "refs": []
+    },
+    {
+     "name": "(2R)-5-hydroxy-2-(2-hydroxy-4-methoxyphenyl)-7-methoxy-2,3-dihydrochromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163075164",
+     "refs": []
+    },
+    {
+     "name": "(2S)-5-hydroxy-2-(2-hydroxy-4-methoxyphenyl)-7-methoxy-2,3-dihydrochromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101930089",
+     "refs": []
+    },
+    {
+     "name": "5-Hydroxy-2-(4-hydroxyphenyl)-7-methoxy-6-(3-methylbut-2-enyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162878374",
+     "refs": []
+    },
+    {
+     "name": "5-[2-[4-Hydroxy-4-(3-methylbut-2-enoxy)cyclohexa-1,5-dien-1-yl]ethenyl]benzene-1,3-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/129650764",
+     "refs": []
+    },
+    {
+     "name": "5-[6-Hydroxy-5-methoxy-4-(3-methylbut-2-enyl)-1-benzofuran-2-yl]-4-(3-methylbut-2-enyl)benzene-1,3-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44226790",
+     "refs": []
+    },
+    {
+     "name": "(2R)-5-hydroxy-7-methoxy-2-(2,4,6-trimethoxyphenyl)-2,3-dihydrochromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162852231",
+     "refs": []
+    },
+    {
+     "name": "(2S)-5-hydroxy-7-methoxy-2-(2,4,6-trimethoxyphenyl)-2,3-dihydrochromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15298900",
+     "refs": []
+    },
+    {
+     "name": "(2S)-5-hydroxy-7-methoxy-8-(3-methylbut-2-enyl)-2-(2,4,6-trimethoxyphenyl)-2,3-dihydrochromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15298901",
+     "refs": []
+    },
+    {
+     "name": "(9R)-9-hydroxytridecyl docosanoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163024957",
+     "refs": []
+    },
+    {
+     "name": "(4R)-4-hydroxyundecyl docosanoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162951925",
+     "refs": []
+    },
+    {
+     "name": "(13S)-6beta,12beta-Methano-6H,12H-dibenzo[b,f][1,5]dioxocin-1,3,9,13-tetrol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101821343",
+     "refs": []
+    },
+    {
+     "name": "methyl (7R)-21-[(1E)-3-hydroperoxy-3-methylbut-1-en-1-yl]-7,14-dihydroxy-18,18-dimethyl-5,12-dioxo-9-(prop-1-en-2-yl)-2,19-dioxapentacyclo[11.8.0.0³,¹¹.0⁴,⁸.0¹⁵,²⁰]henicosa-1(21),3,8,10,13,15(20),16-heptaene-7-carboxylate",
+     "url": "http://www.wikidata.org/entity/Q104980825",
+     "refs": []
+    },
+    {
+     "name": "methyl (7S)-7,14-dihydroxy-18,18-dimethyl-21-(3-methylbut-2-enyl)-5,12-dioxo-9-prop-1-en-2-yl-2,19-dioxapentacyclo[11.8.0.03,11.04,8.015,20]henicosa-1(13),3,8,10,14,16,20-heptaene-7-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162858251",
+     "refs": []
+    },
+    {
+     "name": "4'-Prenyl-2,4,3',5'-tetrahydroxystilbene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/442717",
+     "refs": []
+    },
+    {
+     "name": "(13S)-6,8,17,19-tetrahydroxy-14,14-dimethyl-18-(3-methylbut-2-enyl)-3,15-dioxapentacyclo[11.6.1.02,11.04,9.016,20]icosa-1(20),2(11),4,6,8,16,18-heptaen-10-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162846776",
+     "refs": []
+    },
+    {
+     "name": "(13R)-6,8,17,19-tetrahydroxy-14,14-dimethyl-5,7-bis(3-methylbut-2-enyl)-3,15-dioxapentacyclo[11.6.1.02,11.04,9.016,20]icosa-1(20),2(11),4,6,8,16,18-heptaen-10-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162910598",
+     "refs": []
+    },
+    {
+     "name": "(10S)-5,7,8,15-tetrahydroxy-19,19-dimethyl-22-(3-methylbut-2-enyl)-10-prop-1-en-2-yl-2,20-dioxapentacyclo[12.8.0.03,12.04,9.016,21]docosa-1(14),3(12),4(9),5,7,15,17,21-octaen-13-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/154496194",
+     "refs": []
+    },
+    {
+     "name": "(6S)-2,3,8,10-tetrahydroxy-9,11-bis(3-methylbut-2-enyl)-6-(2-methylprop-1-enyl)-6H-chromeno[4,3-b]chromen-7-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/94200526",
+     "refs": []
+    },
+    {
+     "name": "(1S,3R,8R,11S,12S,15R,16R)-7,7,12,16-tetramethyl-15-[(2R)-6-methylhept-5-en-2-yl]pentacyclo[9.7.0.01,3.03,8.012,16]octadecan-6-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12305360",
+     "refs": []
+    },
+    {
+     "name": "(11S)-6,7,15-trihydroxy-19,19-dimethyl-22-(3-methylbut-2-enyl)-11-(2-methylprop-1-enyl)-2,10,20-trioxapentacyclo[12.8.0.03,12.04,9.016,21]docosa-1(14),3(12),4,6,8,15,17,21-octaen-13-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92441456",
+     "refs": []
+    },
+    {
+     "name": "(13R)-8,17,19-trihydroxy-6-methoxy-14,14-dimethyl-18-(3-methylbut-2-enyl)-3,15-dioxapentacyclo[11.6.1.02,11.04,9.016,20]icosa-1(20),2(11),4,6,8,16,18-heptaen-10-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162856399",
+     "refs": []
+    },
+    {
+     "name": "(13R)-8,17,19-trihydroxy-6-methoxy-14,14-dimethyl-3,15-dioxapentacyclo[11.6.1.02,11.04,9.016,20]icosa-1(20),2(11),4,6,8,16,18-heptaen-10-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163036529",
+     "refs": []
+    },
+    {
+     "name": "(17S)-12,21,23-trihydroxy-8,8,18,18-tetramethyl-5-(3-methylbut-2-enyl)-3,7,19-trioxahexacyclo[15.6.1.02,15.04,13.06,11.020,24]tetracosa-1(24),2(15),4(13),5,9,11,20,22-octaen-14-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163084071",
+     "refs": []
+    },
+    {
+     "name": "(17R)-12,21,23-trihydroxy-8,8,18,18-tetramethyl-5-(3-methylbut-2-enyl)-3,7,19-trioxahexacyclo[15.6.1.02,15.04,13.06,11.020,24]tetracosa-1(24),2(15),4(13),5,9,11,20,22-octaen-14-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/154496193",
+     "refs": []
+    },
+    {
+     "name": "(6S)-3,8,10-trihydroxy-9-[(E)-3-methylbut-1-enyl]-6-(2-methylprop-1-enyl)-6H-chromeno[4,3-b]chromen-7-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162885668",
+     "refs": []
+    },
+    {
+     "name": "Urs-12-en-28-oic acid, 3-hydroxy-, (3beta)-",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/220774",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q45757"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "NE",
+    "Not Evaluated"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Assam",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Laccadive Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Nicobar Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2984565"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2984565"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Artocarpus%20heterophyllus"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "fruit",
+    "leaf",
+    "root",
+    "plant exudate"
+   ],
+   "used_for": [
+    "diarrhea",
+    "skin diseases",
+    "abscess",
+    "flatulence",
+    "lymphadenitis"
+   ],
+   "properties": [
+    "laxatives",
+    "astringents",
+    "diuretics",
+    "anti-bacterial agents"
+   ],
+   "caution": null,
+   "recorded_uses": 64,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Artocarpus%20heterophyllus"
+    ]
+   ]
+  }
+ }
+}

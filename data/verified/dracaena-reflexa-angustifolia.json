@@ -1,0 +1,101 @@
+{
+ "slug": "dracaena-reflexa-angustifolia",
+ "scientific_name": "Dracaena reflexa var. angustifolia",
+ "retrieved": "2026-11-20",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Liliopsida"
+    ],
+    [
+     "Subclass",
+     "Petrosaviidae"
+    ],
+    [
+     "Order",
+     "Asparagales"
+    ],
+    [
+     "Family",
+     "Asparagaceae"
+    ],
+    [
+     "Subfamily",
+     "Nolinoideae"
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Dracaena"
+    ],
+    [
+     "Species",
+     "Dracaena reflexa var. angustifolia"
+    ]
+   ],
+   "authority": "Dracaena reflexa var. angustifolia Baker",
+   "note": "GBIF backbone lists this as Dracaena reflexa; Kew's WCVP accepts Dracaena reflexa var. angustifolia.",
+   "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 206595195)",
+     "https://www.gbif.org/species/206595195"
+    ],
+    [
+     "GBIF Backbone Taxonomy (key 5304437)",
+     "https://www.gbif.org/species/5304437"
+    ],
+    [
+     "NCBI Taxonomy (ID 39503)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39503"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [],
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": null,
+   "india": [],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Dracaena%20reflexa%20var.%20angustifolia"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [],
+   "used_for": [],
+   "properties": [],
+   "caution": null,
+   "recorded_uses": 0,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Dracaena%20reflexa%20var.%20angustifolia"
+    ]
+   ]
+  }
+ }
+}

@@ -138,3 +138,71 @@ terms:
   "use:antineoplastic agents": {en: Source of anticancer medicines, te: క్యాన్సర్ నిరోధక ఔషధాల మూలం, hi: कैंसर-रोधी दवाओं का स्रोत, or: କର୍କଟ ପ୍ରତିରୋଧୀ ଔଷଧର ଉତ୍ସ, ta: புற்றுநோய் எதிர்ப்பு மருந்துகளின் மூலம், ml: കാൻസർ പ്രതിരോധ ഔഷധങ്ങളുടെ ഉറവിടം}
   "use:antipruritics": {en: Relieves itching, te: దురద తగ్గిస్తుంది, hi: खुजली कम करता है, or: କୁଣ୍ଡେଇ କମାଏ, ta: அரிப்பைக் குறைக்கும், ml: ചൊറിച്ചിൽ കുറയ്ക്കുന്നു}
   "use:diuretics": {en: Increases urine flow, te: మూత్రవర్ధకం, hi: मूत्रवर्धक, or: ମୂତ୍ରବର୍ଦ୍ଧକ, ta: சிறுநீர் பெருக்கி, ml: മൂത്രവർദ്ധകം}
+  "part:aerial part": {en: Aerial parts, te: పైభాగాలు, hi: ऊपरी भाग, or: ଉପର ଅଂଶ, ta: தரைமேல் பாகங்கள், ml: മുകൾഭാഗങ്ങൾ}
+  "part:whole plant excluding root": {en: Whole plant (without root), te: వేరు తప్ప మొత్తం మొక్క, hi: जड़ को छोड़कर पूरा पौधा, or: ଚେର ବ୍ୟତୀତ ସମଗ୍ର ଗଛ, ta: வேர் தவிர முழுத் தாவரம், ml: വേരൊഴികെ സസ്യം മുഴുവൻ}
+  "part:wood": {en: Wood, te: కలప, hi: लकड़ी, or: କାଠ, ta: மரக்கட்டை, ml: തടി}
+  "use:abdominal pain": {en: Stomach ache, te: కడుపు నొప్పి, hi: पेट दर्द, or: ପେଟ ବିନ୍ଧା, ta: வயிற்று வலி, ml: വയറുവേദന}
+  "use:abscess": {en: Abscesses (pus boils), te: చీము గడ్డలు, hi: फोड़े (मवाद वाले), or: ପୂଜ ଫୋଟକା, ta: சீழ்க்கட்டி, ml: പഴുപ്പുള്ള കുരു}
+  "use:alopecia": {en: Hair loss, te: జుట్టు రాలడం, hi: बाल झड़ना, or: କେଶ ଝଡ଼ିବା, ta: முடி உதிர்தல், ml: മുടികൊഴിച്ചിൽ}
+  "use:analgesics": {en: Relieves pain, te: నొప్పి తగ్గిస్తుంది, hi: दर्द कम करता है, or: ବିନ୍ଧା କମାଏ, ta: வலியைக் குறைக்கும், ml: വേദന കുറയ്ക്കുന്നു}
+  "use:anasarca": {en: Body swelling (oedema), te: శరీర వాపు, hi: शरीर में सूजन (शोथ), or: ଶରୀର ଫୁଲା, ta: உடல் வீக்கம், ml: ശരീരത്തിലെ നീര്}
+  "use:anemia": {en: Anaemia, te: రక్తహీనత, hi: खून की कमी (एनीमिया), or: ରକ୍ତହୀନତା, ta: இரத்தசோகை, ml: വിളർച്ച}
+  "use:angiotensin-converting enzyme inhibitors": {en: Helps lower blood pressure, te: రక్తపోటు తగ్గించడంలో సహాయం, hi: रक्तचाप घटाने में सहायक, or: ରକ୍ତଚାପ କମାଇବାରେ ସାହାଯ୍ୟ, ta: இரத்த அழுத்தத்தைக் குறைக்க உதவும், ml: രക്തസമ്മർദ്ദം കുറയ്ക്കാൻ സഹായിക്കുന്നു}
+  "use:antiemetics": {en: Stops vomiting, te: వాంతులు ఆపుతుంది, hi: उल्टी रोकता है, or: ବାନ୍ତି ବନ୍ଦ କରେ, ta: வாந்தியை நிறுத்தும், ml: ഛർദ്ദി തടയുന്നു}
+  "use:antioxidants": {en: Antioxidant, te: యాంటీఆక్సిడెంట్, hi: एंटीऑक्सीडेंट, or: ଆଣ୍ଟିଅକ୍ସିଡାଣ୍ଟ, ta: ஆக்ஸிஜனேற்ற எதிர்ப்பி, ml: ആന്റിഓക്സിഡന്റ്}
+  "use:antiperiodic": {en: Prevents recurring fevers, te: మళ్లీ వచ్చే జ్వరాలను నివారిస్తుంది, hi: बार-बार आने वाले बुखार को रोकता है, or: ବାରମ୍ବାର ଜ୍ୱର ରୋକେ, ta: திரும்ப வரும் காய்ச்சலைத் தடுக்கும், ml: ഇടവിട്ടുള്ള പനി തടയുന്നു}
+  "use:antipyretics": {en: Reduces fever, te: జ్వరం తగ్గిస్తుంది, hi: बुखार कम करता है, or: ଜ୍ୱର କମାଏ, ta: காய்ச்சலைக் குறைக்கும், ml: പനി കുറയ്ക്കുന്നു}
+  "use:antispasmodics": {en: Relieves cramps, te: కండరాల పట్టు తగ్గిస్తుంది, hi: ऐंठन कम करता है, or: ମାଂସପେଶୀ ଖିଞ୍ଚି ହେବା କମାଏ, ta: தசைப்பிடிப்பைக் குறைக்கும், ml: പേശിവലിവ് കുറയ്ക്കുന്നു}
+  "use:appetite stimulants": {en: Improves appetite, te: ఆకలి పెంచుతుంది, hi: भूख बढ़ाता है, or: ଭୋକ ବଢ଼ାଏ, ta: பசியைத் தூண்டும், ml: വിശപ്പ് വർദ്ധിപ്പിക്കുന്നു}
+  "use:asthenia": {en: Weakness, te: బలహీనత, hi: कमज़ोरी, or: ଦୁର୍ବଳତା, ta: உடல் பலவீனம், ml: ബലഹീനത}
+  "use:asthma": {en: Asthma, te: ఉబ్బసం, hi: दमा, or: ଶ୍ୱାସ ରୋଗ (ଆଜମା), ta: ஆஸ்துமா, ml: ആസ്ത്മ}
+  "use:astringents": {en: Astringent (tightens tissues), te: వగరు గుణం, hi: कसैला (ऊतक कसता है), or: କଷା ଗୁଣ, ta: துவர்ப்புத் தன்மை, ml: ചവർപ്പ് ഗുണം}
+  "use:bronchitis": {en: Bronchitis, te: శ్వాసనాళాల వాపు, hi: श्वसनी शोथ (ब्रोंकाइटिस), or: ବ୍ରଙ୍କାଇଟିସ୍, ta: மூச்சுக்குழாய் அழற்சி, ml: ബ്രോങ്കൈറ്റിസ്}
+  "use:cardiotonic agents": {en: Strengthens the heart, te: గుండెకు బలం, hi: हृदय को बल देता है, or: ହୃଦୟକୁ ଶକ୍ତି ଦିଏ, ta: இதயத்தை வலுப்படுத்தும், ml: ഹൃദയത്തിന് ബലം നൽകുന്നു}
+  "use:cathartics": {en: Strong laxative (purgative), te: విరేచనకారి, hi: रेचक (जुलाब), or: ଜୋଲାପ, ta: பேதி மருந்து, ml: വിരേചനൗഷധം}
+  "use:cholera": {en: Cholera, te: కలరా, hi: हैजा, or: କଲେରା, ta: காலரா, ml: കോളറ}
+  "use:cholesterol": {en: High cholesterol, te: అధిక కొలెస్ట్రాల్, hi: उच्च कोलेस्ट्रॉल, or: ଅଧିକ କୋଲେଷ୍ଟେରଲ, ta: அதிக கொலஸ்ட்ரால், ml: ഉയർന്ന കൊളസ്ട്രോൾ}
+  "use:constipation": {en: Constipation, te: మలబద్ధకం, hi: कब्ज़, or: କୋଷ୍ଠକାଠିନ୍ୟ, ta: மலச்சிக்கல், ml: മലബന്ധം}
+  "use:cooling effect on body": {en: Cools the body, te: శరీరానికి చల్లదనం, hi: शरीर को ठंडक देता है, or: ଶରୀରକୁ ଥଣ୍ଡା କରେ, ta: உடலைக் குளிர்விக்கும், ml: ശരീരം തണുപ്പിക്കുന്നു}
+  "use:cough": {en: Cough, te: దగ్గు, hi: खांसी, or: କାଶ, ta: இருமல், ml: ചുമ}
+  "use:demulcents": {en: Soothes irritation, te: చికాకును తగ్గిస్తుంది, hi: जलन शांत करता है, or: ଜ୍ୱାଳା ଶାନ୍ତ କରେ, ta: எரிச்சலைத் தணிக்கும், ml: അസ്വസ്ഥത ശമിപ്പിക്കുന്നു}
+  "use:dysentery": {en: Dysentery, te: రక్త విరేచనాలు, hi: पेचिश, or: ଆମାଶୟ, ta: சீதபேதி, ml: വയറുകടി}
+  "use:dysmenorrhea": {en: Painful periods, te: బాధాకరమైన రుతుస్రావం, hi: मासिक धर्म का दर्द, or: ଋତୁସ୍ରାବ ବିନ୍ଧା, ta: மாதவிடாய் வலி, ml: ആർത്തവ വേദന}
+  "use:dyspepsia": {en: Indigestion, te: అజీర్ణం, hi: अपच, or: ଅଜୀର୍ଣ୍ଣ, ta: அஜீரணம், ml: ദഹനക്കേട്}
+  "use:emollients": {en: Softens and soothes skin, te: చర్మాన్ని మృదువుగా చేస్తుంది, hi: त्वचा को कोमल बनाता है, or: ଚର୍ମକୁ କୋମଳ କରେ, ta: தோலை மென்மையாக்கும், ml: ചർമ്മം മൃദുവാക്കുന്നു}
+  "use:fatigue": {en: Tiredness, te: అలసట, hi: थकान, or: କ୍ଲାନ୍ତି, ta: சோர்வு, ml: ക്ഷീണം}
+  "use:fever": {en: Fever, te: జ్వరం, hi: बुखार, or: ଜ୍ୱର, ta: காய்ச்சல், ml: പനി}
+  "use:flatulence": {en: Gas and bloating, te: కడుపు ఉబ్బరం, hi: पेट में गैस, or: ପେଟ ଫମ୍ପା, ta: வாயுத் தொல்லை, ml: വയർ വീർപ്പ്}
+  "use:furunculosis": {en: Boils, te: సెగ గడ్డలు, hi: फोड़े-फुंसी, or: ଫୋଟକା, ta: கொதிப்புக் கட்டிகள், ml: കുരുക്കൾ}
+  "use:gastritis": {en: Stomach inflammation (gastritis), te: జీర్ణాశయ వాపు, hi: आमाशय की सूजन (गैस्ट्राइटिस), or: ପାକସ୍ଥଳୀ ପ୍ରଦାହ, ta: இரைப்பை அழற்சி, ml: ആമാശയ വീക്കം}
+  "use:headache": {en: Headache, te: తలనొప్పి, hi: सिरदर्द, or: ମୁଣ୍ଡବିନ୍ଧା, ta: தலைவலி, ml: തലവേദന}
+  "use:hemicrania": {en: Migraine, te: పార్శ్వపు నొప్పి, hi: आधासीसी (माइग्रेन), or: ଅଧକପାଳି, ta: ஒற்றைத் தலைவலி, ml: ചെന്നിക്കുത്ത്}
+  "use:hemoptysis": {en: Coughing up blood, te: దగ్గులో రక్తం, hi: खांसी में खून, or: କାଶରେ ରକ୍ତ, ta: இருமலில் இரத்தம், ml: ചുമയ്ക്കുമ്പോൾ രക്തം}
+  "use:hemorrhoids": {en: Piles, te: మొలలు, hi: बवासीर, or: ଅର୍ଶ, ta: மூலநோய், ml: മൂലക്കുരു}
+  "use:hemostatics": {en: Stops bleeding, te: రక్తస్రావాన్ని ఆపుతుంది, hi: रक्तस्राव रोकता है, or: ରକ୍ତସ୍ରାବ ବନ୍ଦ କରେ, ta: இரத்தப்போக்கை நிறுத்தும், ml: രക്തസ്രാവം നിർത്തുന്നു}
+  "use:hypohidrosis": {en: Reduced sweating, te: చెమట తక్కువగా రావడం, hi: पसीना कम आना, or: କମ୍ ଝାଳ ବାହାରିବା, ta: குறைவான வியர்வை, ml: വിയർപ്പ് കുറവ്}
+  "use:inflammatory bowel diseases": {en: Bowel inflammation, te: ప్రేగుల వాపు, hi: आंतों की सूजन, or: ଅନ୍ତ୍ର ପ୍ରଦାହ, ta: குடல் அழற்சி, ml: കുടൽ വീക്കം}
+  "use:insecticides": {en: Kills insects, te: కీటకనాశిని, hi: कीटनाशक, or: କୀଟନାଶକ, ta: பூச்சிக்கொல்லி, ml: കീടനാശിനി}
+  "use:jaundice": {en: Jaundice, te: కామెర్లు, hi: पीलिया, or: କାମଳ, ta: மஞ்சள் காமாலை, ml: മഞ്ഞപ്പിത്തം}
+  "use:laxatives": {en: Mild laxative, te: తేలికపాటి విరేచనకారి, hi: हल्का रेचक, or: ମୃଦୁ ଜୋଲାପ, ta: மலமிளக்கி, ml: മൃദു വിരേചകം}
+  "use:liver diseases": {en: Liver problems, te: కాలేయ వ్యాధులు, hi: यकृत (लिवर) रोग, or: ଯକୃତ ରୋଗ, ta: கல்லீரல் நோய்கள், ml: കരൾ രോഗങ്ങൾ}
+  "use:low back pain": {en: Lower back pain, te: నడుము నొప్పి, hi: कमर दर्द, or: ଅଣ୍ଟା ବିନ୍ଧା, ta: இடுப்பு வலி, ml: നടുവേദന}
+  "use:lymphadenitis": {en: Swollen glands, te: గ్రంథుల వాపు, hi: गांठों में सूजन, or: ଗ୍ରନ୍ଥି ଫୁଲା, ta: நிணநீர்க் கணு வீக்கம், ml: ഗ്രന്ഥി വീക്കം}
+  "use:mouthwashes": {en: Mouthwash, te: నోరు పుక్కిలించడానికి, hi: कुल्ला (माउथवॉश), or: ମୁଖ ଧୋଇବା ପାଇଁ, ta: வாய் கொப்பளிக்க, ml: വായ് കഴുകാൻ}
+  "use:nasal decongestants": {en: Clears blocked nose, te: ముక్కు దిబ్బడ తగ్గిస్తుంది, hi: बंद नाक खोलता है, or: ବନ୍ଦ ନାକ ଖୋଲେ, ta: மூக்கடைப்பை நீக்கும், ml: മൂക്കടപ്പ് മാറ്റുന്നു}
+  "use:nervous system diseases": {en: Nerve disorders, te: నరాల వ్యాధులు, hi: तंत्रिका रोग, or: ସ୍ନାୟୁ ରୋଗ, ta: நரம்பு நோய்கள், ml: നാഡീ രോഗങ്ങൾ}
+  "use:ophthalmic solutions": {en: Eye wash, te: కంటి చుక్కలు, hi: आँखों की दवा, or: ଆଖି ଔଷଧ, ta: கண் மருந்து, ml: നേത്ര ഔഷധം}
+  "use:pain": {en: Pain, te: నొప్పి, hi: दर्द, or: ବିନ୍ଧା, ta: வலி, ml: വേദന}
+  "use:pharyngitis": {en: Sore throat, te: గొంతు నొప్పి, hi: गले में खराश, or: ଗଳା ବିନ୍ଧା, ta: தொண்டை வலி, ml: തൊണ്ടവേദന}
+  "use:rejuvenation": {en: Rejuvenating tonic, te: పునరుత్తేజం, hi: कायाकल्प (रसायन), or: ପୁନର୍ଯୌବନ, ta: புத்துணர்வு, ml: പുനരുജ്ജീവനം}
+  "use:scurvy": {en: Scurvy (vitamin C deficiency), te: స్కర్వీ (విటమిన్ సి లోపం), hi: स्कर्वी (विटामिन सी की कमी), or: ସ୍କର୍ଭି (ଭିଟାମିନ ସି ଅଭାବ), ta: ஸ்கர்வி (வைட்டமின் சி குறைபாடு), ml: സ്കർവി (വിറ്റാമിൻ സി കുറവ്)}
+  "use:sinusitis": {en: Sinusitis, te: సైనసైటిస్, hi: साइनस की सूजन, or: ସାଇନସାଇଟିସ୍, ta: சைனஸ் அழற்சி, ml: സൈനസൈറ്റിസ്}
+  "use:sprains and strains": {en: Sprains, te: బెణుకులు, hi: मोच, or: ମୋଚ, ta: சுளுக்கு, ml: ഉളുക്ക്}
+  "use:thirst": {en: Excessive thirst, te: అధిక దాహం, hi: अधिक प्यास, or: ଅଧିକ ଶୋଷ, ta: அதிக தாகம், ml: അമിത ദാഹം}
+  "use:tonics": {en: General tonic, te: బలవర్ధకం, hi: बलवर्धक (टॉनिक), or: ଶକ୍ତିବର୍ଦ୍ଧକ, ta: உடல் வலுவூட்டி, ml: ബലവർദ്ധകം}
+  "use:toothache": {en: Toothache, te: పంటి నొప్పి, hi: दांत दर्द, or: ଦାନ୍ତ ବିନ୍ଧା, ta: பல்வலி, ml: പല്ലുവേദന}
+  "use:toothbrushing": {en: Dental care (twig as toothbrush), te: దంతధావనం (పుల్లతో పళ్లు తోమడం), hi: दातुन (दाँत साफ़ करना), or: ଦାନ୍ତକାଠି, ta: பல் துலக்குதல், ml: പല്ലുതേക്കൽ}
+  "use:tuberculosis, lymph node": {en: Tuberculosis of the glands, te: గ్రంథుల క్షయ, hi: गांठों का क्षय रोग, or: ଗ୍ରନ୍ଥି ଯକ୍ଷ୍ମା, ta: நிணநீர்க் கணு காசநோய், ml: ഗ്രന്ഥി ക്ഷയം}
+  "use:urination disorders": {en: Urinary problems, te: మూత్ర సమస్యలు, hi: मूत्र संबंधी समस्याएँ, or: ପରିସ୍ରା ସମସ୍ୟା, ta: சிறுநீர்ப் பிரச்சினைகள், ml: മൂത്ര സംബന്ധമായ പ്രശ്നങ്ങൾ}
+  "use:uterine diseases": {en: Uterine problems, te: గర్భాశయ సమస్యలు, hi: गर्भाशय रोग, or: ଗର୍ଭାଶୟ ରୋଗ, ta: கருப்பை நோய்கள், ml: ഗർഭാശയ രോഗങ്ങൾ}
+  "use:wounds and injuries/trauma": {en: Wounds and injuries, te: గాయాలు, hi: घाव और चोट, or: ଘା ଓ ଆଘାତ, ta: காயங்கள், ml: മുറിവുകളും പരിക്കുകളും}

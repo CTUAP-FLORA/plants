@@ -1,0 +1,1134 @@
+{
+ "slug": "phyllanthus-emblica",
+ "scientific_name": "Phyllanthus emblica",
+ "retrieved": "2026-11-20",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Malpighiales"
+    ],
+    [
+     "Family",
+     "Phyllanthaceae"
+    ],
+    [
+     "Subfamily",
+     null
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Phyllanthus"
+    ],
+    [
+     "Species",
+     "Phyllanthus emblica"
+    ]
+   ],
+   "authority": "Phyllanthus emblica L.",
+   "note": null,
+   "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207484835)",
+     "https://www.gbif.org/species/207484835"
+    ],
+    [
+     "GBIF Backbone Taxonomy (key 5381660)",
+     "https://www.gbif.org/species/5381660"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "aromadendrin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/122850",
+     "refs": []
+    },
+    {
+     "name": "Astragalin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5282102",
+     "refs": []
+    },
+    {
+     "name": "1,6-bis-O-galloyl-beta-D-glucose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/440221",
+     "refs": []
+    },
+    {
+     "name": "(+)-catechin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9064",
+     "refs": []
+    },
+    {
+     "name": "Chebulagic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/250397",
+     "refs": []
+    },
+    {
+     "name": "chebulagic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/442674",
+     "refs": []
+    },
+    {
+     "name": "Chebulanin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/75034370",
+     "refs": []
+    },
+    {
+     "name": "(+)-Chebulic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12302892",
+     "refs": []
+    },
+    {
+     "name": "chebulic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71308174",
+     "refs": []
+    },
+    {
+     "name": "(E/Z)-cinnamic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8784",
+     "refs": []
+    },
+    {
+     "name": "(E)-cinnamic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/444539",
+     "refs": []
+    },
+    {
+     "name": "corilagin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73568",
+     "refs": []
+    },
+    {
+     "name": "digallic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/341",
+     "refs": []
+    },
+    {
+     "name": "3,4-dihydroxybenzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72",
+     "refs": []
+    },
+    {
+     "name": "ellagic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281855",
+     "refs": []
+    },
+    {
+     "name": "emblicanin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/119058016",
+     "refs": []
+    },
+    {
+     "name": "emblicanin B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/119058017",
+     "refs": []
+    },
+    {
+     "name": "(-)-epiafzelechin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/443639",
+     "refs": []
+    },
+    {
+     "name": "(+)-Epiaromadendrin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11449086",
+     "refs": []
+    },
+    {
+     "name": "(−)-epicatechin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72276",
+     "refs": []
+    },
+    {
+     "name": "Epicatechin gallate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/107905",
+     "refs": []
+    },
+    {
+     "name": "(-)-epigallocatechin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72277",
+     "refs": []
+    },
+    {
+     "name": "epigallocatechin gallate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65064",
+     "refs": []
+    },
+    {
+     "name": "eriodictyol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/440735",
+     "refs": []
+    },
+    {
+     "name": "eriodictyol-7-O-glucoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13254473",
+     "refs": []
+    },
+    {
+     "name": "ethyl gallate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13250",
+     "refs": []
+    },
+    {
+     "name": "Flavogallonic acid dilactone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71308199",
+     "refs": []
+    },
+    {
+     "name": "Furosin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10416810",
+     "refs": []
+    },
+    {
+     "name": "gallic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/370",
+     "refs": []
+    },
+    {
+     "name": "(+)-gallocatechin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65084",
+     "refs": []
+    },
+    {
+     "name": "(-)-gallocatechin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9882981",
+     "refs": []
+    },
+    {
+     "name": "galloyl(-3)[galloyl(-6)]b-Glc",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44421782",
+     "refs": []
+    },
+    {
+     "name": "5-O-Galloyl-1,4-galactarolactone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/59235421",
+     "refs": []
+    },
+    {
+     "name": "2-O-Galloyl-L-malic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101010963",
+     "refs": []
+    },
+    {
+     "name": "geraniin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3001497",
+     "refs": []
+    },
+    {
+     "name": "GlochicoccinosideD",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44139125",
+     "refs": []
+    },
+    {
+     "name": "3-Glucogallic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14345564",
+     "refs": []
+    },
+    {
+     "name": "glucogallin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71308210",
+     "refs": []
+    },
+    {
+     "name": "Glucogallin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/124021",
+     "refs": []
+    },
+    {
+     "name": "Glucogallin, beta",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/250398",
+     "refs": []
+    },
+    {
+     "name": "1-heptadecanol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15076",
+     "refs": []
+    },
+    {
+     "name": "2,3-Hexahydroxydiphenoyl glucose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/492390",
+     "refs": []
+    },
+    {
+     "name": "4'-hydroxyphyllaemblicin B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45271324",
+     "refs": []
+    },
+    {
+     "name": "icosan-1-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12404",
+     "refs": []
+    },
+    {
+     "name": "isoquercetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280804",
+     "refs": []
+    },
+    {
+     "name": "kaempferol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280863",
+     "refs": []
+    },
+    {
+     "name": "lauric acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3893",
+     "refs": []
+    },
+    {
+     "name": "lupeol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/259846",
+     "refs": []
+    },
+    {
+     "name": "L-malic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/222656",
+     "refs": []
+    },
+    {
+     "name": "Mallotusinin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/514180",
+     "refs": []
+    },
+    {
+     "name": "Mucic acid dimethyl ester",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3890282",
+     "refs": []
+    },
+    {
+     "name": "multifidol glucoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14412552",
+     "refs": []
+    },
+    {
+     "name": "Myricitrin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281673",
+     "refs": []
+    },
+    {
+     "name": "naringenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/439246",
+     "refs": []
+    },
+    {
+     "name": "(R)-naringenin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/667495",
+     "refs": []
+    },
+    {
+     "name": "naringenin 7-O-beta-D-glucoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/92794",
+     "refs": []
+    },
+    {
+     "name": "Neochebulagic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14483082",
+     "refs": []
+    },
+    {
+     "name": "nonadecanoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12591",
+     "refs": []
+    },
+    {
+     "name": "np-003686",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73178",
+     "refs": []
+    },
+    {
+     "name": "2-pentadecanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/61303",
+     "refs": []
+    },
+    {
+     "name": "pentagalloylglucose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65238",
+     "refs": []
+    },
+    {
+     "name": "Phyllaemblic acid B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11057167",
+     "refs": []
+    },
+    {
+     "name": "Phyllaemblic acid C",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10914547",
+     "refs": []
+    },
+    {
+     "name": "Phyllaemblic acid methy ester",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45268813",
+     "refs": []
+    },
+    {
+     "name": "phyllaemblicin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45268814",
+     "refs": []
+    },
+    {
+     "name": "phyllaemblicin B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45269660",
+     "refs": []
+    },
+    {
+     "name": "Phyllaemblicin C",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45273065",
+     "refs": []
+    },
+    {
+     "name": "phyllaemblicin E",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45271325",
+     "refs": []
+    },
+    {
+     "name": "phyllaemblicin F",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/45270495",
+     "refs": []
+    },
+    {
+     "name": "Phyllanemblinin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11135859",
+     "refs": []
+    },
+    {
+     "name": "Phyllanemblinin B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10941235",
+     "refs": []
+    },
+    {
+     "name": "phyllanemblinin C",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44576229",
+     "refs": []
+    },
+    {
+     "name": "Phyllanemblinin E",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101151868",
+     "refs": []
+    },
+    {
+     "name": "Proanthocyandin der.",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/467304",
+     "refs": []
+    },
+    {
+     "name": "Prodelphinidin A1",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14521015",
+     "refs": []
+    },
+    {
+     "name": "Prodelphinidin B-1",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101630509",
+     "refs": []
+    },
+    {
+     "name": "Prodelphinidin B1",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13831065",
+     "refs": []
+    },
+    {
+     "name": "prunin 6''-O-gallate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71728355",
+     "refs": []
+    },
+    {
+     "name": "punicafolin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5320800",
+     "refs": []
+    },
+    {
+     "name": "pyrogallol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1057",
+     "refs": []
+    },
+    {
+     "name": "quercetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280343",
+     "refs": []
+    },
+    {
+     "name": "Quercetin 3-alloside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12304327",
+     "refs": []
+    },
+    {
+     "name": "quercitrin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5353915",
+     "refs": []
+    },
+    {
+     "name": "quercitrin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280459",
+     "refs": []
+    },
+    {
+     "name": "rutin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280805",
+     "refs": []
+    },
+    {
+     "name": "beta-sitosterol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/222284",
+     "refs": []
+    },
+    {
+     "name": "1,2,4,6-Tetragalloylglucose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11297287",
+     "refs": []
+    },
+    {
+     "name": "3,5,7,4'-tetrahydroxyflavan",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/282014",
+     "refs": []
+    },
+    {
+     "name": "Tuberonic acid glucoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281204",
+     "refs": []
+    },
+    {
+     "name": "1-undecanol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/8184",
+     "refs": []
+    },
+    {
+     "name": "vitamin C",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067",
+     "refs": []
+    },
+    {
+     "name": "[3,6a,13',14',18',19',25'-heptahydroxy-5'-(hydroxymethyl)-2',5,10',23'-tetraoxospiro[3,3a-dihydro-2H-furo[3,2-b]furan-6,21'-3,6,9,20,24-pentaoxahexacyclo[17.2.2.14,8.115,18.01,17.011,16]pentacosa-11,13,15-triene]-7'-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14429421",
+     "refs": []
+    },
+    {
+     "name": "(alphaS)-2'-(6-O-D-Apio-beta-D-furanosyl-beta-D-glucopyranosyloxy)-4',6'-dihydroxy-alpha-methylbutyrophenone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11730844",
+     "refs": []
+    },
+    {
+     "name": "(2S,3aR,4S,4'S,5'R,6S,7aR)-4'-(Benzoyloxy)-3a,4-dihydroxy-3',3a,4,4',5,5',6,6',7,7a-decahydro-5'-methyl-3-oxospiro[benzofuran-2(3H),2'-[2H]pyran]-6-carboxylic acid methyl ester",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/21609770",
+     "refs": []
+    },
+    {
+     "name": "(2S,3aR,4S,4'S,5'R,6S,7aR)-4'-benzoyloxy-3a,4-dihydroxy-5'-methyl-3-oxospiro[5,6,7,7a-tetrahydro-4H-1-benzofuran-2,2'-oxane]-6-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10002202",
+     "refs": []
+    },
+    {
+     "name": "(2S,3R,3aS,4'S,5'R,6S,7aR)-3,4'-dihydroxy-3-(hydroxymethyl)-5'-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]spiro[3a,4,5,6,7,7a-hexahydro-1-benzofuran-2,2'-oxane]-6-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162961247",
+     "refs": []
+    },
+    {
+     "name": "4'-Benzoyloxy-3,3a,4-trihydroxy-5'-methylspiro[3,4,5,6,7,7a-hexahydro-1-benzofuran-2,2'-oxane]-6-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162911847",
+     "refs": []
+    },
+    {
+     "name": "4'-benzoyloxy-3a,4-dihydroxy-5'-methyl-3-oxospiro[5,6,7,7a-tetrahydro-4H-1-benzofuran-2,2'-oxane]-6-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/56667858",
+     "refs": []
+    },
+    {
+     "name": "(1R,5R,6S,13S,21R)-5,13-bis(3,4,5-trihydroxyphenyl)-4,12,14-trioxapentacyclo[11.7.1.02,11.03,8.015,20]henicosa-2(11),3(8),9,15,17,19-hexaene-6,9,17,19,21-pentol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162946301",
+     "refs": []
+    },
+    {
+     "name": "(3S,4S)-4-[(2S)-3-carboxy-1-[(2R,3R,4S,5R,6S)-3,5-dihydroxy-2-(hydroxymethyl)-6-(3,4,5-trihydroxybenzoyl)oxyoxan-4-yl]oxy-1-oxopropan-2-yl]-5,6,7-trihydroxy-1-oxo-3,4-dihydroisochromene-3-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11136138",
+     "refs": []
+    },
+    {
+     "name": "(3S,4S)-4-[(2S)-3-carboxy-1-[(2R,3S,4R,5R,6S)-4,5-dihydroxy-2-(hydroxymethyl)-6-(3,4,5-trihydroxybenzoyl)oxyoxan-3-yl]oxy-1-oxopropan-2-yl]-5,6,7-trihydroxy-1-oxo-3,4-dihydroisochromene-3-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11006886",
+     "refs": []
+    },
+    {
+     "name": "(3S,4S)-4-[(2S)-3-carboxy-1-[(2S,3R,4S,5S,6S)-3,5-dihydroxy-2-(hydroxymethyl)-6-(3,4,5-trihydroxybenzoyl)oxyoxan-4-yl]oxy-1-oxopropan-2-yl]-5,6,7-trihydroxy-1-oxo-3,4-dihydroisochromene-3-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163193401",
+     "refs": []
+    },
+    {
+     "name": "4-[3-Carboxy-1-[3,5-dihydroxy-2-(hydroxymethyl)-6-(3,4,5-trihydroxybenzoyl)oxyoxan-4-yl]oxy-1-oxopropan-2-yl]-5,6,7-trihydroxy-1-oxo-3,4-dihydroisochromene-3-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/85411723",
+     "refs": []
+    },
+    {
+     "name": "4-[3-Carboxy-1-[4,5-dihydroxy-2-(hydroxymethyl)-6-(3,4,5-trihydroxybenzoyl)oxyoxan-3-yl]oxy-1-oxopropan-2-yl]-5,6,7-trihydroxy-1-oxo-3,4-dihydroisochromene-3-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/85364479",
+     "refs": []
+    },
+    {
+     "name": "(3S,4S)-4-[(2S)-3-carboxy-1-oxo-1-[[(2R,3S,4S,5R,6S)-3,4,5-trihydroxy-6-(3,4,5-trihydroxybenzoyl)oxyoxan-2-yl]methoxy]propan-2-yl]-5,6,7-trihydroxy-1-oxo-3,4-dihydroisochromene-3-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11039652",
+     "refs": []
+    },
+    {
+     "name": "(3S,4S)-4-[(2S)-3-carboxy-1-oxo-1-[[(2S,3S,4S,5S,6S)-3,4,5-trihydroxy-6-(3,4,5-trihydroxybenzoyl)oxyoxan-2-yl]methoxy]propan-2-yl]-5,6,7-trihydroxy-1-oxo-3,4-dihydroisochromene-3-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163192867",
+     "refs": []
+    },
+    {
+     "name": "4-[3-Carboxy-1-oxo-1-[[3,4,5-trihydroxy-6-(3,4,5-trihydroxybenzoyl)oxyoxan-2-yl]methoxy]propan-2-yl]-5,6,7-trihydroxy-1-oxo-3,4-dihydroisochromene-3-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/85376794",
+     "refs": []
+    },
+    {
+     "name": "(3S,4S)-4-[(2S)-3-carboxy-1-{[(2S,3S,4R,5S,6S)-4,5-dihydroxy-2-(hydroxymethyl)-6-(3,4,5-trihydroxybenzoyloxy)oxan-3-yl]oxy}-1-oxopropan-2-yl]-5,6,7-trihydroxy-1-oxo-3,4-dihydro-2-benzopyran-3-carboxylic acid",
+     "url": "http://www.wikidata.org/entity/Q105278210",
+     "refs": []
+    },
+    {
+     "name": "(2R)-2-[(3S,4S)-3-carboxy-5,6,7-trihydroxy-1-oxo-3,4-dihydroisochromen-4-yl]butanedioic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/124350805",
+     "refs": []
+    },
+    {
+     "name": "(2S)-2-[(3R,4S)-3-carboxy-5,6,7-trihydroxy-1-oxo-3,4-dihydroisochromen-4-yl]butanedioic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163189645",
+     "refs": []
+    },
+    {
+     "name": "1,6-Digalloyl-beta-D-glucopyranose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3332212",
+     "refs": []
+    },
+    {
+     "name": "6,7-dihydroxy-13-methoxy-14-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-2,9-dioxatetracyclo[6.6.2.04,16.011,15]hexadeca-1(15),4,6,8(16),11,13-hexaene-3,10-dione",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163048522",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3R,4R)-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-4-[(2R,3R)-3,5,7-trihydroxy-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromen-8-yl]-3,4-dihydro-2H-chromen-3-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/21769479",
+     "refs": []
+    },
+    {
+     "name": "[5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-4-[3,5,7-trihydroxy-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromen-8-yl]-3,4-dihydro-2H-chromen-3-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73834037",
+     "refs": []
+    },
+    {
+     "name": "6,8-dihydroxy-2-(4-hydroxyphenyl)-3-[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxychromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162958147",
+     "refs": []
+    },
+    {
+     "name": "5,7-dihydroxy-2-(4-hydroxyphenyl)-3-[(2S,3S,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxychromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12047524",
+     "refs": []
+    },
+    {
+     "name": "[4,5-Dihydroxy-2-(hydroxymethyl)-6-(3,4,5-trihydroxybenzoyl)oxyoxan-3-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14605151",
+     "refs": []
+    },
+    {
+     "name": "3,4-dihydroxy-2-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[(3,4,5-trihydroxybenzoyl)oxymethyl]oxan-2-yl]oxybenzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162844024",
+     "refs": []
+    },
+    {
+     "name": "3,4'-Dihydroxy-3,5'-bis(hydroxymethyl)spiro[3a,4,5,6,7,7a-hexahydro-1-benzofuran-2,2'-oxane]-6-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/85313607",
+     "refs": []
+    },
+    {
+     "name": "3,4'-Dihydroxy-3-(hydroxymethyl)-5'-[[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]spiro[3a,4,5,6,7,7a-hexahydro-1-benzofuran-2,2'-oxane]-6-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/85380214",
+     "refs": []
+    },
+    {
+     "name": "5,7-dihydroxy-3-[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-2-(3,4,5-trihydroxyphenyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16103933",
+     "refs": []
+    },
+    {
+     "name": "5,7-dihydroxy-3-[(2S,3S,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-2-(3,4,5-trihydroxyphenyl)chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/129010103",
+     "refs": []
+    },
+    {
+     "name": "[(1S)-1-[(2R,3R,4R)-3,4-dihydroxy-5-oxooxolan-2-yl]-2-methoxy-2-oxoethyl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162888195",
+     "refs": []
+    },
+    {
+     "name": "(R)-2-(3beta,4alpha-Dihydroxy-5-oxotetrahydrofuran-2alpha-yl)-2-galloyloxyacetic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10759840",
+     "refs": []
+    },
+    {
+     "name": "[4,5-Dihydroxy-6-(hydroxymethyl)-3-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl] 4'-benzoyloxy-3,3a,4-trihydroxy-5'-methylspiro[3,4,5,6,7,7a-hexahydro-1-benzofuran-2,2'-oxane]-6-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163021342",
+     "refs": []
+    },
+    {
+     "name": "[3-[3,5-dihydroxy-6-(hydroxymethyl)-4-(3,4,5-trihydroxyoxan-2-yl)oxyoxan-2-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl] 4'-benzoyloxy-3a,4-dihydroxy-5'-methyl-3-oxospiro[5,6,7,7a-tetrahydro-4H-1-benzofuran-2,2'-oxane]-6-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162948426",
+     "refs": []
+    },
+    {
+     "name": "(2R)-1-[2,4-dihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]-2-methylbutan-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162880669",
+     "refs": []
+    },
+    {
+     "name": "(2S,3R,4S,5S,6R)-2-(3,5-dihydroxyphenoxy)-6-(hydroxymethyl)oxane-3,4,5-triol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/476785",
+     "refs": []
+    },
+    {
+     "name": "(2S,3R)-2-(3,4-dihydroxyphenyl)-3,5-dihydroxy-7-[(2S,3S,4S,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,3-dihydrochromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163008247",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3R)-8-[(2S,4R)-2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3,4-dihydro-2H-chromen-4-yl]-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromen-3-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162920581",
+     "refs": []
+    },
+    {
+     "name": "[8-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3,4-dihydro-2H-chromen-4-yl]-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromen-3-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162920580",
+     "refs": []
+    },
+    {
+     "name": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxychromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5320854",
+     "refs": []
+    },
+    {
+     "name": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/51402807",
+     "refs": []
+    },
+    {
+     "name": "2-(3,4-Dihydroxyphenyl)-5,7-Dihydroxy-3-[(2S,3R,4S,5R,6R)-3,4,5-Trihydroxy-6-(Hydroxymethyl)Oxan-2-yl]Oxy-Chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12304323",
+     "refs": []
+    },
+    {
+     "name": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5378597",
+     "refs": []
+    },
+    {
+     "name": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3S,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxychromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/125528541",
+     "refs": []
+    },
+    {
+     "name": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3S,4R,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]oxan-2-yl]oxychromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/154497327",
+     "refs": []
+    },
+    {
+     "name": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[[3,4,5-trihydroxy-6-[(3,4,5-trihydroxy-6-methyl-2-oxanyl)oxymethyl]-2-oxanyl]oxy]-1-benzopyran-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5293655",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3S,4S,5S,6S)-6-[[(2S)-2-(3,4-dihydroxyphenyl)-5-hydroxy-4-oxo-2,3-dihydrochromen-7-yl]oxy]-3,4,5-trihydroxyoxan-2-yl]methyl 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162906713",
+     "refs": []
+    },
+    {
+     "name": "2,6-Dimethoxy-4-(2-hydroxyethyl)phenyl beta-D-glucopyranoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10959332",
+     "refs": []
+    },
+    {
+     "name": "Epicatechin-(4beta->8)-gallocatechin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14284599",
+     "refs": []
+    },
+    {
+     "name": "(-)-epicatechin-(4β→8)-(+)-gallocatechin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/21769546",
+     "refs": []
+    },
+    {
+     "name": "Epicatechin-(4β→8)-epigallocatechin 3'-gallate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11513300",
+     "refs": []
+    },
+    {
+     "name": "epigallocatechin-(4β→8)-epigallocatechin-3-O-gallate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/467305",
+     "refs": []
+    },
+    {
+     "name": "(2S)-eriodictyol 7-O-(6''-O-galloyl)-beta-D-glucopyranoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10930068",
+     "refs": []
+    },
+    {
+     "name": "Gallic acid 3-O-(6'-O-galloyl)-beta-D-glucopyranoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11972353",
+     "refs": []
+    },
+    {
+     "name": "Gallic acid 3-O-(6-galloylglucoside)",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73157749",
+     "refs": []
+    },
+    {
+     "name": "galloyl(-2)[galloyl(-3)][galloyl(-4)][galloyl(-6)]Ido(b)-O-galloyl",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/129508735",
+     "refs": []
+    },
+    {
+     "name": "3-O-Galloyl-D-galacto-hexaric acid 1,4-lactone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10497596",
+     "refs": []
+    },
+    {
+     "name": "5-O-Galloyl-D-galacto-hexaric acid 1,4-lactone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/87219915",
+     "refs": []
+    },
+    {
+     "name": "2-O-Galloyl-D-galacto-hexaric acid 1-methyl ester",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44632502",
+     "refs": []
+    },
+    {
+     "name": "2-O-Galloyl-D-galacto-hexaric acid 6-methyl ester",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44634411",
+     "refs": []
+    },
+    {
+     "name": "2-O-Galloyl-D-galacto-hexaric acid dimethyl ester",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101718253",
+     "refs": []
+    },
+    {
+     "name": "beta-D-Glucopyranose, cyclic 3,6-(4,4',5,5',6,6'-hexahydroxy(1,1'-biphenyl)-2,2'-dicarboxylate) cyclic 2-9:4-1-(3,4,4a,9b-tetrahydro-4,4,4a,6,7-pentahydroxy-3-oxo-1,9-dibenzofurandicarboxylate) 1-(3,4,5-trihydroxybenzoate), stereoisomer",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/158193",
+     "refs": []
+    },
+    {
+     "name": "3-(beta-D-Glucopyranosyloxy)-4,5-dihydroxybenzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101683334",
+     "refs": []
+    },
+    {
+     "name": "2-(beta-D-Glucopyranosyloxy)benzeneacetic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10979933",
+     "refs": []
+    },
+    {
+     "name": "3beta-(alpha-D-Glucopyranosyloxy)stigmasta-5-ene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12309073",
+     "refs": []
+    },
+    {
+     "name": "[(1R,18S,19S,21S,22S)-6,7,8,11,12,13,22-heptahydroxy-21-(hydroxymethyl)-3,16-dioxo-2,17,20-trioxatetracyclo[16.3.1.04,9.010,15]docosa-4,6,8,10,12,14-hexaen-19-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/159801914",
+     "refs": []
+    },
+    {
+     "name": "[(1R,18S,19S,21R,22R)-6,7,8,11,12,13,22-heptahydroxy-21-(hydroxymethyl)-3,16-dioxo-2,17,20-trioxatetracyclo[16.3.1.04,9.010,15]docosa-4,6,8,10,12,14-hexaen-19-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163188465",
+     "refs": []
+    },
+    {
+     "name": "[6,7,8,11,12,13,22-Heptahydroxy-21-(hydroxymethyl)-3,16-dioxo-2,17,20-trioxatetracyclo[16.3.1.04,9.010,15]docosa-4,6,8,10,12,14-hexaen-19-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/85324434",
+     "refs": []
+    },
+    {
+     "name": "[(1S,19S,21R,22R,23S)-6,7,8,11,12,13,22-heptahydroxy-3,16-dioxo-21-(3,4,5-trihydroxybenzoyl)oxy-2,17,20-trioxatetracyclo[17.3.1.04,9.010,15]tricosa-4,6,8,10,12,14-hexaen-23-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/154497565",
+     "refs": []
+    },
+    {
+     "name": "[(1R,19R,21S,22R,23R)-6,7,8,11,12,13,22-heptahydroxy-3,16-dioxo-21-(3,4,5-trihydroxybenzoyl)oxy-2,17,20-trioxatetracyclo[17.3.1.04,9.010,15]tricosa-4,6,8,10,12,14-hexaen-23-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14411426",
+     "refs": []
+    },
+    {
+     "name": "5,6,7,19,20,21-Hexahydroxy-10,16-dioxo-11,15-dioxapentacyclo[12.8.0.03,12.04,9.017,22]docosa-1(14),2,4,6,8,12,17,19,21-nonaene-2-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162924128",
+     "refs": []
+    },
+    {
+     "name": "[(1S,7S,9R,18R,19S,21R,22S)-7,8,8,12,13,22-hexahydroxy-21-(hydroxymethyl)-3,6,16-trioxo-2,17,20,23-tetraoxapentacyclo[16.3.1.17,11.04,9.010,15]tricosa-4,10,12,14-tetraen-19-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3086135",
+     "refs": []
+    },
+    {
+     "name": "[(1S,8R,9R,18R,19S,21R,22R)-7,7,8,12,13,22-hexahydroxy-21-(hydroxymethyl)-3,6,16-trioxo-2,17,20,23-tetraoxapentacyclo[16.3.1.18,11.04,9.010,15]tricosa-4,10,12,14-tetraen-19-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163188137",
+     "refs": []
+    },
+    {
+     "name": "[7,7,8,12,13,22-Hexahydroxy-21-(hydroxymethyl)-3,6,16-trioxo-2,17,20,23-tetraoxapentacyclo[16.3.1.18,11.04,9.010,15]tricosa-4,10,12,14-tetraen-19-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4318491",
+     "refs": []
+    },
+    {
+     "name": "[(1S,8R,9R,18R,19S,21R,22S)-7,7,8,12,13,22-hexahydroxy-21-(hydroxymethyl)-3,6,16-trioxo-2,17,20,23-tetraoxapentacyclo[16.3.1.18,11.04,9.010,15]tricosa-4,10,12,14-tetraen-19-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101921699",
+     "refs": []
+    },
+    {
+     "name": "[(1R,19S,21R,22R,23S)-6,7,8,11,12,13-hexahydroxy-3,16-dioxo-21,22-bis[(3,4,5-trihydroxybenzoyl)oxy]-2,17,20-trioxatetracyclo[17.3.1.04,9.010,15]tricosa-4,6,8,10,12,14-hexaen-23-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/157874172",
+     "refs": []
+    },
+    {
+     "name": "1,2,3,16,17,18-Hexahydroxy-5,14-dioxo-5,7,8,11,12,14-hexahydro-10h-8,12-methanodibenzo[j,l][1,4,8]trioxacyclotetradecine-10,11,19-triyl tris(3,4,5-trihydroxybenzoate)",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/475273",
+     "refs": []
+    },
+    {
+     "name": "2,3-(S)-hexahydroxydiphenoyl-D-glucose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11754973",
+     "refs": []
+    },
+    {
+     "name": "(2S)-5-hydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,3-dihydrochromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/154497293",
+     "refs": []
+    },
+    {
+     "name": "(2R)-2-hydroxy-2-[(2S,3R,4S)-3-hydroxy-5-oxo-4-(3,4,5-trihydroxybenzoyl)oxyoxolan-2-yl]acetic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163195022",
+     "refs": []
+    },
+    {
+     "name": "(2R,3S,4R,5S,6S)-5-hydroxy-3,4-bis(3,4,5-trihydroxybenzoyloxy)-6-[(3,4,5-trihydroxybenzoyloxy)methyl]oxan-2-yl 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/171666924",
+     "refs": []
+    },
+    {
+     "name": "2-(4-Hydroxy-3,5-dimethoxyphenyl)ethanol 4'-glucoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/85346190",
+     "refs": []
+    },
+    {
+     "name": "[(3S,4R,5S)-4-hydroxy-5-[(1R)-1-hydroxy-2-methoxy-2-oxoethyl]-2-oxooxolan-3-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163018169",
+     "refs": []
+    },
+    {
+     "name": "(2R)-2-[(2S,3S,4S)-4-hydroxy-5-oxo-3-(3,4,5-trihydroxybenzoyl)oxyoxolan-2-yl]-2-(3,4,5-trihydroxybenzoyl)oxyacetic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162986714",
+     "refs": []
+    },
+    {
+     "name": "[(2S)-2-(4-Hydroxyphenyl)-4-oxo-5-hydroxy-2,3-dihydro-4H-1-benzopyran]-7-yl 6-O-(4-hydroxy-trans-cinnamoyl)-beta-D-glucopyranoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/21630092",
+     "refs": []
+    },
+    {
+     "name": "2-Hydroxyphenylacetic acid O-b-D-glucoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/76503563",
+     "refs": []
+    },
+    {
+     "name": "2-(2-methylbutanoyl)phloroglucinol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/442919",
+     "refs": []
+    },
+    {
+     "name": "(6,7,8,11,12,13,22,23-Octahydroxy-3,16-dioxo-2,17,20-trioxatetracyclo[17.3.1.04,9.010,15]tricosa-4,6,8,10,12,14-hexaen-21-yl) 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5089683",
+     "refs": []
+    },
+    {
+     "name": "[(1S,19R,21S,22R,23S)-6,7,8,11,12,13,22,23-octahydroxy-3,16-dioxo-2,17,20-trioxatetracyclo[17.3.1.04,9.010,15]tricosa-4,6,8,10,12,14-hexaen-21-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/154496377",
+     "refs": []
+    },
+    {
+     "name": "2-[(1R,2R)-3-oxo-2-[(Z)-5-[(2R,3R,4S,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxypent-2-enyl]cyclopentyl]acetic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162984944",
+     "refs": []
+    },
+    {
+     "name": "[(1S,18R,19S,21R,22R)-6,7,12,13,22-pentahydroxy-21-(hydroxymethyl)-3,16-dioxo-2,17,20,23-tetraoxapentacyclo[16.3.1.18,11.04,9.010,15]tricosa-4,6,8,10,12,14-hexaen-19-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163185177",
+     "refs": []
+    },
+    {
+     "name": "[6,7,12,13,22-Pentahydroxy-21-(hydroxymethyl)-3,16-dioxo-2,17,20,23-tetraoxapentacyclo[16.3.1.18,11.04,9.010,15]tricosa-4,6,8,10,12,14-hexaen-19-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/85411593",
+     "refs": []
+    },
+    {
+     "name": "3,4,8,9,10-pentahydroxybenzo[c]chromen-6-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/18504424",
+     "refs": []
+    },
+    {
+     "name": "2-[(4R,5R,7S,8S,11S,12S,13R,21S)-13,17,18,21-tetrahydroxy-7-(hydroxymethyl)-2,10,14-trioxo-5-(3,4,5-trihydroxybenzoyl)oxy-3,6,9,15-tetraoxatetracyclo[10.7.1.14,8.016,20]henicosa-1(19),16(20),17-trien-11-yl]acetic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163192999",
+     "refs": []
+    },
+    {
+     "name": "3,4,4'-Trihydroxy-3,5'-bis(hydroxymethyl)spiro[3a,4,5,6,7,7a-hexahydro-1-benzofuran-2,2'-oxane]-6-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/85382964",
+     "refs": []
+    },
+    {
+     "name": "[3,5,6-Trihydroxy-4-(3,4,5-trihydroxybenzoyl)oxyoxan-2-yl]methyl 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/25055151",
+     "refs": []
+    },
+    {
+     "name": "(2R,3S,4R,5R)-2,3,4-trihydroxy-5-(3,4,5-trihydroxybenzoyl)oxyhexanedioic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162904115",
+     "refs": []
+    },
+    {
+     "name": "[(2S,3R,4S,5S,6R)-3,4,5-Trihydroxy-6-(hydroxymethyl)oxan-2-yl] (2S,3aR,4S,4'S,5'R,6S,7aR)-4'-benzoyloxy-3a,4-dihydroxy-5'-methyl-3-oxospiro[5,6,7,7a-tetrahydro-4H-1-benzofuran-2,2'-oxane]-6-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10099785",
+     "refs": []
+    },
+    {
+     "name": "[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] (2S,3aR,4S,4'S,5'R,6S,7aR)-4'-benzoyloxy-3a,4-dihydroxy-5'-methyl-3-oxospiro[5,6,7,7a-tetrahydro-4H-1-benzofuran-2,2'-oxane]-6-carboxylate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162973571",
+     "refs": []
+    },
+    {
+     "name": "[3,4,5-Trihydroxy-6-(hydroxymethyl)oxan-2-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4628122",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3S,4S,5R,6S)-3,4,5-trihydroxy-6-[[(2R)-5-hydroxy-2-(4-hydroxyphenyl)-4-oxo-2,3-dihydrochromen-7-yl]oxy]oxan-2-yl]methyl 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163020605",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3S,4S,5S,6S)-3,4,5-trihydroxy-6-[[(2S)-5-hydroxy-2-(4-hydroxyphenyl)-4-oxo-2,3-dihydrochromen-7-yl]oxy]oxan-2-yl]methyl (E)-3-(4-hydroxyphenyl)prop-2-enoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162846220",
+     "refs": []
+    },
+    {
+     "name": "(2S)-3',4',5-Trihydroxy-7-[6-O-(4-hydroxy-trans-cinnamoyl)-beta-D-glucopyranosyloxy]flavanone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10995564",
+     "refs": []
+    },
+    {
+     "name": "6-O-(3,4,5-Trihydroxybenzoyl)-alpha-D-glucopyranose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11968480",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q310050"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Assam",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/5381660"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/5381660"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Phyllanthus%20emblica"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Ayurveda",
+    "Siddha",
+    "Sowa Rigpa",
+    "Unani"
+   ],
+   "parts": [
+    "fruit",
+    "leaf",
+    "bark",
+    "root"
+   ],
+   "used_for": [
+    "dysentery",
+    "anemia",
+    "diarrhea",
+    "jaundice",
+    "dyspepsia"
+   ],
+   "properties": [
+    "diuretics",
+    "laxatives",
+    "astringents",
+    "appetite stimulants"
+   ],
+   "caution": null,
+   "recorded_uses": 189,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Phyllanthus%20emblica"
+    ]
+   ]
+  }
+ }
+}

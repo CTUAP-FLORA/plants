@@ -1,7 +1,7 @@
 {
  "slug": "muntingia-calabura",
  "scientific_name": "Muntingia calabura",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Muntingia calabura L.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207315558)",
+     "https://www.gbif.org/species/207315558"
+    ],
     [
      "GBIF Backbone Taxonomy (key 3152036)",
      "https://www.gbif.org/species/3152036"
@@ -572,6 +576,33 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Muntingia%20calabura"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "flower",
+    "root",
+    "fruit"
+   ],
+   "used_for": [
+    "common cold",
+    "dyspepsia",
+    "liver diseases"
+   ],
+   "properties": [
+    "analgesics",
+    "antineoplastic agents",
+    "antioxidants",
+    "antispasmodics"
+   ],
+   "caution": null,
+   "recorded_uses": 10,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Muntingia%20calabura"
     ]
    ]
   }

@@ -1,7 +1,7 @@
 {
- "slug": "dypsis-lutescens",
- "scientific_name": "Dypsis lutescens",
- "retrieved": "2026-11-15",
+ "slug": "chrysalidocarpus-lutescens",
+ "scientific_name": "Chrysalidocarpus lutescens",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -19,7 +19,7 @@
     ],
     [
      "Subclass",
-     "Petrosaviidae"
+     null
     ],
     [
      "Order",
@@ -31,31 +31,31 @@
     ],
     [
      "Subfamily",
-     "Arecoideae"
+     null
     ],
     [
      "Tribe",
-     "Areceae"
+     null
     ],
     [
      "Genus",
-     "Dypsis"
+     "Chrysalidocarpus"
     ],
     [
      "Species",
-     "Dypsis lutescens"
+     "Chrysalidocarpus lutescens"
     ]
    ],
-   "authority": "Dypsis lutescens (H.Wendl.) Beentje & J.Dransf.",
-   "note": null,
+   "authority": "Chrysalidocarpus lutescens H.Wendl.",
+   "note": "GBIF backbone lists this as Dypsis lutescens; Kew's WCVP accepts Chrysalidocarpus lutescens.",
    "sources": [
     [
-     "GBIF Backbone Taxonomy (key 2735935)",
-     "https://www.gbif.org/species/2735935"
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 206583318)",
+     "https://www.gbif.org/species/206583318"
     ],
     [
-     "NCBI Taxonomy (ID 131267)",
-     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=131267"
+     "GBIF Backbone Taxonomy (key 2735936)",
+     "https://www.gbif.org/species/2735936"
     ]
    ]
   },
@@ -92,7 +92,21 @@
     ],
     [
      "IUCN Red List search",
-     "https://www.iucnredlist.org/search?query=Dypsis%20lutescens"
+     "https://www.iucnredlist.org/search?query=Chrysalidocarpus%20lutescens"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [],
+   "used_for": [],
+   "properties": [],
+   "caution": null,
+   "recorded_uses": 0,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Chrysalidocarpus%20lutescens"
     ]
    ]
   }

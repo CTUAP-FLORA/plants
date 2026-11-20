@@ -56,7 +56,7 @@ def main():
             found = []
             for img in sorted(Path(tmp).glob("pg*.png")):
                 found += [t for t, _ in decode_all(img)]
-        want = sorted(page_url(cfg, p["slug"]) for p in plants)
+        want = sorted(page_url(cfg, p["slug"]) for p in plants for _ in range(int(p.get("copies") or 1)))
         if sorted(found) != want:
             errors += 1
             print(f"PDF FAIL: decoded {len(found)} codes; missing {sorted(set(want) - set(found))}, "

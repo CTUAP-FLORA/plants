@@ -1,7 +1,7 @@
 {
  "slug": "psidium-guajava",
  "scientific_name": "Psidium guajava",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Psidium guajava L.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207346281)",
+     "https://www.gbif.org/species/207346281"
+    ],
     [
      "GBIF Backbone Taxonomy (key 5420380)",
      "https://www.gbif.org/species/5420380"
@@ -267,13 +271,13 @@
      "refs": []
     },
     {
-     "name": "(E)-calamenene",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12302242",
+     "name": "cis-Calamenene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6429077",
      "refs": []
     },
     {
-     "name": "cis-Calamenene",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6429077",
+     "name": "(E)-calamenene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12302242",
      "refs": []
     },
     {
@@ -748,12 +752,12 @@
     },
     {
      "name": "guaijaverin",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5878729",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5481224",
      "refs": []
     },
     {
      "name": "guaijaverin",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5481224",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5878729",
      "refs": []
     },
     {
@@ -777,13 +781,13 @@
      "refs": []
     },
     {
-     "name": "(+)-gamma-gurjunene",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15560285",
+     "name": "(-)-alpha-gurjunene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15560276",
      "refs": []
     },
     {
-     "name": "(-)-alpha-gurjunene",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15560276",
+     "name": "(+)-gamma-gurjunene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/15560285",
      "refs": []
     },
     {
@@ -1192,13 +1196,13 @@
      "refs": []
     },
     {
-     "name": "phytofluene",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/94171",
+     "name": "(15Z)-phytofluene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6857557",
      "refs": []
     },
     {
-     "name": "(15Z)-phytofluene",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6857557",
+     "name": "phytofluene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/94171",
      "refs": []
     },
     {
@@ -1982,6 +1986,40 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Psidium%20guajava"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Ayurveda",
+    "Siddha",
+    "Unani"
+   ],
+   "parts": [
+    "leaf",
+    "root",
+    "fruit",
+    "flower"
+   ],
+   "used_for": [
+    "diarrhea",
+    "dysentery",
+    "ulcer",
+    "bronchitis",
+    "cholera"
+   ],
+   "properties": [
+    "astringents",
+    "laxatives",
+    "antiemetics",
+    "antirheumatic agents"
+   ],
+   "caution": null,
+   "recorded_uses": 41,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Psidium%20guajava"
     ]
    ]
   }

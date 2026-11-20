@@ -1,0 +1,388 @@
+{
+ "slug": "tectona-grandis",
+ "scientific_name": "Tectona grandis",
+ "retrieved": "2026-11-20",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Lamiales"
+    ],
+    [
+     "Family",
+     "Lamiaceae"
+    ],
+    [
+     "Subfamily",
+     "Tectonoideae"
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Tectona"
+    ],
+    [
+     "Species",
+     "Tectona grandis"
+    ]
+   ],
+   "authority": "Tectona grandis L.f.",
+   "note": null,
+   "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207205479)",
+     "https://www.gbif.org/species/207205479"
+    ],
+    [
+     "GBIF Backbone Taxonomy (key 2925649)",
+     "https://www.gbif.org/species/2925649"
+    ],
+    [
+     "NCBI Taxonomy (ID 41396)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=41396"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "annuionone D",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14605579",
+     "refs": []
+    },
+    {
+     "name": "apocynin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2214",
+     "refs": []
+    },
+    {
+     "name": "betulinic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/64971",
+     "refs": []
+    },
+    {
+     "name": "Dehydro-alpha-lapachone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72734",
+     "refs": []
+    },
+    {
+     "name": "deoxylapachol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/97448",
+     "refs": []
+    },
+    {
+     "name": "7,8-dihydrovomifoliol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14135402",
+     "refs": []
+    },
+    {
+     "name": "docosane",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12405",
+     "refs": []
+    },
+    {
+     "name": "flavanone BF-5",
+     "url": "http://www.wikidata.org/entity/Q125028567",
+     "refs": []
+    },
+    {
+     "name": "flavanone BF-6",
+     "url": "http://www.wikidata.org/entity/Q125028570",
+     "refs": []
+    },
+    {
+     "name": "5-Hydroxylapachol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5318245",
+     "refs": []
+    },
+    {
+     "name": "8-Hydroxypinoresinol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3010930",
+     "refs": []
+    },
+    {
+     "name": "beta-Hydroxypropiosyringone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/54353627",
+     "refs": []
+    },
+    {
+     "name": "lapachol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3884",
+     "refs": []
+    },
+    {
+     "name": "lariciresinol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/332427",
+     "refs": []
+    },
+    {
+     "name": "lupeol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/259846",
+     "refs": []
+    },
+    {
+     "name": "2-methylanthraquinone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6773",
+     "refs": []
+    },
+    {
+     "name": "Munjistin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/160476",
+     "refs": []
+    },
+    {
+     "name": "sitogluside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5742590",
+     "refs": []
+    },
+    {
+     "name": "beta-sitosterol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/222284",
+     "refs": []
+    },
+    {
+     "name": "(E,E,E,E)-Squalene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1105",
+     "refs": []
+    },
+    {
+     "name": "squalene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/638072",
+     "refs": []
+    },
+    {
+     "name": "Tecomaquinone I",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3574508",
+     "refs": []
+    },
+    {
+     "name": "Tectograndiol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101967034",
+     "refs": []
+    },
+    {
+     "name": "Tectoionol B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/102026252",
+     "refs": []
+    },
+    {
+     "name": "ursolic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/64945",
+     "refs": []
+    },
+    {
+     "name": "verbascoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281800",
+     "refs": []
+    },
+    {
+     "name": "Zhepeiresinol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/192547",
+     "refs": []
+    },
+    {
+     "name": "5,12-dihydroxy-2,2,8-trimethyl-10-(3,5,8-trihydroxy-1,4-dioxonaphthalen-2-yl)-1-oxatetracene-6,11-dione",
+     "url": "http://www.wikidata.org/entity/Q105252021",
+     "refs": []
+    },
+    {
+     "name": "1,4-dihydroxy-2-methylanthraquinone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/99300",
+     "refs": []
+    },
+    {
+     "name": "(S)-alpha,4'-Dihydroxy-3'-methoxypropiophenone",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12181418",
+     "refs": []
+    },
+    {
+     "name": "2,5-dihydroxy-3-(3-methylbut-2-en-1-yl)naphthalene-1,4-dione",
+     "url": "http://www.wikidata.org/entity/Q105337726",
+     "refs": []
+    },
+    {
+     "name": "9,10-dimethoxy-2-methylanthracene-1,4-dione",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14283285",
+     "refs": []
+    },
+    {
+     "name": "2,2-Dimethyl-2H-naphtho[1,2-b]pyran-5,6-dione",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24991545",
+     "refs": []
+    },
+    {
+     "name": "5-(2,2-Dimethyl-5-oxobenzo[g]chromen-10-ylidene)-2,2-dimethylbenzo[g]chromen-10-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162997582",
+     "refs": []
+    },
+    {
+     "name": "5-[(10E)-2,2-dimethyl-5-oxobenzo[g]chromen-10-ylidene]-2,2-dimethylbenzo[g]chromen-10-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14283286",
+     "refs": []
+    },
+    {
+     "name": "4-[(4R)-4-hydroxy-2,6,6-trimethylcyclohexen-1-yl]butan-2-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10878432",
+     "refs": []
+    },
+    {
+     "name": "(E)-4-hydroxy-3-methoxycinnamaldehyde",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280536",
+     "refs": []
+    },
+    {
+     "name": "(E)-3-[(2R,3S)-2-(4-hydroxy-3-methoxyphenyl)-3-(hydroxymethyl)-7-methoxy-2,3-dihydro-1-benzofuran-5-yl]prop-2-enal",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/21582569",
+     "refs": []
+    },
+    {
+     "name": "(1R)-4-[(3S)-3-hydroxybutyl]-3,5,5-trimethylcyclohex-3-en-1-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11298813",
+     "refs": []
+    },
+    {
+     "name": "(18R)-18-hydroxyhexacosyl decanoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162982818",
+     "refs": []
+    },
+    {
+     "name": "20-hydroxyicosyl (9Z,12E)-octadeca-9,12-dienoate",
+     "url": "http://www.wikidata.org/entity/Q104951729",
+     "refs": []
+    },
+    {
+     "name": "20-hydroxyicosyl octadeca-9,12-dienoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162964713",
+     "refs": []
+    },
+    {
+     "name": "(7S)-7-hydroxyoctadecyl decanoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163037509",
+     "refs": []
+    },
+    {
+     "name": "(2R,5S,6R,8R)-2,6,10,10-tetramethyl-1-oxaspiro[4.5]decane-6,8-diol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163050409",
+     "refs": []
+    },
+    {
+     "name": "2,4,4-Trimethyl-3-[(S)-3-hydroxybutyl]-2-cyclohexene-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14086374",
+     "refs": []
+    },
+    {
+     "name": "2,6,6-trimethylocta-2,7-dien-1-ol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163046637",
+     "refs": []
+    },
+    {
+     "name": "(2E)-2,6,6-trimethylocta-2,7-dien-1-ol",
+     "url": "http://www.wikidata.org/entity/Q104914146",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q156938"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "EN",
+    "Endangered"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Assam",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2925649"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2925649"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Tectona%20grandis"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "wood",
+    "flower",
+    "bark",
+    "leaf"
+   ],
+   "used_for": [
+    "bronchitis",
+    "scabies",
+    "dyspepsia",
+    "skin diseases",
+    "anasarca"
+   ],
+   "properties": [
+    "diuretics",
+    "astringents",
+    "anthelmintics",
+    "anti-inflammatory agents"
+   ],
+   "caution": null,
+   "recorded_uses": 65,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Tectona%20grandis"
+    ]
+   ]
+  }
+ }
+}

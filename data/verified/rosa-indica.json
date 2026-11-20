@@ -1,7 +1,7 @@
 {
  "slug": "rosa-indica",
  "scientific_name": "Rosa indica",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -50,6 +50,10 @@
    "note": null,
    "sources": [
     [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207698106)",
+     "https://www.gbif.org/species/207698106"
+    ],
+    [
      "GBIF Backbone Taxonomy (key 8342804)",
      "https://www.gbif.org/species/8342804"
     ],
@@ -93,6 +97,22 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Rosa%20indica"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "flower"
+   ],
+   "used_for": [],
+   "properties": [],
+   "caution": null,
+   "recorded_uses": 1,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Rosa%20indica"
     ]
    ]
   }

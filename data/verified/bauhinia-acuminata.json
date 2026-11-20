@@ -1,0 +1,132 @@
+{
+ "slug": "bauhinia-acuminata",
+ "scientific_name": "Bauhinia acuminata",
+ "retrieved": "2026-11-20",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Fabales"
+    ],
+    [
+     "Family",
+     "Fabaceae"
+    ],
+    [
+     "Subfamily",
+     "Cercidoideae"
+    ],
+    [
+     "Tribe",
+     "Cercideae"
+    ],
+    [
+     "Genus",
+     "Bauhinia"
+    ],
+    [
+     "Species",
+     "Bauhinia acuminata"
+    ]
+   ],
+   "authority": "Bauhinia acuminata L.",
+   "note": null,
+   "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207068935)",
+     "https://www.gbif.org/species/207068935"
+    ],
+    [
+     "GBIF Backbone Taxonomy (key 2953747)",
+     "https://www.gbif.org/species/2953747"
+    ],
+    [
+     "NCBI Taxonomy (ID 204517)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=204517"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [],
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "Assam",
+     "introduced",
+     "Catalogue of Life"
+    ],
+    [
+     "India",
+     "introduced",
+     "Catalogue of Life"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2953747"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/2953747"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Bauhinia%20acuminata"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "bark"
+   ],
+   "used_for": [
+    "leukorrhea"
+   ],
+   "properties": [],
+   "caution": null,
+   "recorded_uses": 2,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Bauhinia%20acuminata"
+    ]
+   ]
+  }
+ }
+}

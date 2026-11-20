@@ -1,7 +1,7 @@
 {
  "slug": "ravenala-madagascariensis",
  "scientific_name": "Ravenala madagascariensis",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -50,6 +50,10 @@
    "note": null,
    "sources": [
     [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207829046)",
+     "https://www.gbif.org/species/207829046"
+    ],
+    [
      "GBIF Backbone Taxonomy (key 2763095)",
      "https://www.gbif.org/species/2763095"
     ],
@@ -93,6 +97,20 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Ravenala%20madagascariensis"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [],
+   "used_for": [],
+   "properties": [],
+   "caution": null,
+   "recorded_uses": 0,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Ravenala%20madagascariensis"
     ]
    ]
   }

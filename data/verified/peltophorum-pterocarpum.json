@@ -1,7 +1,7 @@
 {
  "slug": "peltophorum-pterocarpum",
  "scientific_name": "Peltophorum pterocarpum",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Peltophorum pterocarpum (DC.) Backer ex K.Heyne",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207106064)",
+     "https://www.gbif.org/species/207106064"
+    ],
     [
      "GBIF Backbone Taxonomy (key 2952775)",
      "https://www.gbif.org/species/2952775"
@@ -222,6 +226,34 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Peltophorum%20pterocarpum"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "bark",
+    "flower",
+    "fruit",
+    "leaf"
+   ],
+   "used_for": [
+    "dysentery",
+    "mouthwashes",
+    "ophthalmic solutions",
+    "sprains and strains",
+    "toothbrushing"
+   ],
+   "properties": [
+    "anti-inflammatory agents",
+    "antifungal agents"
+   ],
+   "caution": null,
+   "recorded_uses": 9,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Peltophorum%20pterocarpum"
     ]
    ]
   }

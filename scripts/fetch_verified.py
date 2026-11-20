@@ -96,22 +96,42 @@ def ncbi_taxon(name):
     return {"id": ids[0], "lineage": lineage}
 
 
+WCVP_DATASET = "f382f0ce-323a-4091-bb9f-add557f3a9a2"   # Kew's World Checklist of Vascular Plants, in GBIF
+
+
+def wcvp_accepted(name):
+    """The accepted WCVP record for this exact name (with its author), or None."""
+    want = name.replace("× ", "").replace(" var. ", " ").replace(" subsp. ", " ")
+    rows = get("https://api.gbif.org/v1/species/search",
+               {"datasetKey": WCVP_DATASET, "q": name.replace(" var. ", " "), "limit": 50}).get("results", [])
+    for r in rows:
+        if r.get("taxonomicStatus") == "ACCEPTED" and (r.get("canonicalName") or "").replace("× ", "").replace("×", "") == want:
+            return r
+    return None
+
+
 def section_taxonomy(p, g, nc):
+    """Higher ranks from GBIF and NCBI. The species, genus and author follow Kew's World Checklist (WCVP),
+    the name this website uses, because GBIF's backbone can lag behind recent name changes."""
     ranks = {r: n for r, n in (nc["lineage"] if nc else [])}
+    w = safe(wcvp_accepted, p["scientific_name"])
     rows = [["Kingdom", (g or {}).get("kingdom")], ["Division (Phylum)", (g or {}).get("phylum")],
             ["Class", (g or {}).get("class")], ["Subclass", ranks.get("subclass")],
-            ["Order", (g or {}).get("order")], ["Family", (g or {}).get("family")],
+            ["Order", (g or {}).get("order")], ["Family", (w or {}).get("family") or (g or {}).get("family")],
             ["Subfamily", ranks.get("subfamily")], ["Tribe", ranks.get("tribe")],
-            ["Genus", (g or {}).get("genus")], ["Species", (g or {}).get("species") or p["scientific_name"]]]
+            ["Genus", p["scientific_name"].split()[0]], ["Species", p["scientific_name"]]]
     src = []
+    if w:
+        src.append([f"World Checklist of Vascular Plants (Kew), via GBIF (key {w['key']})", f"https://www.gbif.org/species/{w['key']}"])
     if g:
         src.append([f"GBIF Backbone Taxonomy (key {g['usageKey']})", f"https://www.gbif.org/species/{g['usageKey']}"])
     if nc:
         src.append([f"NCBI Taxonomy (ID {nc['id']})", f"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={nc['id']}"])
     note = None
-    if g and g.get("status") and g["status"] != "ACCEPTED":
-        note = f"GBIF lists this name as {g['status'].lower()}; accepted name: {g.get('species')}."
-    return {"rows": rows, "authority": (g or {}).get("scientificName"), "note": note, "sources": src}
+    if g and g.get("species") and g["species"] != p["scientific_name"]:
+        note = f"GBIF backbone lists this as {g['species']}; Kew's WCVP accepts {p['scientific_name']}."
+    authority = (w or {}).get("scientificName") or (g or {}).get("scientificName")
+    return {"rows": rows, "authority": authority, "note": note, "sources": src}
 
 
 def wikidata_taxa(p, g):
@@ -205,8 +225,10 @@ IMPPAT = "https://cb.imsc.res.in/imppat/therapeutics/"
 # Uses not suitable for a public plant label (sensitive, or about poisons/cancer types).
 SKIP_USES = {"abortifacient agents", "aphrodisiacs", "contraceptive agents", "androgen antagonists",
              "contraceptive agents, female", "contraceptive agents, male", "neoplasms", "hodgkin disease",
-             "leukemia", "poisons", "venoms", "toxins, biological", "syphilis", "gonorrhea"}
-PROPERTY_RE = re.compile(r"(agents?(, local)?|ics|ants|ents|ives|ers|ic|stimulants|sedatives)$")
+             "leukemia", "poisons", "venoms", "toxins, biological", "syphilis", "gonorrhea",
+             "disorder of ejaculation", "menstruation-inducing agents", "hysteria", "erectile dysfunction",
+             "infertility", "sexual dysfunction, physiological", "premature ejaculation"}
+PROPERTY_RE = re.compile(r"(agents?(, local)?|ics|ants|ents|ives|ers|ors|ic|stimulants|sedatives)$")
 
 
 def _cells(row):
@@ -254,7 +276,8 @@ def section_medicinal(p):
             parts[c[1].lower()] = parts.get(c[1].lower(), 0) + 1
     out["recorded_uses"] = len(refs)
     ranked = sorted(((len(v), u) for u, v in refs.items() if u not in SKIP_USES), key=lambda x: (-x[0], x[1]))
-    props = [u for n, u in ranked if PROPERTY_RE.search(u) or u.startswith("anti")]
+    props = [u for n, u in ranked if (PROPERTY_RE.search(u) or u.startswith("anti"))
+             and not u.endswith(("disorders", "diseases"))]
     conds = [u for n, u in ranked if u not in props]
     out["used_for"], out["properties"] = conds[:5], props[:4]
     out["parts"] = [k for k, _ in sorted(parts.items(), key=lambda x: (-x[1], x[0]))][:4]

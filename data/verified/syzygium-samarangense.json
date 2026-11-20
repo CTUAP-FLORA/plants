@@ -1,7 +1,7 @@
 {
  "slug": "syzygium-samarangense",
  "scientific_name": "Syzygium samarangense",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Syzygium samarangense (Blume) Merr. & L.M.Perry",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207339228)",
+     "https://www.gbif.org/species/207339228"
+    ],
     [
      "GBIF Backbone Taxonomy (key 3183180)",
      "https://www.gbif.org/species/3183180"
@@ -277,6 +281,31 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Syzygium%20samarangense"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "flower",
+    "leaf"
+   ],
+   "used_for": [
+    "diarrhea",
+    "fever",
+    "low back pain"
+   ],
+   "properties": [
+    "anti-bacterial agents",
+    "antirheumatic agents",
+    "astringents"
+   ],
+   "caution": null,
+   "recorded_uses": 6,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Syzygium%20samarangense"
     ]
    ]
   }

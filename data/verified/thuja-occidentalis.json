@@ -1,7 +1,7 @@
 {
  "slug": "thuja-occidentalis",
  "scientific_name": "Thuja occidentalis",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Thuja occidentalis L.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 206939101)",
+     "https://www.gbif.org/species/206939101"
+    ],
     [
      "GBIF Backbone Taxonomy (key 2684178)",
      "https://www.gbif.org/species/2684178"
@@ -602,6 +606,28 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Thuja%20occidentalis"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Homeopathy"
+   ],
+   "parts": [
+    "leaf"
+   ],
+   "used_for": [
+    "cough"
+   ],
+   "properties": [
+    "nasal decongestants"
+   ],
+   "caution": null,
+   "recorded_uses": 2,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Thuja%20occidentalis"
     ]
    ]
   }

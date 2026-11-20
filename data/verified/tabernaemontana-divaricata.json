@@ -1,7 +1,7 @@
 {
  "slug": "tabernaemontana-divaricata",
  "scientific_name": "Tabernaemontana divaricata",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Tabernaemontana divaricata (L.) R.Br. ex Roem. & Schult.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 206571033)",
+     "https://www.gbif.org/species/206571033"
+    ],
     [
      "GBIF Backbone Taxonomy (key 3169625)",
      "https://www.gbif.org/species/3169625"
@@ -907,6 +911,39 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Tabernaemontana%20divaricata"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Ayurveda",
+    "Siddha"
+   ],
+   "parts": [
+    "leaf",
+    "root",
+    "flower",
+    "bark"
+   ],
+   "used_for": [
+    "toothache",
+    "skin diseases",
+    "pain",
+    "wounds and injuries/trauma",
+    "cooling effect on body"
+   ],
+   "properties": [
+    "analgesics",
+    "anthelmintics",
+    "anti-inflammatory agents",
+    "anti-bacterial agents"
+   ],
+   "caution": null,
+   "recorded_uses": 48,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Tabernaemontana%20divaricata"
     ]
    ]
   }

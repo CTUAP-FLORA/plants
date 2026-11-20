@@ -1,7 +1,7 @@
 {
  "slug": "delonix-regia",
  "scientific_name": "Delonix regia",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Delonix regia (Bojer ex Hook.) Raf.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207043576)",
+     "https://www.gbif.org/species/207043576"
+    ],
     [
      "GBIF Backbone Taxonomy (key 2956176)",
      "https://www.gbif.org/species/2956176"
@@ -197,6 +201,39 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Delonix%20regia"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Ayurveda",
+    "Siddha"
+   ],
+   "parts": [
+    "leaf",
+    "flower",
+    "bark",
+    "stem"
+   ],
+   "used_for": [
+    "abdominal pain",
+    "asthma",
+    "bronchitis",
+    "dysmenorrhea",
+    "gastritis"
+   ],
+   "properties": [
+    "antirheumatic agents",
+    "anthelmintics",
+    "antiparasitic agents",
+    "antiviral agents"
+   ],
+   "caution": null,
+   "recorded_uses": 21,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Delonix%20regia"
     ]
    ]
   }

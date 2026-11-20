@@ -1,7 +1,7 @@
 {
  "slug": "cocos-nucifera",
  "scientific_name": "Cocos nucifera",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Cocos nucifera L.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 206581667)",
+     "https://www.gbif.org/species/206581667"
+    ],
     [
      "GBIF Backbone Taxonomy (key 2735117)",
      "https://www.gbif.org/species/2735117"
@@ -597,6 +601,36 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Cocos%20nucifera"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "fruit",
+    "seed",
+    "flower",
+    "root"
+   ],
+   "used_for": [
+    "fever",
+    "alopecia",
+    "uterine diseases",
+    "asthenia",
+    "bronchitis"
+   ],
+   "properties": [
+    "diuretics",
+    "laxatives",
+    "anthelmintics",
+    "antifungal agents"
+   ],
+   "caution": null,
+   "recorded_uses": 71,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Cocos%20nucifera"
     ]
    ]
   }

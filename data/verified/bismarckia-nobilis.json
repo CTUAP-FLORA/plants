@@ -1,0 +1,108 @@
+{
+ "slug": "bismarckia-nobilis",
+ "scientific_name": "Bismarckia nobilis",
+ "retrieved": "2026-11-20",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Liliopsida"
+    ],
+    [
+     "Subclass",
+     "Petrosaviidae"
+    ],
+    [
+     "Order",
+     "Arecales"
+    ],
+    [
+     "Family",
+     "Arecaceae"
+    ],
+    [
+     "Subfamily",
+     "Coryphoideae"
+    ],
+    [
+     "Tribe",
+     "Borasseae"
+    ],
+    [
+     "Genus",
+     "Bismarckia"
+    ],
+    [
+     "Species",
+     "Bismarckia nobilis"
+    ]
+   ],
+   "authority": "Bismarckia nobilis Hildebrandt & H.Wendl.",
+   "note": null,
+   "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 206585542)",
+     "https://www.gbif.org/species/206585542"
+    ],
+    [
+     "GBIF Backbone Taxonomy (key 2733941)",
+     "https://www.gbif.org/species/2733941"
+    ],
+    [
+     "NCBI Taxonomy (ID 292647)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=292647"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [],
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/2733941"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Bismarckia%20nobilis"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [],
+   "used_for": [],
+   "properties": [],
+   "caution": null,
+   "recorded_uses": 0,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Bismarckia%20nobilis"
+    ]
+   ]
+  }
+ }
+}

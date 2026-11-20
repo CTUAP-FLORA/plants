@@ -16,7 +16,7 @@ tags** will show the new information. You never need to reprint tags to update t
 
 1. **A plant's `slug`** (e.g. `azadirachta-indica`). It is inside the QR code. Even if a
    plant's scientific name changes, keep the old slug. Just edit `scientific_name` and
-   add the old name as `synonym`.
+   keep using the same slug (it is only an address).
 2. **The repository name** `plants`.
 3. **The organization name** `CTUAP-FLORA`.
 4. **`base_url` in `config.yaml`**, once tags are printed.
@@ -35,8 +35,9 @@ error if a slug listed in `qr/slugs.lock` disappears.
    ```yaml
      - slug: azadirachta-indica                 # ← never change
        scientific_name: Azadirachta indica
-       synonym: ""
-       common_names: ["Neem", "Vepa", "Margosa"]
+       telugu_name: "వేప"                         # shown on the tag and the page
+       common_names: ["Neem", "Margosa"]          # English names: only for the search box
+       copies: 3                                  # number of printed tags
        family: Meliaceae
        description: |
          A fast-growing evergreen tree, 15–20 m tall.
@@ -79,9 +80,9 @@ error if a slug listed in `qr/slugs.lock` disappears.
 5. Make the QR code and tag on a computer (below), check them with `verify.py`, and print
    only the new tag. Existing QR codes do not change, because they depend only on their own slug.
 
-## The 3 buttons: Taxonomy, Phytochemicals, Conservation
+## The 4 buttons: Taxonomy, Phytochemicals, Conservation, Medicinal uses
 
-Each plant page has 3 buttons. Their content is collected automatically from verified
+Each plant page has 4 buttons. Their content is collected automatically from verified
 scientific databases. It is **not typed by hand**, so do not edit these files manually.
 
 | Button | Comes from |
@@ -89,6 +90,10 @@ scientific databases. It is **not typed by hand**, so do not edit these files ma
 | Taxonomy | GBIF Backbone Taxonomy, NCBI Taxonomy (ranks with no record are hidden) |
 | Phytochemicals | LOTUS natural products database (via Wikidata); each compound links to PubChem |
 | Conservation | IUCN Red List category (via GBIF); native/introduced status in India from published checklists (WCVP, GRIIS); endemism (Wikidata) |
+| Medicinal uses | IMPPAT (IMSc Chennai), compiled from 100+ books on traditional Indian medicine: systems of medicine, parts used, and only the uses recorded by the most references. Poisonous plants (`caution: poisonous`) get a red warning |
+
+Species, genus and author follow Kew's World Checklist of Vascular Plants (WCVP), the
+standard for accepted plant names. Higher ranks come from GBIF and NCBI.
 
 The data is saved in `data/verified/<slug>.json`, one file per plant. Each file also keeps
 the exact source links and the date the data was retrieved (the links are not shown on
@@ -103,16 +108,26 @@ python scripts/fetch_verified.py ficus-religiosa    # just one plant
 
 Then commit the changed files in `data/verified/`.
 
+## Languages: English, Telugu, Hindi, Odia, Tamil, Malayalam
+
+Every page has a language menu at the top. All wording is in **`data/i18n.yaml`**:
+one line per phrase, with `en`, `te`, `hi`, `or`, `ta` and `ml`. These were drafted by
+machine: a fluent speaker of each language should check them, especially the medicinal
+words. To correct a word, edit it on GitHub and commit. Scientific names stay in Latin,
+and the Telugu common name is shown in every language. When new plants bring new
+medicinal words, `python scripts/build.py` lists any that still need a translation.
+
 ## Running the scripts on a computer
 
 Needs Python 3.10+ (and `pdftoppm` from poppler-utils if you want `verify.py` to check `tags.pdf`).
+The tag maker uses WeasyPrint (it joins Telugu letters correctly) and the fonts in `fonts/`.
 
 ```bash
 pip install -r requirements.txt
 python scripts/fetch_verified.py # Taxonomy / Phytochemicals / Conservation → data/verified/
 python scripts/build.py          # website → _site/ (GitHub does this automatically)
 python scripts/make_qr.py        # qr/<slug>.png and qr/<slug>.svg for every plant
-python scripts/make_tags.py      # tags.pdf: A4, 5 tags per page, dashed cut lines
+python scripts/make_tags.py      # tags.pdf: A4, 5 tags per page, `copies` tags per plant
 python scripts/verify.py --online  # decode every QR code + load every live page
 ```
 

@@ -1,7 +1,7 @@
 {
  "slug": "citrus-limon",
  "scientific_name": "Citrus limon",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -46,9 +46,13 @@
      "Citrus limon"
     ]
    ],
-   "authority": "Citrus × limon (L.) Osbeck",
+   "authority": "Citrus ×limon (L.) Osbeck",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207775042)",
+     "https://www.gbif.org/species/207775042"
+    ],
     [
      "GBIF Backbone Taxonomy (key 7647136)",
      "https://www.gbif.org/species/7647136"
@@ -94,6 +98,36 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Citrus%20limon"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "fruit",
+    "whole plant",
+    "flower",
+    "leaf"
+   ],
+   "used_for": [
+    "flatulence",
+    "scurvy",
+    "cooling effect on body",
+    "cough",
+    "diarrhea"
+   ],
+   "properties": [
+    "appetite stimulants",
+    "anthelmintics",
+    "anti-bacterial agents",
+    "antifungal agents"
+   ],
+   "caution": null,
+   "recorded_uses": 63,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Citrus%20limon"
     ]
    ]
   }

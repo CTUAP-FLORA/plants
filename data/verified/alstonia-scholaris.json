@@ -1,7 +1,7 @@
 {
  "slug": "alstonia-scholaris",
  "scientific_name": "Alstonia scholaris",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Alstonia scholaris (L.) R.Br.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 206564796)",
+     "https://www.gbif.org/species/206564796"
+    ],
     [
      "GBIF Backbone Taxonomy (key 5414410)",
      "https://www.gbif.org/species/5414410"
@@ -777,6 +781,42 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Alstonia%20scholaris"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Ayurveda",
+    "Homeopathy",
+    "Siddha",
+    "Sowa Rigpa",
+    "Unani"
+   ],
+   "parts": [
+    "bark",
+    "leaf",
+    "plant exudate",
+    "fruit"
+   ],
+   "used_for": [
+    "dysentery",
+    "malaria",
+    "ulcer",
+    "diarrhea",
+    "skin diseases"
+   ],
+   "properties": [
+    "anthelmintics",
+    "antineoplastic agents",
+    "antipyretics",
+    "antirheumatic agents"
+   ],
+   "caution": null,
+   "recorded_uses": 75,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Alstonia%20scholaris"
     ]
    ]
   }

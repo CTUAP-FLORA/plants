@@ -1,7 +1,7 @@
 {
  "slug": "codiaeum-variegatum",
  "scientific_name": "Codiaeum variegatum",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Codiaeum variegatum (L.) Rumph. ex A.Juss.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207001515)",
+     "https://www.gbif.org/species/207001515"
+    ],
     [
      "GBIF Backbone Taxonomy (key 3071476)",
      "https://www.gbif.org/species/3071476"
@@ -187,6 +191,31 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Codiaeum%20variegatum"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "leaf",
+    "aerial part",
+    "whole plant excluding root"
+   ],
+   "used_for": [
+    "urination disorders"
+   ],
+   "properties": [
+    "antineoplastic agents",
+    "antifungal agents",
+    "cathartics",
+    "hypnotics and sedatives"
+   ],
+   "caution": null,
+   "recorded_uses": 5,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Codiaeum%20variegatum"
     ]
    ]
   }

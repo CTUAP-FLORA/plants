@@ -1,7 +1,7 @@
 {
  "slug": "millingtonia-hortensis",
  "scientific_name": "Millingtonia hortensis",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -46,9 +46,13 @@
      "Millingtonia hortensis"
     ]
    ],
-   "authority": "Millingtonia hortensis L.fil.",
+   "authority": "Millingtonia hortensis L.f.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 206778058)",
+     "https://www.gbif.org/species/206778058"
+    ],
     [
      "GBIF Backbone Taxonomy (key 7629955)",
      "https://www.gbif.org/species/7629955"
@@ -297,6 +301,36 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Millingtonia%20hortensis"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "flower",
+    "bark",
+    "leaf",
+    "fruit"
+   ],
+   "used_for": [
+    "asthma",
+    "sinusitis",
+    "cough",
+    "diabetes mellitus",
+    "hemorrhoids"
+   ],
+   "properties": [
+    "antipyretics",
+    "diuretics",
+    "tonics",
+    "analgesics"
+   ],
+   "caution": null,
+   "recorded_uses": 22,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Millingtonia%20hortensis"
     ]
    ]
   }

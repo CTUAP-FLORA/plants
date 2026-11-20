@@ -1,7 +1,7 @@
 {
  "slug": "syzygium-cumini",
  "scientific_name": "Syzygium cumini",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Syzygium cumini (L.) Skeels",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207343141)",
+     "https://www.gbif.org/species/207343141"
+    ],
     [
      "GBIF Backbone Taxonomy (key 3183840)",
      "https://www.gbif.org/species/3183840"
@@ -612,6 +616,42 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Syzygium%20cumini"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Ayurveda",
+    "Homeopathy",
+    "Siddha",
+    "Sowa Rigpa",
+    "Unani"
+   ],
+   "parts": [
+    "bark",
+    "fruit",
+    "leaf",
+    "seed"
+   ],
+   "used_for": [
+    "diarrhea",
+    "diabetes mellitus",
+    "flatulence",
+    "dysentery",
+    "pharyngitis"
+   ],
+   "properties": [
+    "diuretics",
+    "appetite stimulants",
+    "anti-bacterial agents",
+    "astringents"
+   ],
+   "caution": null,
+   "recorded_uses": 38,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Syzygium%20cumini"
     ]
    ]
   }

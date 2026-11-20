@@ -1,7 +1,7 @@
 {
  "slug": "hibiscus-rosa-sinensis",
  "scientific_name": "Hibiscus rosa-sinensis",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -46,9 +46,13 @@
      "Hibiscus rosa-sinensis"
     ]
    ],
-   "authority": "Hibiscus rosa-sinensis L.",
+   "authority": "Hibiscus ×rosa-sinensis L.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207269648)",
+     "https://www.gbif.org/species/207269648"
+    ],
     [
      "GBIF Backbone Taxonomy (key 3152559)",
      "https://www.gbif.org/species/3152559"
@@ -242,6 +246,36 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Hibiscus%20rosa-sinensis"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "flower",
+    "leaf",
+    "root",
+    "stem"
+   ],
+   "used_for": [
+    "menorrhagia",
+    "cough",
+    "fever",
+    "furunculosis",
+    "common cold"
+   ],
+   "properties": [
+    "demulcents",
+    "laxatives",
+    "analgesics",
+    "emollients"
+   ],
+   "caution": null,
+   "recorded_uses": 135,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Hibiscus%20rosa-sinensis"
     ]
    ]
   }

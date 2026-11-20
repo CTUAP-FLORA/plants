@@ -1,7 +1,7 @@
 {
  "slug": "ceiba-pentandra",
  "scientific_name": "Ceiba pentandra",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Ceiba pentandra (L.) Gaertn.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207264470)",
+     "https://www.gbif.org/species/207264470"
+    ],
     [
      "GBIF Backbone Taxonomy (key 5406697)",
      "https://www.gbif.org/species/5406697"
@@ -182,6 +186,40 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Ceiba%20pentandra"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Ayurveda",
+    "Siddha",
+    "Unani"
+   ],
+   "parts": [
+    "root",
+    "bark",
+    "plant exudate",
+    "fruit"
+   ],
+   "used_for": [
+    "diabetes mellitus",
+    "dysentery",
+    "rejuvenation",
+    "diarrhea",
+    "inflammatory bowel diseases"
+   ],
+   "properties": [
+    "diuretics",
+    "emollients",
+    "astringents",
+    "demulcents"
+   ],
+   "caution": null,
+   "recorded_uses": 45,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Ceiba%20pentandra"
     ]
    ]
   }

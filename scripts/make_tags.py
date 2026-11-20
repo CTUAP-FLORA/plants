@@ -11,6 +11,8 @@ The page is laid out in HTML and printed with WeasyPrint, which joins Telugu let
 correctly. Fonts are bundled in fonts/. The QR code is drawn as vector squares from the
 same qrcode data and settings as scripts/make_qr.py (error correction H).
 
+Each plant is printed as many times as its `copies` in data/plants.yaml.
+
 Usage:  python scripts/make_tags.py
 """
 import html
@@ -192,9 +194,11 @@ def main(out=ROOT / "tags.pdf", slugs=None):
     plants = load_plants()
     if slugs:
         plants = [p for p in plants if p["slug"] in slugs]
+    plants = [p for p in plants for _ in range(int(p.get("copies") or 1))]   # one tag per printed copy
     HTML(string=build_html(plants, cfg), base_url=str(ROOT)).write_pdf(str(out))
     missing = [p["scientific_name"] for p in plants if not p["telugu_names"]]
     print(f"Wrote {out.name}: {len(plants)} tags on {-(-len(plants) // PER_PAGE)} A4 pages")
+    missing = list(dict.fromkeys(missing))
     if missing:
         print("No Telugu name yet (tag shows '(to be added)'):", ", ".join(missing))
 

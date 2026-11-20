@@ -1,7 +1,7 @@
 {
  "slug": "roystonea-regia",
  "scientific_name": "Roystonea regia",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Roystonea regia (Kunth) O.F.Cook",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 206587375)",
+     "https://www.gbif.org/species/206587375"
+    ],
     [
      "GBIF Backbone Taxonomy (key 2733755)",
      "https://www.gbif.org/species/2733755"
@@ -98,6 +102,20 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Roystonea%20regia"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [],
+   "used_for": [],
+   "properties": [],
+   "caution": null,
+   "recorded_uses": 0,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Roystonea%20regia"
     ]
    ]
   }

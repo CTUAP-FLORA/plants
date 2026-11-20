@@ -1,7 +1,7 @@
 {
  "slug": "araucaria-columnaris",
  "scientific_name": "Araucaria columnaris",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -46,9 +46,13 @@
      "Araucaria columnaris"
     ]
    ],
-   "authority": "Araucaria columnaris (J.R.Forst.) Hook.",
+   "authority": "Araucaria columnaris (G.Forst.) Hook.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 206570089)",
+     "https://www.gbif.org/species/206570089"
+    ],
     [
      "GBIF Backbone Taxonomy (key 2684921)",
      "https://www.gbif.org/species/2684921"
@@ -218,6 +222,24 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Araucaria%20columnaris"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [],
+   "parts": [
+    "leaf"
+   ],
+   "used_for": [
+    "insecticides"
+   ],
+   "properties": [],
+   "caution": null,
+   "recorded_uses": 1,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Araucaria%20columnaris"
     ]
    ]
   }

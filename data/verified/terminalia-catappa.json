@@ -1,7 +1,7 @@
 {
  "slug": "terminalia-catappa",
  "scientific_name": "Terminalia catappa",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -49,6 +49,10 @@
    "authority": "Terminalia catappa L.",
    "note": null,
    "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 206915884)",
+     "https://www.gbif.org/species/206915884"
+    ],
     [
      "GBIF Backbone Taxonomy (key 3189394)",
      "https://www.gbif.org/species/3189394"
@@ -322,6 +326,38 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Terminalia%20catappa"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Ayurveda",
+    "Siddha",
+    "Unani"
+   ],
+   "parts": [
+    "leaf",
+    "bark"
+   ],
+   "used_for": [
+    "dysentery",
+    "skin diseases",
+    "headache",
+    "hypohidrosis",
+    "pharyngitis"
+   ],
+   "properties": [
+    "astringents",
+    "diuretics",
+    "cardiotonic agents",
+    "anti-infective agents, local"
+   ],
+   "caution": null,
+   "recorded_uses": 13,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Terminalia%20catappa"
     ]
    ]
   }

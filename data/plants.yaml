@@ -7,6 +7,7 @@
 #    Several names can be separated by commas. Leave empty if not yet known.
 #  * common_names: English names. NOT shown; used only so the search box finds them.
 #  * caution: "poisonous" shows a poison warning in the Medicinal panel.
+#  * copies: how many printed tags of this plant go into tags.pdf (each costs Rs 10).
 #  * Optional fields (description, uses, native_to, flowering_season, photos, notes)
 #    are shown on the plant's page only when they have a value. Leave them empty
 #    until real, checked information is available.
@@ -25,6 +26,7 @@ plants:
     telugu_name: "ఏడాకుల పాల"    # source: Wikidata; Telugu Wikipedia 'ఏడాకుల చెట్టు'
     common_names: ["Devil tree", "Blackboard tree"]
     family: Apocynaceae
+    copies: 3          # number of printed tags
     description:
     uses:
     native_to:
@@ -37,6 +39,7 @@ plants:
     telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Christmas tree"]
     family: Araucariaceae
+    copies: 2          # number of printed tags
     description:
     uses:
     native_to:
@@ -49,6 +52,7 @@ plants:
     telugu_name: "వేప"    # source: Telugu Wikipedia; Wikidata
     common_names: ["Neem", "Margosa"]
     family: Meliaceae
+    copies: 3          # number of printed tags
     description:
     uses:
     native_to:
@@ -61,6 +65,7 @@ plants:
     telugu_name: "తెల్ల బంగారం చెట్టు"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Dwarf white bauhinia"]
     family: Fabaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -73,6 +78,7 @@ plants:
     telugu_name: "కాగితంపూలు"    # source: Telugu Wikipedia
     common_names: ["Paper flower"]
     family: Nyctaginaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -85,6 +91,7 @@ plants:
     telugu_name: "జీలుగ"    # source: Wikidata; Telugu Wikipedia; department list (Jeelugu)
     common_names: ["Fishtail palm"]
     family: Arecaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -97,6 +104,7 @@ plants:
     telugu_name: "తెల్లబూరుగ"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Kapok tree", "White silk cotton"]
     family: Malvaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -109,6 +117,7 @@ plants:
     telugu_name: "నిమ్మ"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Lemon"]
     family: Rutaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -121,6 +130,7 @@ plants:
     telugu_name: "కొబ్బరి"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Coconut tree"]
     family: Arecaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -133,6 +143,7 @@ plants:
     telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Croton", "Variegated croton"]
     family: Euphorbiaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -145,6 +156,7 @@ plants:
     telugu_name: "తురాయి, కోడిపుంజు చెట్టు"    # source: Wikidata label + alias; department list
     common_names: []
     family: Fabaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -157,6 +169,7 @@ plants:
     telugu_name: "కానుగ"    # source: Telugu Wikipedia; department list (Kanuga)
     common_names: ["Indian beech tree", "Pongam tree"]
     family: Fabaceae
+    copies: 3          # number of printed tags
     description:
     uses:
     native_to:
@@ -169,6 +182,7 @@ plants:
     telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Dragon tree"]
     family: Asparagaceae
+    copies: 2          # number of printed tags
     description:
     uses:
     native_to:
@@ -181,6 +195,7 @@ plants:
     telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Areca palm", "Butterfly palm", "Bamboo palm"]
     family: Arecaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -193,6 +208,7 @@ plants:
     telugu_name: "మామిడి"    # source: Telugu Wikipedia
     common_names: ["Mango"]
     family: Anacardiaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -205,6 +221,7 @@ plants:
     telugu_name: "ఆకాశమల్లి"    # source: Wikidata; Telugu Wikipedia; department list
     common_names: ["Indian cork tree", "Tree jasmine"]
     family: Bignoniaceae
+    copies: 2          # number of printed tags
     description:
     uses:
     native_to:
@@ -217,6 +234,7 @@ plants:
     telugu_name: "నక్కరేగు"    # source: department list only (Nakkaregu) - please confirm
     common_names: ["Jamaica cherry", "Singapore cherry"]
     family: Muntingiaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -229,6 +247,7 @@ plants:
     telugu_name: "గన్నేరు, ఎర్ర గన్నేరు"    # source: Wikidata; department list (Ganneru, Erra ganneru)
     common_names: ["Oleander"]
     family: Apocynaceae
+    copies: 1          # number of printed tags
     caution: poisonous
     description:
     uses:
@@ -242,6 +261,7 @@ plants:
     telugu_name: "కొండ చింత"    # source: department list only (Konda chinta) - please confirm
     common_names: ["Copper pod tree"]
     family: Fabaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -254,6 +274,7 @@ plants:
     telugu_name: "జామ"    # source: Telugu Wikipedia
     common_names: ["Guava"]
     family: Myrtaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -266,6 +287,7 @@ plants:
     telugu_name: "గులాబీ"    # source: general Telugu word for rose - please confirm
     common_names: ["Rose"]
     family: Rosaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -278,6 +300,7 @@ plants:
     telugu_name: "నేరేడు"    # source: Wikidata; Telugu Wikipedia; department list
     common_names: ["Malabar plum", "Black plum"]
     family: Myrtaceae
+    copies: 2          # number of printed tags
     description:
     uses:
     native_to:
@@ -290,6 +313,7 @@ plants:
     telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Wax apple", "Water apple"]
     family: Myrtaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -302,6 +326,7 @@ plants:
     telugu_name: "నాటు బాదం"    # source: department list only (Natu badam) - please confirm
     common_names: ["Indian almond"]
     family: Combretaceae
+    copies: 3          # number of printed tags
     description:
     uses:
     native_to:
@@ -314,6 +339,7 @@ plants:
     telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["White cedar"]
     family: Cupressaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -326,6 +352,7 @@ plants:
     telugu_name: "మందార"    # source: Wikidata; Telugu Wikipedia; department list
     common_names: ["China rose"]
     family: Malvaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -338,6 +365,7 @@ plants:
     telugu_name: "రాయల్ పామ్"    # source: Telugu Wikipedia (English name in Telugu letters) - please confirm
     common_names: ["Royal palm"]
     family: Arecaceae
+    copies: 2          # number of printed tags
     description:
     uses:
     native_to:
@@ -350,6 +378,7 @@ plants:
     telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Traveller's tree"]
     family: Strelitziaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -362,6 +391,7 @@ plants:
     telugu_name: "నందివర్ధనం"    # source: department list (Nandivardhanamu) - please confirm
     common_names: []
     family: Apocynaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -374,6 +404,7 @@ plants:
     telugu_name: "వావిలి"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Chinese chaste tree", "Five-leaved chaste tree"]
     family: Lamiaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -386,6 +417,7 @@ plants:
     telugu_name: "టేకు"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Teak"]
     family: Lamiaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -398,6 +430,7 @@ plants:
     telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Bismarck palm"]
     family: Arecaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -410,6 +443,7 @@ plants:
     telugu_name: "బిళ్ళ గన్నేరు"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Madagascar periwinkle"]
     family: Apocynaceae
+    copies: 1          # number of printed tags
     caution: poisonous
     description:
     uses:
@@ -423,6 +457,7 @@ plants:
     telugu_name: "ఉసిరి"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Indian gooseberry", "Amla"]
     family: Phyllanthaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -435,6 +470,7 @@ plants:
     telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Gardenia", "Cape jasmine"]
     family: Rubiaceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:
@@ -447,6 +483,7 @@ plants:
     telugu_name: "పనస"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Jackfruit"]
     family: Moraceae
+    copies: 1          # number of printed tags
     description:
     uses:
     native_to:

@@ -294,6 +294,9 @@ def plant_page(p, cfg, plants):
     if p["telugu_names"]:
         h.append(t("common_name_te", cls="lbl rise d3"))
         h.append('<ul class="chips telugu rise d3" lang="te">' + "".join(f"<li>{e(n)}</li>" for n in p["telugu_names"]) + "</ul>")
+    elif p["common_names"]:      # no Telugu name known: show the English common name
+        h.append(t("common_name", cls="lbl rise d3"))
+        h.append('<ul class="chips rise d3" lang="en">' + "".join(f"<li>{e(n)}</li>" for n in p["common_names"]) + "</ul>")
     h.append(f"</div></div>{WAVE}</header>")
 
     genus = p["scientific_name"].split(" ")[0]
@@ -343,7 +346,9 @@ def index_page(plants, cfg):
             f'<span class="badge">{e(p["scientific_name"][0])}</span><span class="tx">'
             f'<span class="sci">{e(p["scientific_name"])}</span>'
             + (f'<span class="cn">{t("telugu_name", tag="b")} <span class="telugu" lang="te">{e(", ".join(p["telugu_names"]))}</span></span>'
-               if p["telugu_names"] else "") +
+               if p["telugu_names"] else
+               f'<span class="cn">{t("common_name_colon", tag="b")} <span lang="en">{e(", ".join(p["common_names"]))}</span></span>'
+               if p["common_names"] else "") +
             f'<span class="fam">'
             f'{e(p["family"])}</span></span></a></li>')
     fams = sorted({p["family"] for p in plants})

@@ -2,7 +2,7 @@
 
 Each tag has labelled lines so visitors without botany training can read it:
   Scientific name: <italic name>
-  Common name:     <Telugu name in Telugu script>
+  Common name:     <Telugu name in Telugu script, or the English name if none is known>
   Family:          <family>
 then a hand-written "Scan for more details!" with a curved arrow to the QR code,
 and the university name in small text.
@@ -134,8 +134,13 @@ def tag_html(p, cfg, style=None):
                  avail - width_pt(lab_sci, "NotoSans-Regular.ttf", 11))
     te = ", ".join(p["telugu_names"])
     te_pt = fit(te, "NotoSansTelugu-Bold.ttf", 19, 11, avail - width_pt(lab_com, "NotoSans-Regular.ttf", 11)) if te else 19
-    te_html = (f'<span class="te" style="font-size:{te_pt}pt">{e(te)}</span>' if te
-               else '<span class="missing">(to be added)</span>')
+    if te:
+        te_html = f'<span class="te" style="font-size:{te_pt}pt">{e(te)}</span>'
+    else:   # no Telugu name known: the English common name, in English
+        en = ", ".join(p["common_names"])
+        en_pt = fit(en, "NotoSans-Bold.ttf", 17, 11, avail - width_pt(lab_com, "NotoSans-Regular.ttf", 11))
+        te_html = (f'<span class="en" style="font-size:{en_pt}pt">{e(en)}</span>' if en
+                   else '<span class="missing">(to be added)</span>')
     return f"""<div class="tag">
   <div class="bar"></div>
   <div class="txt">
@@ -169,6 +174,7 @@ body {{ margin: 0; font-family: "TagSans", sans-serif; color: #111; }}
 .sci .up {{ font-style: normal; font-family: "TagSans"; font-weight: 400; font-size: 0.72em; }}
 .te {{ font-family: "TagTelugu", sans-serif; color: #111; }}
 .fam {{ font-weight: 700; font-size: 14pt; }}
+.en {{ font-weight: 700; color: #111; }}
 .missing {{ font-size: 11pt; color: #b00; font-style: italic; }}
 .scan {{ position: absolute; left: 9mm; top: 35.6mm; font-family: "TagHand", cursive; font-size: 21pt; color: #2f7d3a;
          transform: rotate(-3deg); transform-origin: left center; }}
@@ -196,7 +202,7 @@ def main(out=ROOT / "tags.pdf", slugs=None):
         plants = [p for p in plants if p["slug"] in slugs]
     plants = [p for p in plants for _ in range(int(p.get("copies") or 1))]   # one tag per printed copy
     HTML(string=build_html(plants, cfg), base_url=str(ROOT)).write_pdf(str(out))
-    missing = [p["scientific_name"] for p in plants if not p["telugu_names"]]
+    missing = [p["scientific_name"] for p in plants if not p["telugu_names"] and not p["common_names"]]
     print(f"Wrote {out.name}: {len(plants)} tags on {-(-len(plants) // PER_PAGE)} A4 pages")
     missing = list(dict.fromkeys(missing))
     if missing:

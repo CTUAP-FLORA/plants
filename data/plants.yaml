@@ -4,8 +4,9 @@
 #  * slug is PERMANENT once tags are printed. It is inside the QR code.
 #  * scientific_name: the accepted name in Kew's World Checklist of Vascular Plants (WCVP).
 #  * telugu_name: the common name shown on the tag and the web page, in Telugu script.
-#    Several names can be separated by commas. Leave empty if not yet known.
-#  * common_names: English names. NOT shown; used only so the search box finds them.
+#    Several names can be separated by commas.
+#  * common_names: English names. Used by the search box, and shown (in English) only
+#    when telugu_name is empty because no Telugu name is known.
 #  * caution: "poisonous" shows a poison warning in the Medicinal panel.
 #  * copies: how many printed tags of this plant go into tags.pdf (each costs Rs 10).
 #  * Optional fields (description, uses, native_to, flowering_season, photos, notes)
@@ -36,7 +37,7 @@ plants:
 
   - slug: araucaria-columnaris
     scientific_name: Araucaria columnaris
-    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
+    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
     common_names: ["Christmas tree"]
     family: Araucariaceae
     copies: 2          # number of printed tags
@@ -140,7 +141,7 @@ plants:
 
   - slug: codiaeum-variegatum
     scientific_name: Codiaeum variegatum
-    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
+    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
     common_names: ["Croton", "Variegated croton"]
     family: Euphorbiaceae
     copies: 1          # number of printed tags
@@ -179,7 +180,7 @@ plants:
 
   - slug: dracaena-reflexa-angustifolia
     scientific_name: Dracaena reflexa var. angustifolia
-    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
+    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
     common_names: ["Dragon tree"]
     family: Asparagaceae
     copies: 2          # number of printed tags
@@ -192,7 +193,7 @@ plants:
 
   - slug: chrysalidocarpus-lutescens
     scientific_name: Chrysalidocarpus lutescens
-    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
+    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
     common_names: ["Areca palm", "Butterfly palm", "Bamboo palm"]
     family: Arecaceae
     copies: 1          # number of printed tags
@@ -310,7 +311,7 @@ plants:
 
   - slug: syzygium-samarangense
     scientific_name: Syzygium samarangense
-    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
+    telugu_name: "వాటర్ ఆపిల్"    # source: Telugu Wikipedia (water apple, used for the closely related S. aqueum); department list says Water apple
     common_names: ["Wax apple", "Water apple"]
     family: Myrtaceae
     copies: 1          # number of printed tags
@@ -336,7 +337,7 @@ plants:
 
   - slug: thuja-occidentalis
     scientific_name: Thuja occidentalis
-    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
+    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
     common_names: ["White cedar"]
     family: Cupressaceae
     copies: 1          # number of printed tags
@@ -375,7 +376,7 @@ plants:
 
   - slug: ravenala-madagascariensis
     scientific_name: Ravenala madagascariensis
-    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
+    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
     common_names: ["Traveller's tree"]
     family: Strelitziaceae
     copies: 1          # number of printed tags
@@ -427,7 +428,7 @@ plants:
 
   - slug: bismarckia-nobilis
     scientific_name: Bismarckia nobilis
-    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
+    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
     common_names: ["Bismarck palm"]
     family: Arecaceae
     copies: 1          # number of printed tags
@@ -467,7 +468,7 @@ plants:
 
   - slug: gardenia-jasminoides
     scientific_name: Gardenia jasminoides
-    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
+    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
     common_names: ["Gardenia", "Cape jasmine"]
     family: Rubiaceae
     copies: 1          # number of printed tags
@@ -484,6 +485,19 @@ plants:
     common_names: ["Jackfruit"]
     family: Moraceae
     copies: 1          # number of printed tags
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: moringa-oleifera
+    scientific_name: Moringa oleifera
+    telugu_name: "మునగ"    # source: Wikidata; Telugu Wikipedia
+    common_names: ["Drumstick tree"]
+    family: Moringaceae
+    copies: 2          # number of printed tags
     description:
     uses:
     native_to:

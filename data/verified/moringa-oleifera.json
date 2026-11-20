@@ -1,0 +1,528 @@
+{
+ "slug": "moringa-oleifera",
+ "scientific_name": "Moringa oleifera",
+ "retrieved": "2026-11-20",
+ "sections": {
+  "taxonomy": {
+   "rows": [
+    [
+     "Kingdom",
+     "Plantae"
+    ],
+    [
+     "Division (Phylum)",
+     "Tracheophyta"
+    ],
+    [
+     "Class",
+     "Magnoliopsida"
+    ],
+    [
+     "Subclass",
+     null
+    ],
+    [
+     "Order",
+     "Brassicales"
+    ],
+    [
+     "Family",
+     "Moringaceae"
+    ],
+    [
+     "Subfamily",
+     null
+    ],
+    [
+     "Tribe",
+     null
+    ],
+    [
+     "Genus",
+     "Moringa"
+    ],
+    [
+     "Species",
+     "Moringa oleifera"
+    ]
+   ],
+   "authority": "Moringa oleifera Lam.",
+   "note": null,
+   "sources": [
+    [
+     "World Checklist of Vascular Plants (Kew), via GBIF (key 207315499)",
+     "https://www.gbif.org/species/207315499"
+    ],
+    [
+     "GBIF Backbone Taxonomy (key 3054181)",
+     "https://www.gbif.org/species/3054181"
+    ],
+    [
+     "NCBI Taxonomy (ID 3735)",
+     "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3735"
+    ]
+   ]
+  },
+  "phytochemicals": {
+   "compounds": [
+    {
+     "name": "adenosine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/60961",
+     "refs": []
+    },
+    {
+     "name": "Asperglaucide",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10026486",
+     "refs": []
+    },
+    {
+     "name": "Astragalin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5282102",
+     "refs": []
+    },
+    {
+     "name": "benzyl β-D-glucoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/188977",
+     "refs": []
+    },
+    {
+     "name": "trans-caffeic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/689043",
+     "refs": []
+    },
+    {
+     "name": "fumaric acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/21883788",
+     "refs": []
+    },
+    {
+     "name": "gallic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/370",
+     "refs": []
+    },
+    {
+     "name": "4-hydroxybenzaldehyde",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/126",
+     "refs": []
+    },
+    {
+     "name": "4-hydroxybenzeneacetamide",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/86986",
+     "refs": []
+    },
+    {
+     "name": "4-hydroxybenzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3702506",
+     "refs": []
+    },
+    {
+     "name": "4-Hydroxybenzoic acid glucoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3320872",
+     "refs": []
+    },
+    {
+     "name": "4-hydroxybenzyl cyanide",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/26548",
+     "refs": []
+    },
+    {
+     "name": "4-hydroxyphenylacetic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/127",
+     "refs": []
+    },
+    {
+     "name": "isoquercetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280804",
+     "refs": []
+    },
+    {
+     "name": "lupeol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/259846",
+     "refs": []
+    },
+    {
+     "name": "Marumoside A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101794623",
+     "refs": []
+    },
+    {
+     "name": "methylparaben",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/7456",
+     "refs": []
+    },
+    {
+     "name": "multiflorin B",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5319938",
+     "refs": []
+    },
+    {
+     "name": "myricetin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281672",
+     "refs": []
+    },
+    {
+     "name": "Niazicin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10068657",
+     "refs": []
+    },
+    {
+     "name": "Niazicinin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101920262",
+     "refs": []
+    },
+    {
+     "name": "Niazidin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11792427",
+     "refs": []
+    },
+    {
+     "name": "Niazimicin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10247749",
+     "refs": []
+    },
+    {
+     "name": "Niazimin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10339912",
+     "refs": []
+    },
+    {
+     "name": "Niaziminin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10023860",
+     "refs": []
+    },
+    {
+     "name": "niaziminin A",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/44559760",
+     "refs": []
+    },
+    {
+     "name": "Niazinin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10088810",
+     "refs": []
+    },
+    {
+     "name": "Niazirinin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10426197",
+     "refs": []
+    },
+    {
+     "name": "rutin",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280805",
+     "refs": []
+    },
+    {
+     "name": "sitogluside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5742590",
+     "refs": []
+    },
+    {
+     "name": "beta-sitosterol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/222284",
+     "refs": []
+    },
+    {
+     "name": "syringic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10742",
+     "refs": []
+    },
+    {
+     "name": "tryptophan",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6923516",
+     "refs": []
+    },
+    {
+     "name": "Urea, N,N'-bis(phenylmethyl)-",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/72889",
+     "refs": []
+    },
+    {
+     "name": "4-(4'-O-Acetyl-alpha-L-rhamnosyloxy)benzaldehyde",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10018247",
+     "refs": []
+    },
+    {
+     "name": "4-(4'-O-Acetyl-alpha-L-rhamnosyloxy)benzyl isothiocyanate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10291650",
+     "refs": []
+    },
+    {
+     "name": "[3-Acetyloxy-2-[5,7-dihydroxy-2-(4-methoxyphenyl)-4-oxochromen-3-yl]oxy-5-hydroxy-6-(hydroxymethyl)oxan-4-yl] acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163068061",
+     "refs": []
+    },
+    {
+     "name": "Benzyl alcohol xylopyranosyl-(1-6)-glucopyranoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/131248",
+     "refs": []
+    },
+    {
+     "name": "Carbonimidothioic acid, [[4-[(4-O-acetyl-6-deoxy-alpha-L-mannopyranosyl)oxy]phenyl]methyl]-, O-ethyl ester, (E)-",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/85095594",
+     "refs": []
+    },
+    {
+     "name": "O-cyano N-[[4-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyphenyl]methyl]carbamothioate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73103389",
+     "refs": []
+    },
+    {
+     "name": "[2-[5,7-Dihydroxy-2-(4-methoxyphenyl)-4-oxochromen-3-yl]oxy-4,5-dihydroxy-6-methyloxan-3-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163060680",
+     "refs": []
+    },
+    {
+     "name": "[(2S,3R,4R,5R,6S)-4,5-dihydroxy-2-[4-(isothiocyanatomethyl)phenoxy]-6-methyloxan-3-yl] acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/46933086",
+     "refs": []
+    },
+    {
+     "name": "[(2S,3R,4R,5S,6S)-3,5-dihydroxy-2-[4-(isothiocyanatomethyl)phenoxy]-6-methyloxan-4-yl] acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/46932936",
+     "refs": []
+    },
+    {
+     "name": "[4,5-Dihydroxy-2-[5-hydroxy-2-(4-methoxyphenyl)-4-oxo-7-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxychromen-3-yl]oxy-6-[(3,4,5-trihydroxy-6-methyloxan-2-yl)oxymethyl]oxan-3-yl] 3,4,5-trihydroxybenzoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162972264",
+     "refs": []
+    },
+    {
+     "name": "3-[4,5-Dihydroxy-5-methyl-3-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]peroxy-6-[(2,3,5-trihydroxy-6-methyloxan-4-yl)oxymethyl]oxan-2-yl]oxy-5-hydroxy-2-(4-hydroxyphenyl)-7-(2,3,5-trihydroxy-6-methyloxan-4-yl)oxychromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163060740",
+     "refs": []
+    },
+    {
+     "name": "4-[4,5-Dihydroxy-6-(hydroxymethyl)-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxybenzoic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163060707",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3S,4R,5R,6R)-4,5-dihydroxy-6-[4-[(methoxycarbonylamino)methyl]phenoxy]-2-methyloxan-3-yl] acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162976227",
+     "refs": []
+    },
+    {
+     "name": "[(2R,3S,4R,5R,6R)-4,5-dihydroxy-6-[4-[(methoxycarbothioylamino)methyl]phenoxy]-2-methyloxan-3-yl] acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162952485",
+     "refs": []
+    },
+    {
+     "name": "2-[4-[(2R,3R,4S,5R,6R)-3,5-dihydroxy-6-methyl-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxyphenyl]acetonitrile",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11419325",
+     "refs": []
+    },
+    {
+     "name": "Ethyl 4-(rhamnosyloxy)benzylcarbamate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101942512",
+     "refs": []
+    },
+    {
+     "name": "O-ethyl N-[[4-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyphenyl]methyl]carbamothioate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5471459",
+     "refs": []
+    },
+    {
+     "name": "O-Ethyl-4-[(2',3',4'-tri-O-acetyl-alpha-L-rhamnosyloxy)benzyl]carbamate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10434741",
+     "refs": []
+    },
+    {
+     "name": "[2-ethyl-4-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyphenyl]methylcarbamic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163191590",
+     "refs": []
+    },
+    {
+     "name": "4-Hydroxy-3,5-dimethoxycyclohexane-1-carboxylic acid",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/149428703",
+     "refs": []
+    },
+    {
+     "name": "5-Hydroxy-3-[4-hydroxy-6-(hydroxymethyl)-3,5-bis[(3,4,5-trihydroxy-6-methyloxan-2-yl)oxy]oxan-2-yl]oxy-2-(4-hydroxyphenyl)-7-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxychromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163060952",
+     "refs": []
+    },
+    {
+     "name": "1-S-[3-hydroxy-3-methyl-N-(sulfooxy)butanimidoyl]-1-thio-beta-D-glucopyranose",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9548624",
+     "refs": []
+    },
+    {
+     "name": "4-Hydroxybenzyl isothiocyanate 4''-acetylrhamnoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/22718840",
+     "refs": []
+    },
+    {
+     "name": "4-Hydroxyphenylacetonitrile triacetylrhamnoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101919835",
+     "refs": []
+    },
+    {
+     "name": "alpha-L-Mannopyranoside, 4-(isothiocyanatomethyl)phenyl 6-deoxy-",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/153557",
+     "refs": []
+    },
+    {
+     "name": "(4-Methoxybenzyl)thiocarbamic acid 4'-O-(tri-O-acetyl-alpha-L-rhamnopyranoside)",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10367398",
+     "refs": []
+    },
+    {
+     "name": "methyl 2-[4-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyphenyl]acetate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11220666",
+     "refs": []
+    },
+    {
+     "name": "methyl N-[[4-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyphenyl]methyl]carbamate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/163074827",
+     "refs": []
+    },
+    {
+     "name": "S-methyl N-[[4-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyphenyl]methyl]carbamothioate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/49865742",
+     "refs": []
+    },
+    {
+     "name": "O-Methyl-4-[(2',3',4'-tri-O-acetyl-alpha-L-rhamnosyloxy)benzyl]carbamate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101919834",
+     "refs": []
+    },
+    {
+     "name": "(2R,3S,4S,5R,6R)-2-methyl-6-phenoxyoxane-3,4,5-triol",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11379460",
+     "refs": []
+    },
+    {
+     "name": "(Z)-N-[(4-hydroxyphenyl)methyl]ethoxycarbothioamide 4'-(tri-acetylrhamnoside)",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10323025",
+     "refs": []
+    },
+    {
+     "name": "N-methoxycarbonyl-4-(alpha-l-rhamnopyranosyloxy) benzylamine",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/91101122",
+     "refs": []
+    },
+    {
+     "name": "Pyrrolemarumine 4''-O-alpha-L-rhamnopyranoside",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101794622",
+     "refs": []
+    },
+    {
+     "name": "4-(Rhamnosyloxy)phenylacetonitrile",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/129556",
+     "refs": []
+    },
+    {
+     "name": "O-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] N-[[4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyphenyl]methyl]carbamothioate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11431835",
+     "refs": []
+    },
+    {
+     "name": "4-[3,4,5-Trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxybenzaldehyde",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3303383",
+     "refs": []
+    },
+    {
+     "name": "2-[4-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyphenyl]acetonitrile",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162931274",
+     "refs": []
+    }
+   ],
+   "sources": [
+    [
+     "Wikidata compound–species links (from the LOTUS natural products database)",
+     "http://www.wikidata.org/entity/Q234193"
+    ],
+    [
+     "LOTUS natural products initiative",
+     "https://lotus.naturalproducts.net/"
+    ],
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics",
+     "https://cb.imsc.res.in/imppat/"
+    ]
+   ]
+  },
+  "conservation": {
+   "iucn": [
+    "LC",
+    "Least Concern"
+   ],
+   "india": [
+    [
+     "Andaman Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Assam",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "India",
+     "native",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Laccadive Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ],
+    [
+     "Nicobar Is.",
+     "introduced",
+     "The World Checklist of Vascular Plants (WCVP)"
+    ]
+   ],
+   "endemic": [],
+   "sources": [
+    [
+     "IUCN Red List category (published via GBIF)",
+     "https://www.gbif.org/species/3054181"
+    ],
+    [
+     "Published checklists (GBIF species distributions)",
+     "https://www.gbif.org/species/3054181"
+    ],
+    [
+     "IUCN Red List search",
+     "https://www.iucnredlist.org/search?query=Moringa%20oleifera"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Ayurveda",
+    "Siddha",
+    "Sowa Rigpa",
+    "Unani"
+   ],
+   "parts": [
+    "leaf",
+    "root",
+    "seed",
+    "bark"
+   ],
+   "used_for": [
+    "earache",
+    "ascites",
+    "asthma",
+    "common cold",
+    "dyspepsia"
+   ],
+   "properties": [
+    "antirheumatic agents",
+    "diuretics",
+    "anthelmintics",
+    "anti-inflammatory agents"
+   ],
+   "caution": null,
+   "recorded_uses": 213,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Moringa%20oleifera"
+    ]
+   ]
+  }
+ }
+}

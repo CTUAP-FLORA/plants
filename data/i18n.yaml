@@ -22,6 +22,8 @@ ui:
   all_plants: {en: All plants, te: అన్ని మొక్కలు, hi: सभी पौधे, or: ସମସ୍ତ ଗଛ, ta: அனைத்து தாவரங்கள், ml: എല്ലാ സസ്യങ്ങളും}
   scientific_name: {en: Scientific name, te: శాస్త్రీయ నామం, hi: वैज्ञानिक नाम, or: ବୈଜ୍ଞାନିକ ନାମ, ta: அறிவியல் பெயர், ml: ശാസ്ത്രീയ നാമം}
   common_name_te: {en: Common name (Telugu), te: సాధారణ పేరు (తెలుగు), hi: सामान्य नाम (तेलुगु), or: ସାଧାରଣ ନାମ (ତେଲୁଗୁ), ta: பொதுப் பெயர் (தெலுங்கு), ml: പൊതുനാമം (തെലുങ്ക്)}
+  common_name: {en: Common name, te: సాధారణ పేరు, hi: सामान्य नाम, or: ସାଧାରଣ ନାମ, ta: பொதுப் பெயர், ml: പൊതുനാമം}
+  common_name_colon: {en: "Common name:", te: "సాధారణ పేరు:", hi: "सामान्य नाम:", or: "ସାଧାରଣ ନାମ:", ta: "பொதுப் பெயர்:", ml: "പൊതുനാമം:"}
   telugu_name: {en: "Telugu name:", te: "తెలుగు పేరు:", hi: "तेलुगु नाम:", or: "ତେଲୁଗୁ ନାମ:", ta: "தெலுங்குப் பெயர்:", ml: "തെലുങ്ക് പേര്:"}
   explore_title: {en: Explore this plant, te: ఈ మొక్క గురించి తెలుసుకోండి, hi: इस पौधे के बारे में जानें, or: ଏହି ଗଛ ବିଷୟରେ ଜାଣନ୍ତୁ, ta: இந்தத் தாவரத்தைப் பற்றி அறியுங்கள், ml: ഈ സസ്യത്തെക്കുറിച്ച് അറിയുക}
   explore_sub: {en: Verified scientific databases, te: ధృవీకరించిన శాస్త్రీయ డేటాబేస్‌లు, hi: सत्यापित वैज्ञानिक डेटाबेस, or: ପ୍ରମାଣିତ ବୈଜ୍ଞାନିକ ଡାଟାବେସ୍, ta: சரிபார்க்கப்பட்ட அறிவியல் தரவுத்தளங்கள், ml: സ്ഥിരീകരിച്ച ശാസ്ത്രീയ ഡാറ്റാബേസുകൾ}
@@ -206,3 +208,5 @@ terms:
   "use:urination disorders": {en: Urinary problems, te: మూత్ర సమస్యలు, hi: मूत्र संबंधी समस्याएँ, or: ପରିସ୍ରା ସମସ୍ୟା, ta: சிறுநீர்ப் பிரச்சினைகள், ml: മൂത്ര സംബന്ധമായ പ്രശ്നങ്ങൾ}
   "use:uterine diseases": {en: Uterine problems, te: గర్భాశయ సమస్యలు, hi: गर्भाशय रोग, or: ଗର୍ଭାଶୟ ରୋଗ, ta: கருப்பை நோய்கள், ml: ഗർഭാശയ രോഗങ്ങൾ}
   "use:wounds and injuries/trauma": {en: Wounds and injuries, te: గాయాలు, hi: घाव और चोट, or: ଘା ଓ ଆଘାତ, ta: காயங்கள், ml: മുറിവുകളും പരിക്കുകളും}
+  "use:ascites": {en: Fluid in the abdomen (ascites), te: జలోదరం, hi: जलोदर, or: ଜଳୋଦର, ta: மகோதரம், ml: മഹോദരം}
+  "use:earache": {en: Earache, te: చెవి నొప్పి, hi: कान दर्द, or: କାନ ବିନ୍ଧା, ta: காது வலி, ml: ചെവിവേദന}

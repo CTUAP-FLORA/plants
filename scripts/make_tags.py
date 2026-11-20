@@ -68,20 +68,64 @@ def sci_html(name):
     return "".join(f'<span class="up">{e(p)}</span>' if re.fullmatch(r"(?:var|subsp|f)\.", p) else e(p) for p in parts)
 
 
-def arrow_svg(x0, y0, x1, y1):
-    """A lively hand-drawn arrow from (x0, y0) to (x1, y1), in mm inside the tag."""
-    lx = x0 + (x1 - x0) * 0.42                       # where the little loop sits
-    ly = y0 + 3.5
-    path = (f"M{x0},{y0} C{x0 + 6},{y0 + 4.5} {lx - 6},{ly + 3} {lx},{ly - 1.5} "     # glide right …
-            f"C{lx + 5},{ly - 9} {lx - 6},{ly - 10.5} {lx - 4.5},{ly - 3} "           # … a playful loop …
-            f"C{lx - 3.5},{ly + 3.5} {x1 - 14},{y1 + 9} {x1},{y1}")                    # … then swoop up into the QR
-    head = f"M{x1 - 4.6},{y1 - 0.4} L{x1 + 0.4},{y1} L{x1 - 2.4},{y1 + 4.2} Z"
-    return (f'<svg class="arrow" viewBox="0 0 {TAG_W} {TAG_H}" width="{TAG_W}mm" height="{TAG_H}mm">'
-            f'<path d="{path}" fill="none" stroke="#2f7d3a" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>'
-            f'<path d="{head}" fill="#2f7d3a" stroke="#2f7d3a" stroke-width="0.5" stroke-linejoin="round"/></svg>')
+GREEN = "#2f7d3a"
+ARROW_STYLE = "swoosh"     # one of: swoosh, banner, chevrons, dotted, loop  (see scan_block)
 
 
-def tag_html(p, cfg):
+def _svg(inner):
+    return f'<svg class="arrow" viewBox="0 0 {TAG_W} {TAG_H}" width="{TAG_W}mm" height="{TAG_H}mm">{inner}</svg>'
+
+
+def _head(x1, y1, size=1.0):
+    return (f'<path d="M{x1 - 5.2 * size},{y1 - 3.0 * size} L{x1 + 0.6},{y1} L{x1 - 5.2 * size},{y1 + 3.0 * size} '
+            f'L{x1 - 3.6 * size},{y1} Z" fill="{GREEN}" stroke="{GREEN}" stroke-width="0.4" stroke-linejoin="round"/>')
+
+
+def scan_block(style):
+    """The 'Scan for more details' call-to-action and its arrow to the QR code (positions in mm)."""
+    qr_left = TAG_W - 5.0 - QR_MM
+    x1, y1 = qr_left + 1.2, TAG_H / 2 + 1.5           # arrow tip: left edge of the QR code
+    if style == "banner":
+        # a green arrow-shaped banner with white text, its point touching the QR code
+        top, bot = 35.0, 44.5
+        mid = (top + bot) / 2
+        poly = (f"9,{top} {x1 - 7},{top} {x1 - 7},{top - 2.2} {x1},{mid} {x1 - 7},{bot + 2.2} {x1 - 7},{bot} 9,{bot}")
+        return (_svg(f'<polygon points="{poly}" fill="{GREEN}" stroke="{GREEN}" stroke-width="0.6" stroke-linejoin="round"/>')
+                + '<div class="scan banner">Scan for more details &#8594;</div>')
+    if style == "chevrons":
+        # hand-written text followed by a row of growing chevrons that lead into the QR code
+        tx = 9 + width_pt("Scan for more details!", "Caveat-Bold.woff2", 21) / PT_PER_MM + 3
+        n, gap = 6, (x1 - 2 - tx) / 6
+        ch = "".join(
+            f'<path d="M{tx + k * gap},{40.2 - (1.6 + k * .45)} L{tx + k * gap + 2.2 + k * .35},{40.2} '
+            f'L{tx + k * gap},{40.2 + (1.6 + k * .45)}" fill="none" stroke="{GREEN}" stroke-opacity="{0.35 + k * 0.13:.2f}" '
+            f'stroke-width="{0.9 + k * 0.12:.2f}" stroke-linecap="round" stroke-linejoin="round"/>' for k in range(n))
+        return _svg(ch) + '<div class="scan">Scan for more details!</div>'
+    if style == "dotted":
+        # a dotted trail from a pointing hand to the QR code
+        x0, y0 = 9 + width_pt("Scan for more details!", "Caveat-Bold.woff2", 21) / PT_PER_MM + 3, 40.4
+        path = f"M{x0},{y0} C{x0 + 18},{y0 + 6} {x1 - 18},{y1 + 10} {x1 - 1},{y1}"
+        return (_svg(f'<path d="{path}" fill="none" stroke="{GREEN}" stroke-width="1.3" stroke-linecap="round" '
+                     f'stroke-dasharray="0.01 2.6"/>' + _head(x1, y1, 1.05))
+                + '<div class="scan">Scan for more details!</div>')
+    if style == "loop":
+        x0, y0 = 9 + width_pt("Scan for more details!", "Caveat-Bold.woff2", 21) / PT_PER_MM + 2, 40.6
+        lx, ly = x0 + (x1 - x0) * 0.42, y0 + 3.5
+        path = (f"M{x0},{y0} C{x0 + 6},{y0 + 4.5} {lx - 6},{ly + 3} {lx},{ly - 1.5} "
+                f"C{lx + 5},{ly - 9} {lx - 6},{ly - 10.5} {lx - 4.5},{ly - 3} "
+                f"C{lx - 3.5},{ly + 3.5} {x1 - 14},{y1 + 9} {x1},{y1}")
+        return (_svg(f'<path d="{path}" fill="none" stroke="{GREEN}" stroke-width="0.8" stroke-linecap="round"/>' + _head(x1, y1, .9))
+                + '<div class="scan">Scan for more details!</div>')
+    # default "swoosh": a bold, tapered brush-stroke arrow that sweeps up into the QR code
+    x0, y0 = 9 + width_pt("Scan for more details!", "Caveat-Bold.woff2", 21) / PT_PER_MM + 2.5, 41.5
+    c1, c2 = (x0 + 22, y0 + 8.5), (x1 - 20, y1 + 11)
+    top = f"M{x0},{y0} C{c1[0]},{c1[1] - 0.2} {c2[0]},{c2[1] - 1.6} {x1 - 4.2},{y1 - 0.6}"
+    bot = f"L{x1 - 4.4},{y1 + 1.4} C{c2[0]},{c2[1] + 1.4} {c1[0]},{c1[1] + 1.2} {x0},{y0 + 0.4} Z"
+    return (_svg(f'<path d="{top} {bot}" fill="{GREEN}"/>' + _head(x1, y1, 1.25))
+            + '<div class="scan">Scan for more details!</div>')
+
+
+def tag_html(p, cfg, style=None):
     avail = TEXT_MM * PT_PER_MM
     lab_sci, lab_com, lab_fam = "Scientific name: ", "Common name: ", "Family: "
     sci_pt = fit(p["scientific_name"], "NotoSerif-BoldItalic.ttf", 23, 13,
@@ -90,13 +134,6 @@ def tag_html(p, cfg):
     te_pt = fit(te, "NotoSansTelugu-Bold.ttf", 19, 11, avail - width_pt(lab_com, "NotoSans-Regular.ttf", 11)) if te else 19
     te_html = (f'<span class="te" style="font-size:{te_pt}pt">{e(te)}</span>' if te
                else '<span class="missing">(to be added)</span>')
-    # arrow: from the end of the "Scan for more details!" text to the left edge of the QR code
-    scan = "Scan for more details!"
-    scan_x0 = 9.0
-    scan_w_mm = width_pt(scan, "Caveat-Bold.woff2", 21) / PT_PER_MM
-    qr_left = TAG_W - 5.0 - QR_MM
-    ax0, ay0 = scan_x0 + scan_w_mm + 2.0, 40.6
-    ax1, ay1 = qr_left + 1.5, TAG_H / 2 + 2
     return f"""<div class="tag">
   <div class="bar"></div>
   <div class="txt">
@@ -104,8 +141,7 @@ def tag_html(p, cfg):
     <p><span class="lab">{lab_com}</span>{te_html}</p>
     <p><span class="lab">{lab_fam}</span><span class="fam">{e(p["family"])}</span></p>
   </div>
-  <div class="scan">{scan}</div>
-  {arrow_svg(ax0, ay0, ax1, ay1)}
+  {scan_block(style or ARROW_STYLE)}
   <div class="uni">{e(cfg["university_name"])}</div>
   <div class="qrbox">{qr_svg(page_url(cfg, p["slug"]))}</div>
 </div>"""
@@ -135,6 +171,8 @@ body {{ margin: 0; font-family: "TagSans", sans-serif; color: #111; }}
 .scan {{ position: absolute; left: 9mm; top: 35.6mm; font-family: "TagHand", cursive; font-size: 21pt; color: #2f7d3a;
          transform: rotate(-3deg); transform-origin: left center; }}
 .arrow {{ position: absolute; left: 0; top: 0; }}
+.scan.banner {{ left: 13mm; top: 35.6mm; transform: none; font-family: "TagSans"; font-weight: 700; font-size: 15pt; color: #fff;
+                letter-spacing: 0.2pt; }}
 .uni {{ position: absolute; left: 9mm; bottom: 3.6mm; font-size: 9pt; color: #2f6b3a; }}
 .qrbox {{ position: absolute; right: 5mm; top: {(TAG_H - QR_MM) / 2}mm; width: {QR_MM}mm; height: {QR_MM}mm; }}
 .qr {{ width: {QR_MM}mm; height: {QR_MM}mm; display: block; }}

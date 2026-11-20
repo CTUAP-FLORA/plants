@@ -62,5 +62,21 @@
   "licence": "Public domain",
   "licence_url": "",
   "photo": "citrus-limon-wiki.jpg"
+ },
+ "codiaeum-variegatum": {
+  "file": "Colpfl05.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Colpfl05.jpg",
+  "artist": "Louise Wolff --darina 23:22, 6 May 2005 (UTC)",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "photo": "codiaeum-variegatum-wiki.jpg"
+ },
+ "delonix-regia": {
+  "file": "Royal Poinciana.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Royal_Poinciana.jpg",
+  "artist": "Averette",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "photo": "delonix-regia-wiki.jpg"
  }
 }

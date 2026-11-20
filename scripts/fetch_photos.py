@@ -70,8 +70,15 @@ def images_for(p):
     taxa = fv.safe(fv.wikidata_taxa, p, g)
     if not taxa:
         return []
-    rows = fv.sparql(f"SELECT DISTINCT ?img WHERE {{ VALUES ?t {{ {taxa} }} ?t wdt:P18 ?img }}")
-    return [requests.utils.unquote(r["img"]["value"].rsplit("/", 1)[1]).replace("_", " ") for r in rows]
+    files = []
+    for item in taxa.split():          # one item at a time: the multi-item form misbehaves on Wikidata's server
+        rows = fv.safe(fv.sparql, f"SELECT ?img WHERE {{ {item} wdt:P18 ?img }} LIMIT 5") or []
+        for r in rows:
+            v = r["img"]["value"]
+            if "Special:FilePath/" in v:
+                files.append(requests.utils.unquote(v.rsplit("/", 1)[1]).replace("_", " "))
+        time.sleep(1)
+    return list(dict.fromkeys(files))
 
 
 def main():

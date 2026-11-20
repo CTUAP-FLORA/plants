@@ -37,7 +37,7 @@ plants:
 
   - slug: araucaria-columnaris
     scientific_name: Araucaria columnaris
-    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
+    telugu_name: "క్రిస్మస్ చెట్టు"    # English common name written in Telugu (no Telugu name in Wikidata or Telugu Wikipedia) - please confirm
     common_names: ["Christmas tree"]
     family: Araucariaceae
     copies: 2          # number of printed tags
@@ -141,7 +141,7 @@ plants:
 
   - slug: codiaeum-variegatum
     scientific_name: Codiaeum variegatum
-    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
+    telugu_name: "క్రోటన్"    # English common name written in Telugu (no Telugu name in Wikidata or Telugu Wikipedia) - please confirm
     common_names: ["Croton", "Variegated croton"]
     family: Euphorbiaceae
     copies: 1          # number of printed tags
@@ -180,7 +180,7 @@ plants:
 
   - slug: dracaena-reflexa-angustifolia
     scientific_name: Dracaena reflexa var. angustifolia
-    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
+    telugu_name: "డ్రాగన్ చెట్టు"    # English common name written in Telugu (no Telugu name in Wikidata or Telugu Wikipedia) - please confirm
     common_names: ["Dragon tree"]
     family: Asparagaceae
     copies: 2          # number of printed tags
@@ -193,7 +193,7 @@ plants:
 
   - slug: chrysalidocarpus-lutescens
     scientific_name: Chrysalidocarpus lutescens
-    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
+    telugu_name: "అరెకా పామ్"    # English common name written in Telugu (no Telugu name in Wikidata or Telugu Wikipedia) - please confirm
     common_names: ["Areca palm", "Butterfly palm", "Bamboo palm"]
     family: Arecaceae
     copies: 1          # number of printed tags
@@ -337,7 +337,7 @@ plants:
 
   - slug: thuja-occidentalis
     scientific_name: Thuja occidentalis
-    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
+    telugu_name: "తూజా"    # English common name written in Telugu (no Telugu name in Wikidata or Telugu Wikipedia) - please confirm
     common_names: ["White cedar"]
     family: Cupressaceae
     copies: 1          # number of printed tags
@@ -376,7 +376,7 @@ plants:
 
   - slug: ravenala-madagascariensis
     scientific_name: Ravenala madagascariensis
-    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
+    telugu_name: "యాత్రికుల చెట్టు"    # English common name written in Telugu (no Telugu name in Wikidata or Telugu Wikipedia) - please confirm
     common_names: ["Traveller's tree"]
     family: Strelitziaceae
     copies: 1          # number of printed tags
@@ -428,7 +428,7 @@ plants:
 
   - slug: bismarckia-nobilis
     scientific_name: Bismarckia nobilis
-    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
+    telugu_name: "బిస్మార్క్ పామ్"    # English common name written in Telugu (no Telugu name in Wikidata or Telugu Wikipedia) - please confirm
     common_names: ["Bismarck palm"]
     family: Arecaceae
     copies: 1          # number of printed tags
@@ -468,7 +468,7 @@ plants:
 
   - slug: gardenia-jasminoides
     scientific_name: Gardenia jasminoides
-    telugu_name:     # no Telugu name found in Wikidata or Telugu Wikipedia: the English common name is shown
+    telugu_name: "గార్డేనియా"    # English common name written in Telugu (no Telugu name in Wikidata or Telugu Wikipedia) - please confirm
     common_names: ["Gardenia", "Cape jasmine"]
     family: Rubiaceae
     copies: 1          # number of printed tags

@@ -28,8 +28,8 @@ e = html.escape
 FONTS = ROOT / "fonts"
 PER_PAGE = 5
 TAG_W, TAG_H = 190.0, 55.4            # mm
-QR_MM = 45.0                          # QR code size including its white quiet zone
-TEXT_MM = 124.0                       # width available for the text column
+QR_MM = 33.0                          # QR code size including its white quiet zone (scans from ~30 cm)
+TEXT_MM = 133.0                       # width available for the text column
 PT_PER_MM = 72 / 25.4
 
 
@@ -119,18 +119,18 @@ def scan_block(style):
         return (_svg(f'<path d="{path}" fill="none" stroke="{GREEN}" stroke-width="0.8" stroke-linecap="round"/>' + _head(x1, y1, .9))
                 + '<div class="scan">Scan for more details!</div>')
     # default "swoosh": a bold, tapered brush-stroke arrow that sweeps up into the QR code
-    x0, y0 = 9 + width_pt("Scan for more details!", "Caveat-Bold.woff2", 21) / PT_PER_MM + 2.5, 41.5
-    c1, c2 = (x0 + 22, y0 + 8.5), (x1 - 20, y1 + 11)
-    top = f"M{x0},{y0} C{c1[0]},{c1[1] - 0.2} {c2[0]},{c2[1] - 1.6} {x1 - 4.2},{y1 - 0.6}"
-    bot = f"L{x1 - 4.4},{y1 + 1.4} C{c2[0]},{c2[1] + 1.4} {c1[0]},{c1[1] + 1.2} {x0},{y0 + 0.4} Z"
-    return (_svg(f'<path d="{top} {bot}" fill="{GREEN}"/>' + _head(x1, y1, 1.25))
+    x0, y0 = 9 + width_pt("Scan for more details!", "Caveat-Bold.woff2", 18) / PT_PER_MM + 2.5, 43.2
+    c1, c2 = (x0 + 14, y0 + 5.5), (x1 - 13, y1 + 7)
+    top = f"M{x0},{y0} C{c1[0]},{c1[1] - 0.1} {c2[0]},{c2[1] - 1.0} {x1 - 3.0},{y1 - 0.4}"
+    bot = f"L{x1 - 3.2},{y1 + 0.9} C{c2[0]},{c2[1] + 0.9} {c1[0]},{c1[1] + 0.8} {x0},{y0 + 0.3} Z"
+    return (_svg(f'<path d="{top} {bot}" fill="{GREEN}"/>' + _head(x1, y1, 0.85))
             + '<div class="scan">Scan for more details!</div>')
 
 
 def tag_html(p, cfg, style=None):
     avail = TEXT_MM * PT_PER_MM
     lab_sci, lab_com, lab_fam = "Scientific name: ", "Common name: ", "Family: "
-    sci_pt = fit(p["scientific_name"], "NotoSerif-BoldItalic.ttf", 23, 13,
+    sci_pt = fit(p["scientific_name"], "NotoSerif-BoldItalic.ttf", 30, 14,
                  avail - width_pt(lab_sci, "NotoSans-Regular.ttf", 11))
     te = ", ".join(p["telugu_names"])
     te_pt = fit(te, "NotoSansTelugu-Bold.ttf", 19, 11, avail - width_pt(lab_com, "NotoSans-Regular.ttf", 11)) if te else 19
@@ -176,7 +176,7 @@ body {{ margin: 0; font-family: "TagSans", sans-serif; color: #111; }}
 .fam {{ font-weight: 700; font-size: 14pt; }}
 .en {{ font-weight: 700; color: #111; }}
 .missing {{ font-size: 11pt; color: #b00; font-style: italic; }}
-.scan {{ position: absolute; left: 9mm; top: 35.6mm; font-family: "TagHand", cursive; font-size: 21pt; color: #2f7d3a;
+.scan {{ position: absolute; left: 9mm; top: 38.2mm; font-family: "TagHand", cursive; font-size: 18pt; color: #2f7d3a;
          transform: rotate(-3deg); transform-origin: left center; }}
 .arrow {{ position: absolute; left: 0; top: 0; }}
 .scan.banner {{ left: 13mm; top: 35.6mm; transform: none; font-family: "TagSans"; font-weight: 700; font-size: 15pt; color: #fff;

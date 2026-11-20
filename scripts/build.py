@@ -276,9 +276,16 @@ def sci_name_html(name):
     return e(name)
 
 
+PHOTO_CREDITS = json.loads((ROOT / "data" / "photo_credits.json").read_text(encoding="utf-8")) \
+    if (ROOT / "data" / "photo_credits.json").exists() else {}
+
+
 def plant_page(p, cfg, plants):
     up = "../../"
     photos = p["photos"]
+    if not photos and p["slug"] in PHOTO_CREDITS:       # no photo of our own: use the Wikimedia Commons one
+        c = PHOTO_CREDITS[p["slug"]]
+        photos = [{"file": c["photo"], "credit": f'Photo: {c["artist"]} · {c["licence"]} · Wikimedia Commons'}]
     ordered = sorted(plants, key=lambda q: q["scientific_name"])
     i = next(k for k, q in enumerate(ordered) if q["slug"] == p["slug"])
     prev_p, next_p = ordered[i - 1], ordered[(i + 1) % len(ordered)]

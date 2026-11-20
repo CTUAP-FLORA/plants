@@ -22,5 +22,45 @@
   "licence": "CC BY 2.0",
   "licence_url": "https://creativecommons.org/licenses/by/2.0",
   "photo": "araucaria-columnaris-wiki.jpg"
+ },
+ "bauhinia-acuminata": {
+  "file": "Bauhinia acuminata 31 08 2012 (1).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bauhinia_acuminata_31_08_2012_(1).jpg",
+  "artist": "Joydeep",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "photo": "bauhinia-acuminata-wiki.jpg"
+ },
+ "bougainvillea-glabra": {
+  "file": "Flor de Santa Rita (Bougainvillea glabra) una especie de planta trepadora de la familia de las Nyctaginaceae (sobre Ruta Provincial 7, municipio de Ruiz de Montoya, Provincia de Misiones, República Argentina).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Flor_de_Santa_Rita_(Bougainvillea_glabra)_una_especie_de_planta_trepadora_de_la_familia_de_las_Nyctaginaceae_(sobre_Ruta_Provincial_7,_municipio_de_Ruiz_de_Montoya,_Provincia_de_Misiones,_Rep%C3%BAblica_Argentina).jpg",
+  "artist": "Horacio Cambeiro",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "photo": "bougainvillea-glabra-wiki.jpg"
+ },
+ "caryota-urens": {
+  "file": "Caryota urens 0003.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Caryota_urens_0003.jpg",
+  "artist": "Atamari",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "photo": "caryota-urens-wiki.jpg"
+ },
+ "ceiba-pentandra": {
+  "file": "Ceiba pentandra in Cuba.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ceiba_pentandra_in_Cuba.jpg",
+  "artist": "Burkhard Mücke",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "photo": "ceiba-pentandra-wiki.jpg"
+ },
+ "citrus-limon": {
+  "file": "Citrus x limon - Köhler–s Medizinal-Pflanzen-041.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Citrus_x_limon_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-041.jpg",
+  "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+  "licence": "Public domain",
+  "licence_url": "",
+  "photo": "citrus-limon-wiki.jpg"
  }
 }

@@ -231,7 +231,7 @@ plants:
 
   - slug: muntingia-calabura
     scientific_name: Muntingia calabura
-    telugu_name: "నక్కరేగు"    # source: department list only (Nakkaregu) - please confirm
+    telugu_name: "నక్కరేగు"    # source: confirmed by the department (Nov 2026)
     common_names: ["Jamaica cherry", "Singapore cherry"]
     family: Muntingiaceae
     copies: 1          # number of printed tags
@@ -258,7 +258,7 @@ plants:
 
   - slug: peltophorum-pterocarpum
     scientific_name: Peltophorum pterocarpum
-    telugu_name: "కొండ చింత"    # source: department list only (Konda chinta) - please confirm
+    telugu_name: "కొండ చింత"    # source: confirmed by the department (Nov 2026)
     common_names: ["Copper pod tree"]
     family: Fabaceae
     copies: 1          # number of printed tags
@@ -284,7 +284,7 @@ plants:
 
   - slug: rosa-indica
     scientific_name: Rosa indica
-    telugu_name: "గులాబీ"    # source: general Telugu word for rose - please confirm
+    telugu_name: "గులాబీ"    # source: confirmed by the department (Nov 2026)
     common_names: ["Rose"]
     family: Rosaceae
     copies: 1          # number of printed tags
@@ -323,7 +323,7 @@ plants:
 
   - slug: terminalia-catappa
     scientific_name: Terminalia catappa
-    telugu_name: "నాటు బాదం"    # source: department list only (Natu badam) - please confirm
+    telugu_name: "నాటు బాదం"    # source: confirmed by the department (Nov 2026)
     common_names: ["Indian almond"]
     family: Combretaceae
     copies: 3          # number of printed tags
@@ -362,7 +362,7 @@ plants:
 
   - slug: roystonea-regia
     scientific_name: Roystonea regia
-    telugu_name: "రాయల్ పామ్"    # source: Telugu Wikipedia (English name in Telugu letters) - please confirm
+    telugu_name: "రాయల్ పామ్"    # source: confirmed by the department (Nov 2026)
     common_names: ["Royal palm"]
     family: Arecaceae
     copies: 2          # number of printed tags
@@ -388,7 +388,7 @@ plants:
 
   - slug: tabernaemontana-divaricata
     scientific_name: Tabernaemontana divaricata
-    telugu_name: "నందివర్ధనం"    # source: department list (Nandivardhanamu) - please confirm
+    telugu_name: "నందివర్ధనం"    # source: confirmed by the department (Nov 2026)
     common_names: []
     family: Apocynaceae
     copies: 1          # number of printed tags

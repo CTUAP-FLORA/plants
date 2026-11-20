@@ -1,7 +1,7 @@
 {
  "slug": "pongamia-pinnata",
  "scientific_name": "Pongamia pinnata",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -904,13 +904,13 @@
      "refs": []
     },
     {
-     "name": "1-(5,7-Dimethoxy-2,2-dimethylchromen-6-yl)-3-hydroxy-3-phenylprop-2-en-1-one",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162956305",
+     "name": "1-(5,8-Dimethoxy-2,2-dimethylchromen-6-yl)-3-hydroxy-3-phenylprop-2-en-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/129681911",
      "refs": []
     },
     {
-     "name": "1-(5,8-Dimethoxy-2,2-dimethylchromen-6-yl)-3-hydroxy-3-phenylprop-2-en-1-one",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/129681911",
+     "name": "1-(5,7-Dimethoxy-2,2-dimethylchromen-6-yl)-3-hydroxy-3-phenylprop-2-en-1-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162956305",
      "refs": []
     },
     {
@@ -1004,13 +1004,13 @@
      "refs": []
     },
     {
-     "name": "2-(3,4-dimethoxyphenyl)furo[2,3-h]chromen-4-one",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12989014",
+     "name": "2-(3,5-dimethoxyphenyl)furo[2,3-h]chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/86046895",
      "refs": []
     },
     {
-     "name": "2-(3,5-dimethoxyphenyl)furo[2,3-h]chromen-4-one",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/86046895",
+     "name": "2-(3,4-dimethoxyphenyl)furo[2,3-h]chromen-4-one",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12989014",
      "refs": []
     },
     {
@@ -1424,6 +1424,41 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Pongamia%20pinnata"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Ayurveda",
+    "Siddha",
+    "Sowa Rigpa",
+    "Unani"
+   ],
+   "parts": [
+    "seed",
+    "leaf",
+    "bark",
+    "root"
+   ],
+   "used_for": [
+    "skin diseases",
+    "diarrhea",
+    "scabies",
+    "ulcer",
+    "diabetes mellitus"
+   ],
+   "properties": [
+    "antirheumatic agents",
+    "anthelmintics",
+    "anti-bacterial agents",
+    "antiparasitic agents"
+   ],
+   "caution": null,
+   "recorded_uses": 113,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Pongamia%20pinnata"
     ]
    ]
   }

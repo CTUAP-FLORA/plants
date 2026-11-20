@@ -63,6 +63,8 @@ def load_plants():
         if isinstance(names, str):
             names = [n.strip() for n in names.split(",") if n.strip()]
         p["common_names"] = names
+        te = p.get("telugu_name") or ""
+        p["telugu_names"] = [n.strip() for n in str(te).split(",") if n.strip()]
         photos = p.get("photos") or []
         p["photos"] = [ph if isinstance(ph, dict) else {"file": ph} for ph in photos]
         for ph in p["photos"]:

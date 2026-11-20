@@ -1,5 +1,5 @@
-"""Render data/verified/<slug>.json (made by fetch_verified.py) as 3 buttons with panels:
-Taxonomy, Phytochemicals and Conservation.
+"""Render data/verified/<slug>.json (made by fetch_verified.py) as 4 buttons with panels:
+Taxonomy, Phytochemicals, Conservation and Medicinal uses. All labels are translatable (i18n.py).
 
 Source links are kept in the JSON files (data/verified/) but not shown on the page.
 Empty results are shown honestly ("Not recorded in these databases").
@@ -8,6 +8,7 @@ import html
 import json
 
 from common import ROOT
+from i18n import t, term
 
 e = html.escape
 VERIFIED_DIR = ROOT / "data" / "verified"
@@ -17,19 +18,20 @@ BUTTONS = [
     ("taxonomy", "Taxonomy", '<rect x="9" y="3" width="6" height="5" rx="1.5"/><rect x="3" y="16" width="6" height="5" rx="1.5"/><rect x="15" y="16" width="6" height="5" rx="1.5"/><path d="M12 8v4M6 16v-2h12v2"/>'),
     ("phytochemicals", "Phytochemicals", '<path d="M9 3h6M10 3v6L5 18a2 2 0 0 0 1.8 3h10.4A2 2 0 0 0 19 18l-5-9V3"/><path d="M7.5 14h9"/>'),
     ("conservation", "Conservation", '<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/>'),
+    ("medicinal", "Medicinal uses", '<path d="M12 21c-4-2.5-8-6-8-10.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 8 3.5C20 15 16 18.5 12 21z"/><path d="M12 10.5v5M9.5 13h5"/>'),
 ]
 
 IUCN_COLOURS = {"EX": "#000", "EW": "#542344", "CR": "#d81e05", "EN": "#fc7f3f", "VU": "#f9e814",
                 "NT": "#cce226", "LC": "#60c659", "DD": "#d1d1c6", "NE": "#fff"}
-NR = '<span class="nr">Not recorded in these databases</span>'
+NR = t("not_recorded", cls="nr")
 
 CSS = """
 .vf{margin:0 0 14px}
 .vf-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:2px 4px 10px}
 .vf-head h2{font-family:var(--serif);font-size:22px;margin:0}
 .vf-head small{color:var(--muted);font-size:12px;text-align:right}
-.vbtns{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.vbtns button{font:inherit;font-size:13.5px;font-weight:700;line-height:1.2;color:var(--ink-c);background:var(--card);border:1px solid var(--line);border-radius:18px;
+.vbtns{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.vbtns button{font:inherit;font-size:14.5px;font-weight:700;line-height:1.2;color:var(--ink-c);background:var(--card);border:1px solid var(--line);border-radius:18px;
  padding:14px 6px 12px;display:flex;flex-direction:column;align-items:center;gap:8px;cursor:pointer;box-shadow:var(--shadow);transition:transform .15s,background .2s,color .2s}
 .vbtns button:active{transform:scale(.96)}
 .vbtns svg{width:44px;height:44px;padding:10px;border-radius:14px;background:var(--soft);color:var(--ink-c);transition:background .2s,color .2s}
@@ -86,6 +88,15 @@ input.chem-filter{width:100%;box-shadow:none;font:inherit;font-size:16px;padding
  .src{background:#141c2e;border-color:#24304a}.src b,.src a{color:#93b4ff}
 }
 @media (max-width:360px){.chems{grid-template-columns:1fr}}
+.poison{display:flex;gap:10px;align-items:flex-start;background:#fde8e8;color:#8a1111;border:1px solid #f5b5b5;border-radius:14px;padding:10px 12px;margin:0 0 12px;font-weight:700}
+.poison svg{width:24px;height:24px;flex:none}
+.medlist{list-style:none;margin:4px 0 12px;padding:0}
+.medlist li{position:relative;padding:6px 0 6px 28px;border-bottom:1px dashed var(--line);font-weight:600}
+.medlist li:last-child{border-bottom:0}
+.medlist li::before{content:"";position:absolute;left:4px;top:13px;width:12px;height:12px;border-radius:4px 0 4px 0;background:linear-gradient(135deg,var(--c1),var(--c2));transform:rotate(-8deg)}
+.caution{font-size:13.5px;color:var(--muted);background:var(--bg);border-radius:12px;padding:8px 12px;margin:10px 0 6px}
+.credit{font-size:12px;color:var(--muted);margin:6px 2px 0}
+@media (prefers-color-scheme:dark){.poison{background:#3a1212;color:#ffb4b4;border-color:#6b2020}}
 """
 
 JS = """<script>
@@ -111,30 +122,29 @@ def svg(path):
             f'stroke-linejoin="round" aria-hidden="true">{path}</svg>')
 
 
-def tags(items, cls="tags"):
-    return f'<ul class="{cls}">' + "".join(f"<li>{e(x)}</li>" for x in items) + "</ul>"
+def chips(items, cls="tags"):
+    """items are already-escaped HTML fragments"""
+    return f'<ul class="{cls}">' + "".join(f"<li>{x}</li>" for x in items) + "</ul>"
 
 
 def body_taxonomy(s):
-    rows = "".join(f"<tr><td>{e(r)}</td><td>{e(v)}</td></tr>" for r, v in s["rows"] if v)   # empty ranks are hidden
+    rows = "".join(f'<tr><td>{term("rank", r)}</td><td>{e(v)}</td></tr>' for r, v in s["rows"] if v)   # empty ranks hidden
     out = f'<table class="ranks">{rows}</table>'
     if s.get("authority"):
-        out += f'<p class="note">Name with authority: <i>{e(s["authority"])}</i></p>'
-    if s.get("note"):
-        out += f'<p class="note">{e(s["note"])}</p>'
+        out += f'<p class="note">{t("name_authority")}: <i>{e(s["authority"])}</i></p>'
     return out
 
 
 def body_conservation(s):
-    out = ["<h4>IUCN Red List</h4>"]
+    out = [f'<h4>{t("iucn_red_list")}</h4>']
     if s.get("iucn"):
-        code, name = s["iucn"]
+        code = s["iucn"][0]
         bg = IUCN_COLOURS.get(code, "#ccc")
         fg = "#fff" if code in ("EX", "EW", "CR") else "#111"
-        out.append(f'<div class="iucn"><b style="background:{bg};color:{fg}">{e(code)}</b><span><strong>{e(name)}</strong></span></div>')
+        out.append(f'<div class="iucn"><b style="background:{bg};color:{fg}">{e(code)}</b><span><strong>{term("iucn", code)}</strong></span></div>')
     else:
         out.append(f"<p>{NR}</p>")
-    out.append("<h4>Status in India (published checklists)</h4>")
+    out.append(f'<h4>{t("status_india")}</h4>')
     if s["india"]:
         rows = [((pl if pl != "IN" else "India"), m, src) for pl, m, src in s["india"]]
         # Kew's World Checklist (WCVP) is the authority on native ranges: where it covers a
@@ -143,10 +153,11 @@ def body_conservation(s):
         rows = [r for r in rows if r[0] not in wcvp or "World Checklist of Vascular Plants" in r[2]]
         seen = list(dict.fromkeys((pl, m) for pl, m, _ in rows))
         seen.sort(key=lambda x: x[0] != "India")      # mainland India (includes Andhra Pradesh) first
-        out.append('<ul class="papers">' + "".join(f"<li><b>{e(pl)}</b>: {e(m)}</li>" for pl, m in seen) + "</ul>")
+        out.append('<ul class="papers">' + "".join(
+            f'<li><b>{term("place", pl)}</b>: {term("means", m)}</li>' for pl, m in seen) + "</ul>")
     else:
         out.append(f"<p>{NR}</p>")
-    out.append("<h4>Endemic to</h4>" + (tags(s["endemic"]) if s["endemic"] else f"<p>{NR}</p>"))
+    out.append(f'<h4>{t("endemic_to")}</h4>' + (chips([e(x) for x in s["endemic"]]) if s["endemic"] else f"<p>{NR}</p>"))
     return "".join(out)
 
 
@@ -155,27 +166,58 @@ def body_phytochemicals(s):
     if not c:
         return f"<p>{NR}</p>"
     lis = "".join(f'<li><a href="{e(x["url"])}" target="_blank" rel="noopener">{e(x["name"])}</a></li>' for x in c)
-    return (f'<div class="stats2"><div><b>{len(c)}</b><small>compounds reported</small></div>'
-            f'<div><b>PubChem</b><small>tap a compound to open it</small></div></div>'
-            f'<input class="chem-filter" type="search" placeholder="Find a compound…" aria-label="Find a compound">'
+    return (f'<div class="stats2"><div><b>{len(c)}</b><small>{t("compounds_reported")}</small></div>'
+            f'<div><b>PubChem</b><small>{t("tap_compound")}</small></div></div>'
+            f'<input class="chem-filter" type="search" placeholder="Find a compound…" data-tp="find_compound" aria-label="Find a compound">'
             f'<ul class="chems">{lis}</ul>')
 
 
-RENDER = {"taxonomy": body_taxonomy, "phytochemicals": body_phytochemicals, "conservation": body_conservation}
+POISON_ICON = svg('<path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17v.5"/>')
+
+
+def body_medicinal(s):
+    out = []
+    if s.get("caution") == "poisonous":
+        out.append(f'<div class="poison">{POISON_ICON}{t("med_poison")}</div>')
+    if not (s["used_for"] or s["properties"]):
+        out.append(f'<p>{t("med_none")}</p>')
+    else:
+        if s["systems"]:
+            out.append(f'<h4>{t("med_systems")}</h4>' + chips([term("sys", x) for x in s["systems"]]))
+        if s["parts"]:
+            out.append(f'<h4>{t("med_parts")}</h4>' + chips([term("part", x) for x in s["parts"]]))
+        if s["used_for"]:
+            out.append(f'<h4>{t("med_used_for")}</h4><ul class="medlist">'
+                       + "".join(f"<li>{term('use', x)}</li>" for x in s["used_for"]) + "</ul>")
+        if s["properties"]:
+            out.append(f'<h4>{t("med_properties")}</h4><ul class="medlist">'
+                       + "".join(f"<li>{term('use', x)}</li>" for x in s["properties"]) + "</ul>")
+    out.append(f'<p class="caution">{t("med_caution")}</p>')
+    if s["used_for"] or s["properties"]:
+        out.append(f'<p class="credit">{t("med_credit")}</p>')
+    return "".join(out)
+
+
+RENDER = {"taxonomy": body_taxonomy, "phytochemicals": body_phytochemicals, "conservation": body_conservation,
+          "medicinal": body_medicinal}
+LABEL_KEY = {"taxonomy": "btn_taxonomy", "phytochemicals": "btn_phytochemicals", "conservation": "btn_conservation",
+             "medicinal": "btn_medicinal"}
 
 
 def render(slug):
-    """HTML for the 3-button block, or '' when no verified data was fetched for this plant."""
+    """HTML for the button block, or '' when no verified data was fetched for this plant."""
     d = load(slug)
     if not d:
         return ""
     secs = d["sections"]
     btns, panels = [], []
-    for key, label, path in BUTTONS:
+    for key, _label, path in BUTTONS:
+        if key not in secs:
+            continue
         pid = f"v-{key}"
-        btns.append(f'<button type="button" aria-expanded="false" aria-controls="{pid}">{svg(path)}{e(label)}</button>')
-        panels.append(f'<section class="card vpanel" id="{pid}" hidden><h3>{svg(path)}{e(label)}</h3>'
+        btns.append(f'<button type="button" aria-expanded="false" aria-controls="{pid}">{svg(path)}{t(LABEL_KEY[key])}</button>')
+        panels.append(f'<section class="card vpanel" id="{pid}" hidden><h3>{svg(path)}{t(LABEL_KEY[key])}</h3>'
                       f'{RENDER[key](secs[key])}</section>')
-    return (f'<section class="vf reveal"><div class="vf-head"><h2>Explore this plant</h2>'
-            f'<small>Verified scientific databases</small></div>'
+    return (f'<section class="vf reveal"><div class="vf-head"><h2>{t("explore_title")}</h2>'
+            f'<small>{t("explore_sub")}</small></div>'
             f'<div class="vbtns">{"".join(btns)}</div>{"".join(panels)}</section>')

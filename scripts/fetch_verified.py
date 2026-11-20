@@ -1,7 +1,7 @@
 """Collect cited scientific data for each plant from verified public databases.
 
-Writes data/verified/<slug>.json. Each plant page shows it behind 3 buttons:
-Taxonomy, Phytochemicals and Conservation. Every section stores its exact source
+Writes data/verified/<slug>.json. Each plant page shows it behind 4 buttons:
+Taxonomy, Phytochemicals, Conservation and Medicinal. Every section stores its exact source
 links and the date retrieved. Nothing is written by hand or guessed: if a database
 has no record, the page says "Not recorded in these databases".
 
@@ -11,6 +11,9 @@ Sources:
                     each compound linked to PubChem; IMPPAT linked for Indian plants
   Conservation .... IUCN Red List category (via GBIF), native/introduced status in India
                     from published checklists (WCVP, GRIIS via GBIF), endemism (Wikidata)
+  Medicinal ....... IMPPAT (IMSc Chennai): systems of medicine, parts used and the
+                    therapeutic uses recorded by the most references (books on
+                    traditional Indian medicine); short list only
 
 Usage:  python scripts/fetch_verified.py                      # all plants
         python scripts/fetch_verified.py azadirachta-indica   # one plant
@@ -196,6 +199,69 @@ def section_phytochemicals(p, taxa):
     return {"compounds": items, "sources": src}
 
 
+# ---------- medicinal uses (IMPPAT) ----------
+
+IMPPAT = "https://cb.imsc.res.in/imppat/therapeutics/"
+# Uses not suitable for a public plant label (sensitive, or about poisons/cancer types).
+SKIP_USES = {"abortifacient agents", "aphrodisiacs", "contraceptive agents", "androgen antagonists",
+             "contraceptive agents, female", "contraceptive agents, male", "neoplasms", "hodgkin disease",
+             "leukemia", "poisons", "venoms", "toxins, biological", "syphilis", "gonorrhea"}
+PROPERTY_RE = re.compile(r"(agents?(, local)?|ics|ants|ents|ives|ers|ic|stimulants|sedatives)$")
+
+
+def _cells(row):
+    import html as _h
+    return [re.sub(r"\s+", " ", _h.unescape(re.sub(r"<[^>]+>", " ", c))).strip()
+            for c in re.findall(r"(?s)<t[dh][^>]*>(.*?)</t[dh]>", row)]
+
+
+def imppat_page(name):
+    r = requests.get(IMPPAT + name, headers=UA, timeout=TIMEOUT)
+    if r.status_code == 404:
+        return None, None
+    r.raise_for_status()
+    return r.text, IMPPAT + requests.utils.quote(name)
+
+
+def section_medicinal(p):
+    """Short, structured summary of the medicinal uses recorded in IMPPAT (curated from 100+ books on
+    traditional Indian medicine). Uses are ranked by how many references record them; only the top few
+    are kept so the panel stays simple."""
+    name = p["scientific_name"].replace("× ", "").replace("×", "")
+    names = [name] + ([" ".join(name.split()[:2])] if len(name.split()) > 2 else [])
+    page, url = None, None
+    for n in names:
+        page, url = imppat_page(n)
+        if page and "<table" in page:
+            break
+    out = {"systems": [], "parts": [], "used_for": [], "properties": [], "caution": p.get("caution"),
+           "recorded_uses": 0, "sources": []}
+    if not page or "<table" not in page:
+        return out
+    t = re.sub(r"(?s)<(script|style).*?</\1>", "", page)
+    head = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", t))
+    m = re.search(r"System of medicine: (.*?) IUCN", head)
+    if m:
+        out["systems"] = [x.strip() for x in m.group(1).split(",") if x.strip()]
+    refs, parts = {}, {}
+    for row in re.findall(r"(?s)<tr.*?</tr>", t)[1:]:
+        c = _cells(row)
+        if len(c) < 7 or not c[2]:
+            continue
+        use = c[2].lower()
+        refs.setdefault(use, set()).update(x.strip() for x in c[6].split(",") if x.strip())
+        if c[1]:
+            parts[c[1].lower()] = parts.get(c[1].lower(), 0) + 1
+    out["recorded_uses"] = len(refs)
+    ranked = sorted(((len(v), u) for u, v in refs.items() if u not in SKIP_USES), key=lambda x: (-x[0], x[1]))
+    props = [u for n, u in ranked if PROPERTY_RE.search(u) or u.startswith("anti")]
+    conds = [u for n, u in ranked if u not in props]
+    out["used_for"], out["properties"] = conds[:5], props[:4]
+    out["parts"] = [k for k, _ in sorted(parts.items(), key=lambda x: (-x[1], x[0]))][:4]
+    out["sources"] = [["IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)", url]]
+    return out
+
+
 def fetch(p):
     name = p["scientific_name"]
     g = safe(gbif_match, name)
@@ -208,6 +274,7 @@ def fetch(p):
             "taxonomy": section_taxonomy(p, g, nc),
             "phytochemicals": section_phytochemicals(p, taxa),
             "conservation": section_conservation(p, g, taxa),
+            "medicinal": section_medicinal(p),
         },
     }
 

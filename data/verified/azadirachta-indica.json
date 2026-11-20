@@ -1,7 +1,7 @@
 {
  "slug": "azadirachta-indica",
  "scientific_name": "Azadirachta indica",
- "retrieved": "2026-11-15",
+ "retrieved": "2026-11-20",
  "sections": {
   "taxonomy": {
    "rows": [
@@ -182,13 +182,13 @@
      "refs": []
     },
     {
-     "name": "(+)-alpha-Bulgarene",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12306053",
+     "name": "(+)-gamma-Bulgarene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12313023",
      "refs": []
     },
     {
-     "name": "(+)-gamma-Bulgarene",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12313023",
+     "name": "(+)-alpha-Bulgarene",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/12306053",
      "refs": []
     },
     {
@@ -1222,13 +1222,13 @@
      "refs": []
     },
     {
-     "name": "[(1R,2S,4R,9R,10R,11R,12S,14R,15R,18R)-14-acetyloxy-10-(2-methoxy-2-oxoethyl)-7,9,11,15-tetramethyl-6-oxo-3,17-dioxapentacyclo[9.6.1.02,9.04,8.015,18]octadec-7-en-12-yl] 2-methylbut-2-enoate",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162999362",
+     "name": "[14-Acetyloxy-10-(2-methoxy-2-oxoethyl)-7,9,11,15-tetramethyl-6-oxo-3,17-dioxapentacyclo[9.6.1.02,9.04,8.015,18]octadec-7-en-12-yl] 2-methylbut-2-enoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/75972015",
      "refs": []
     },
     {
-     "name": "[14-Acetyloxy-10-(2-methoxy-2-oxoethyl)-7,9,11,15-tetramethyl-6-oxo-3,17-dioxapentacyclo[9.6.1.02,9.04,8.015,18]octadec-7-en-12-yl] 2-methylbut-2-enoate",
-     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/75972015",
+     "name": "[(1R,2S,4R,9R,10R,11R,12S,14R,15R,18R)-14-acetyloxy-10-(2-methoxy-2-oxoethyl)-7,9,11,15-tetramethyl-6-oxo-3,17-dioxapentacyclo[9.6.1.02,9.04,8.015,18]octadec-7-en-12-yl] 2-methylbut-2-enoate",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162999362",
      "refs": []
     },
     {
@@ -2267,6 +2267,42 @@
     [
      "IUCN Red List search",
      "https://www.iucnredlist.org/search?query=Azadirachta%20indica"
+    ]
+   ]
+  },
+  "medicinal": {
+   "systems": [
+    "Ayurveda",
+    "Homeopathy",
+    "Siddha",
+    "Sowa Rigpa",
+    "Unani"
+   ],
+   "parts": [
+    "leaf",
+    "bark",
+    "seed",
+    "flower"
+   ],
+   "used_for": [
+    "skin diseases",
+    "malaria",
+    "ulcer",
+    "diabetes mellitus",
+    "eczema"
+   ],
+   "properties": [
+    "anthelmintics",
+    "anti-infective agents, local",
+    "anti-inflammatory agents",
+    "antifungal agents"
+   ],
+   "caution": null,
+   "recorded_uses": 166,
+   "sources": [
+    [
+     "IMPPAT: Indian Medicinal Plants, Phytochemistry And Therapeutics (IMSc Chennai)",
+     "https://cb.imsc.res.in/imppat/therapeutics/Azadirachta%20indica"
     ]
    ]
   }

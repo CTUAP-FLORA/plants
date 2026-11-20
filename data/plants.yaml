@@ -1,11 +1,15 @@
 # Campus plant data: the ONLY file you need to edit.
 #
 # RULES
-#  * slug is PERMANENT. It is printed inside the QR code. Never change or delete it.
+#  * slug is PERMANENT once tags are printed. It is inside the QR code.
+#  * scientific_name: the accepted name in Kew's World Checklist of Vascular Plants (WCVP).
+#  * telugu_name: the common name shown on the tag and the web page, in Telugu script.
+#    Several names can be separated by commas. Leave empty if not yet known.
+#  * common_names: English names. NOT shown; used only so the search box finds them.
+#  * caution: "poisonous" shows a poison warning in the Medicinal panel.
 #  * Optional fields (description, uses, native_to, flowering_season, photos, notes)
 #    are shown on the plant's page only when they have a value. Leave them empty
 #    until real, checked information is available.
-#  * Text fields can be one line, or several paragraphs using  |  (see README.md).
 #  * photos: a list of files placed in the photos/ folder, e.g.
 #      photos:
 #        - file: azadirachta-indica-1.jpg
@@ -18,7 +22,7 @@ plants:
 
   - slug: alstonia-scholaris
     scientific_name: Alstonia scholaris
-    synonym: 
+    telugu_name: "ఏడాకుల పాల"    # source: Wikidata; Telugu Wikipedia 'ఏడాకుల చెట్టు'
     common_names: ["Devil tree", "Blackboard tree"]
     family: Apocynaceae
     description:
@@ -30,7 +34,7 @@ plants:
 
   - slug: araucaria-columnaris
     scientific_name: Araucaria columnaris
-    synonym: 
+    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Christmas tree"]
     family: Araucariaceae
     description:
@@ -42,8 +46,8 @@ plants:
 
   - slug: azadirachta-indica
     scientific_name: Azadirachta indica
-    synonym: 
-    common_names: ["Neem", "Vepa", "Margosa"]
+    telugu_name: "వేప"    # source: Telugu Wikipedia; Wikidata
+    common_names: ["Neem", "Margosa"]
     family: Meliaceae
     description:
     uses:
@@ -52,10 +56,10 @@ plants:
     photos: []
     notes:
 
-  - slug: bauhinia-variegata
-    scientific_name: Bauhinia variegata
-    synonym: 
-    common_names: ["Deva Kanchanamu"]
+  - slug: bauhinia-acuminata
+    scientific_name: Bauhinia acuminata
+    telugu_name: "తెల్ల బంగారం చెట్టు"    # source: Wikidata; Telugu Wikipedia
+    common_names: ["Dwarf white bauhinia"]
     family: Fabaceae
     description:
     uses:
@@ -66,7 +70,7 @@ plants:
 
   - slug: bougainvillea-glabra
     scientific_name: Bougainvillea glabra
-    synonym: 
+    telugu_name: "కాగితంపూలు"    # source: Telugu Wikipedia
     common_names: ["Paper flower"]
     family: Nyctaginaceae
     description:
@@ -78,8 +82,8 @@ plants:
 
   - slug: caryota-urens
     scientific_name: Caryota urens
-    synonym: 
-    common_names: ["Jeelugu Chettu", "Fishtail palm"]
+    telugu_name: "జీలుగ"    # source: Wikidata; Telugu Wikipedia; department list (Jeelugu)
+    common_names: ["Fishtail palm"]
     family: Arecaceae
     description:
     uses:
@@ -90,7 +94,7 @@ plants:
 
   - slug: ceiba-pentandra
     scientific_name: Ceiba pentandra
-    synonym: 
+    telugu_name: "తెల్లబూరుగ"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Kapok tree", "White silk cotton"]
     family: Malvaceae
     description:
@@ -100,21 +104,9 @@ plants:
     photos: []
     notes:
 
-  - slug: chamaecostus-cuspidatus
-    scientific_name: Chamaecostus cuspidatus
-    synonym: 
-    common_names: ["Insulin plant"]
-    family: Costaceae
-    description:
-    uses:
-    native_to:
-    flowering_season:
-    photos: []
-    notes:
-
   - slug: citrus-limon
     scientific_name: Citrus limon
-    synonym: 
+    telugu_name: "నిమ్మ"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Lemon"]
     family: Rutaceae
     description:
@@ -126,7 +118,7 @@ plants:
 
   - slug: cocos-nucifera
     scientific_name: Cocos nucifera
-    synonym: 
+    telugu_name: "కొబ్బరి"    # source: Wikidata; Telugu Wikipedia
     common_names: ["Coconut tree"]
     family: Arecaceae
     description:
@@ -138,7 +130,7 @@ plants:
 
   - slug: codiaeum-variegatum
     scientific_name: Codiaeum variegatum
-    synonym: 
+    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Croton", "Variegated croton"]
     family: Euphorbiaceae
     description:
@@ -150,8 +142,8 @@ plants:
 
   - slug: delonix-regia
     scientific_name: Delonix regia
-    synonym: 
-    common_names: ["Thurai", "Kodipunju Chettu"]
+    telugu_name: "తురాయి, కోడిపుంజు చెట్టు"    # source: Wikidata label + alias; department list
+    common_names: []
     family: Fabaceae
     description:
     uses:
@@ -162,8 +154,8 @@ plants:
 
   - slug: pongamia-pinnata
     scientific_name: Pongamia pinnata
-    synonym: "Derris indica"
-    common_names: ["Kanuga", "Indian beech tree", "Pongam tree"]
+    telugu_name: "కానుగ"    # source: Telugu Wikipedia; department list (Kanuga)
+    common_names: ["Indian beech tree", "Pongam tree"]
     family: Fabaceae
     description:
     uses:
@@ -172,9 +164,9 @@ plants:
     photos: []
     notes:
 
-  - slug: dracaena-marginata
-    scientific_name: Dracaena marginata
-    synonym: 
+  - slug: dracaena-reflexa-angustifolia
+    scientific_name: Dracaena reflexa var. angustifolia
+    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Dragon tree"]
     family: Asparagaceae
     description:
@@ -184,9 +176,9 @@ plants:
     photos: []
     notes:
 
-  - slug: dypsis-lutescens
-    scientific_name: Dypsis lutescens
-    synonym: 
+  - slug: chrysalidocarpus-lutescens
+    scientific_name: Chrysalidocarpus lutescens
+    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Areca palm", "Butterfly palm", "Bamboo palm"]
     family: Arecaceae
     description:
@@ -198,7 +190,7 @@ plants:
 
   - slug: mangifera-indica
     scientific_name: Mangifera indica
-    synonym: 
+    telugu_name: "మామిడి"    # source: Telugu Wikipedia
     common_names: ["Mango"]
     family: Anacardiaceae
     description:
@@ -210,8 +202,8 @@ plants:
 
   - slug: millingtonia-hortensis
     scientific_name: Millingtonia hortensis
-    synonym: 
-    common_names: ["Indian cork tree", "Tree jasmine", "Akasha Malli"]
+    telugu_name: "ఆకాశమల్లి"    # source: Wikidata; Telugu Wikipedia; department list
+    common_names: ["Indian cork tree", "Tree jasmine"]
     family: Bignoniaceae
     description:
     uses:
@@ -222,8 +214,8 @@ plants:
 
   - slug: muntingia-calabura
     scientific_name: Muntingia calabura
-    synonym: 
-    common_names: ["Jamaica cherry", "Singapore cherry", "Nakkaregu"]
+    telugu_name: "నక్కరేగు"    # source: department list only (Nakkaregu) - please confirm
+    common_names: ["Jamaica cherry", "Singapore cherry"]
     family: Muntingiaceae
     description:
     uses:
@@ -234,9 +226,10 @@ plants:
 
   - slug: nerium-oleander
     scientific_name: Nerium oleander
-    synonym: "Nerium odorum"
-    common_names: ["Ganneru", "Erra ganneru", "Oleander"]
+    telugu_name: "గన్నేరు, ఎర్ర గన్నేరు"    # source: Wikidata; department list (Ganneru, Erra ganneru)
+    common_names: ["Oleander"]
     family: Apocynaceae
+    caution: poisonous
     description:
     uses:
     native_to:
@@ -246,8 +239,8 @@ plants:
 
   - slug: peltophorum-pterocarpum
     scientific_name: Peltophorum pterocarpum
-    synonym: 
-    common_names: ["Copper pod tree", "Konda chinta"]
+    telugu_name: "కొండ చింత"    # source: department list only (Konda chinta) - please confirm
+    common_names: ["Copper pod tree"]
     family: Fabaceae
     description:
     uses:
@@ -258,7 +251,7 @@ plants:
 
   - slug: psidium-guajava
     scientific_name: Psidium guajava
-    synonym: 
+    telugu_name: "జామ"    # source: Telugu Wikipedia
     common_names: ["Guava"]
     family: Myrtaceae
     description:
@@ -270,7 +263,7 @@ plants:
 
   - slug: rosa-indica
     scientific_name: Rosa indica
-    synonym: 
+    telugu_name: "గులాబీ"    # source: general Telugu word for rose - please confirm
     common_names: ["Rose"]
     family: Rosaceae
     description:
@@ -282,8 +275,8 @@ plants:
 
   - slug: syzygium-cumini
     scientific_name: Syzygium cumini
-    synonym: 
-    common_names: ["Neredu", "Malabar plum", "Black plum"]
+    telugu_name: "నేరేడు"    # source: Wikidata; Telugu Wikipedia; department list
+    common_names: ["Malabar plum", "Black plum"]
     family: Myrtaceae
     description:
     uses:
@@ -294,7 +287,7 @@ plants:
 
   - slug: syzygium-samarangense
     scientific_name: Syzygium samarangense
-    synonym: 
+    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Wax apple", "Water apple"]
     family: Myrtaceae
     description:
@@ -306,8 +299,8 @@ plants:
 
   - slug: terminalia-catappa
     scientific_name: Terminalia catappa
-    synonym: 
-    common_names: ["Natu badam", "Indian almond"]
+    telugu_name: "నాటు బాదం"    # source: department list only (Natu badam) - please confirm
+    common_names: ["Indian almond"]
     family: Combretaceae
     description:
     uses:
@@ -318,7 +311,7 @@ plants:
 
   - slug: thuja-occidentalis
     scientific_name: Thuja occidentalis
-    synonym: 
+    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["White cedar"]
     family: Cupressaceae
     description:
@@ -330,8 +323,8 @@ plants:
 
   - slug: hibiscus-rosa-sinensis
     scientific_name: Hibiscus rosa-sinensis
-    synonym: 
-    common_names: ["China rose", "Mandara"]
+    telugu_name: "మందార"    # source: Wikidata; Telugu Wikipedia; department list
+    common_names: ["China rose"]
     family: Malvaceae
     description:
     uses:
@@ -342,7 +335,7 @@ plants:
 
   - slug: roystonea-regia
     scientific_name: Roystonea regia
-    synonym: 
+    telugu_name: "రాయల్ పామ్"    # source: Telugu Wikipedia (English name in Telugu letters) - please confirm
     common_names: ["Royal palm"]
     family: Arecaceae
     description:
@@ -354,7 +347,7 @@ plants:
 
   - slug: ravenala-madagascariensis
     scientific_name: Ravenala madagascariensis
-    synonym: 
+    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
     common_names: ["Traveller's tree"]
     family: Strelitziaceae
     description:
@@ -366,9 +359,94 @@ plants:
 
   - slug: tabernaemontana-divaricata
     scientific_name: Tabernaemontana divaricata
-    synonym: 
-    common_names: ["Nandivardhanamu"]
+    telugu_name: "నందివర్ధనం"    # source: department list (Nandivardhanamu) - please confirm
+    common_names: []
     family: Apocynaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: vitex-negundo
+    scientific_name: Vitex negundo
+    telugu_name: "వావిలి"    # source: Wikidata; Telugu Wikipedia
+    common_names: ["Chinese chaste tree", "Five-leaved chaste tree"]
+    family: Lamiaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: tectona-grandis
+    scientific_name: Tectona grandis
+    telugu_name: "టేకు"    # source: Wikidata; Telugu Wikipedia
+    common_names: ["Teak"]
+    family: Lamiaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: bismarckia-nobilis
+    scientific_name: Bismarckia nobilis
+    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
+    common_names: ["Bismarck palm"]
+    family: Arecaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: catharanthus-roseus
+    scientific_name: Catharanthus roseus
+    telugu_name: "బిళ్ళ గన్నేరు"    # source: Wikidata; Telugu Wikipedia
+    common_names: ["Madagascar periwinkle"]
+    family: Apocynaceae
+    caution: poisonous
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: phyllanthus-emblica
+    scientific_name: Phyllanthus emblica
+    telugu_name: "ఉసిరి"    # source: Wikidata; Telugu Wikipedia
+    common_names: ["Indian gooseberry", "Amla"]
+    family: Phyllanthaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: gardenia-jasminoides
+    scientific_name: Gardenia jasminoides
+    telugu_name:     # source: not found in Wikidata or Telugu Wikipedia
+    common_names: ["Gardenia", "Cape jasmine"]
+    family: Rubiaceae
+    description:
+    uses:
+    native_to:
+    flowering_season:
+    photos: []
+    notes:
+
+  - slug: artocarpus-heterophyllus
+    scientific_name: Artocarpus heterophyllus
+    telugu_name: "పనస"    # source: Wikidata; Telugu Wikipedia
+    common_names: ["Jackfruit"]
+    family: Moraceae
     description:
     uses:
     native_to:

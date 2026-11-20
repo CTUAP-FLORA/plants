@@ -1,0 +1,140 @@
+# Translations for the website's language switch.
+#
+#   en = English, te = Telugu, hi = Hindi, or = Odia, ta = Tamil, ml = Malayalam
+#
+# These are first drafts. A fluent speaker of each language should check them,
+# especially the medicinal words. To correct a word, edit it here and commit;
+# the website updates automatically. Do not change the key on the left of each line.
+# {n}, {i} and {family} are filled in automatically: keep them as they are.
+# If a translation is missing, the English text is shown.
+
+languages:
+  en: English
+  te: తెలుగు
+  hi: हिन्दी
+  or: ଓଡ଼ିଆ
+  ta: தமிழ்
+  ml: മലയാളം
+
+ui:
+  language: {en: Language, te: భాష, hi: भाषा, or: ଭାଷା, ta: மொழி, ml: ഭാഷ}
+  site_title: {en: Campus Flora, te: క్యాంపస్ వృక్షసంపద, hi: परिसर वनस्पति, or: କ୍ୟାମ୍ପସ ଉଦ୍ଭିଦ, ta: வளாகத் தாவரங்கள், ml: ക്യാമ്പസ് സസ്യജാലം}
+  all_plants: {en: All plants, te: అన్ని మొక్కలు, hi: सभी पौधे, or: ସମସ୍ତ ଗଛ, ta: அனைத்து தாவரங்கள், ml: എല്ലാ സസ്യങ്ങളും}
+  scientific_name: {en: Scientific name, te: శాస్త్రీయ నామం, hi: वैज्ञानिक नाम, or: ବୈଜ୍ଞାନିକ ନାମ, ta: அறிவியல் பெயர், ml: ശാസ്ത്രീയ നാമം}
+  common_name_te: {en: Common name (Telugu), te: సాధారణ పేరు (తెలుగు), hi: सामान्य नाम (तेलुगु), or: ସାଧାରଣ ନାମ (ତେଲୁଗୁ), ta: பொதுப் பெயர் (தெலுங்கு), ml: പൊതുനാമം (തെലുങ്ക്)}
+  telugu_name: {en: "Telugu name:", te: "తెలుగు పేరు:", hi: "तेलुगु नाम:", or: "ତେଲୁଗୁ ନାମ:", ta: "தெலுங்குப் பெயர்:", ml: "തെലുങ്ക് പേര്:"}
+  explore_title: {en: Explore this plant, te: ఈ మొక్క గురించి తెలుసుకోండి, hi: इस पौधे के बारे में जानें, or: ଏହି ଗଛ ବିଷୟରେ ଜାଣନ୍ତୁ, ta: இந்தத் தாவரத்தைப் பற்றி அறியுங்கள், ml: ഈ സസ്യത്തെക്കുറിച്ച് അറിയുക}
+  explore_sub: {en: Verified scientific databases, te: ధృవీకరించిన శాస్త్రీయ డేటాబేస్‌లు, hi: सत्यापित वैज्ञानिक डेटाबेस, or: ପ୍ରମାଣିତ ବୈଜ୍ଞାନିକ ଡାଟାବେସ୍, ta: சரிபார்க்கப்பட்ட அறிவியல் தரவுத்தளங்கள், ml: സ്ഥിരീകരിച്ച ശാസ്ത്രീയ ഡാറ്റാബേസുകൾ}
+  btn_taxonomy: {en: Taxonomy, te: వర్గీకరణ, hi: वर्गीकरण, or: ବର୍ଗୀକରଣ, ta: வகைப்பாடு, ml: വർഗ്ഗീകരണം}
+  btn_phytochemicals: {en: Phytochemicals, te: వృక్ష రసాయనాలు, hi: पादप रसायन, or: ଉଦ୍ଭିଦ ରସାୟନ, ta: தாவர வேதிப்பொருட்கள், ml: സസ്യരാസവസ്തുക്കൾ}
+  btn_conservation: {en: Conservation, te: సంరక్షణ స్థితి, hi: संरक्षण स्थिति, or: ସଂରକ୍ଷଣ ସ୍ଥିତି, ta: பாதுகாப்பு நிலை, ml: സംരക്ഷണ നില}
+  btn_medicinal: {en: Medicinal uses, te: ఔషధ ఉపయోగాలు, hi: औषधीय उपयोग, or: ଔଷଧୀୟ ବ୍ୟବହାର, ta: மருத்துவப் பயன்கள், ml: ഔഷധ ഉപയോഗങ്ങൾ}
+  coming_soon_title: {en: More details coming soon, te: మరిన్ని వివరాలు త్వరలో, hi: अधिक जानकारी जल्द ही, or: ଅଧିକ ବିବରଣୀ ଶୀଘ୍ର, ta: மேலும் விவரங்கள் விரைவில், ml: കൂടുതൽ വിവരങ്ങൾ ഉടൻ}
+  coming_soon_text: {en: "Description, flowering season and photos will be added here.", te: "వివరణ, పుష్పించే కాలం, ఫోటోలు ఇక్కడ చేర్చబడతాయి.", hi: "विवरण, फूलने का मौसम और तस्वीरें यहाँ जोड़ी जाएँगी।", or: "ବର୍ଣ୍ଣନା, ଫୁଲ ଫୁଟିବା ଋତୁ ଓ ଫଟୋ ଏଠାରେ ଯୋଡାଯିବ।", ta: "விளக்கம், பூக்கும் காலம், புகைப்படங்கள் இங்கே சேர்க்கப்படும்.", ml: "വിവരണം, പൂക്കാലം, ചിത്രങ്ങൾ എന്നിവ ഇവിടെ ചേർക്കും."}
+  also_in: {en: "Also in {family} on campus", te: "క్యాంపస్‌లోని ఇతర {family} మొక్కలు", hi: "परिसर में {family} कुल के अन्य पौधे", or: "କ୍ୟାମ୍ପସରେ {family} କୁଳର ଅନ୍ୟ ଗଛ", ta: "வளாகத்தில் உள்ள மற்ற {family} தாவரங்கள்", ml: "ക്യാമ്പസിലെ മറ്റ് {family} സസ്യങ്ങൾ"}
+  previous: {en: Previous, te: మునుపటి, hi: पिछला, or: ପୂର୍ବବର୍ତ୍ତୀ, ta: முந்தையது, ml: മുമ്പത്തെ}
+  next: {en: Next, te: తదుపరి, hi: अगला, or: ପରବର୍ତ୍ତୀ, ta: அடுத்தது, ml: അടുത്തത്}
+  explore_all: {en: "Explore all {n} plants on campus", te: "క్యాంపస్‌లోని మొత్తం {n} మొక్కలను చూడండి", hi: "परिसर के सभी {n} पौधे देखें", or: "କ୍ୟାମ୍ପସର ସମସ୍ତ {n}ଟି ଗଛ ଦେଖନ୍ତୁ", ta: "வளாகத்தின் அனைத்து {n} தாவரங்களையும் காணுங்கள்", ml: "ക്യാമ്പസിലെ എല്ലാ {n} സസ്യങ്ങളും കാണുക"}
+  plant_i_of_n: {en: "Plant {i} of {n}", te: "{n} లో {i}వ మొక్క", hi: "{n} में से पौधा {i}", or: "{n}ଟିରୁ {i} ନମ୍ବର ଗଛ", ta: "{n} இல் {i}வது தாவரம்", ml: "{n}-ൽ {i}-ാമത്തെ സസ്യം"}
+  not_recorded: {en: Not recorded in these databases, te: ఈ డేటాబేస్‌లలో నమోదు కాలేదు, hi: इन डेटाबेस में दर्ज नहीं, or: ଏହି ଡାଟାବେସରେ ଲିପିବଦ୍ଧ ନାହିଁ, ta: இந்தத் தரவுத்தளங்களில் பதிவு இல்லை, ml: ഈ ഡാറ്റാബേസുകളിൽ രേഖപ്പെടുത്തിയിട്ടില്ല}
+  name_authority: {en: Name with authority, te: రచయిత పేరుతో శాస్త్రీయ నామం, hi: लेखक सहित नाम, or: ଲେଖକ ସହିତ ନାମ, ta: ஆசிரியருடன் பெயர், ml: നാമകർത്താവോടു കൂടിയ പേര്}
+  compounds_reported: {en: compounds reported, te: నమోదైన సమ్మేళనాలు, hi: दर्ज यौगिक, or: ଲିପିବଦ୍ଧ ଯୌଗିକ, ta: பதிவான சேர்மங்கள், ml: രേഖപ്പെടുത്തിയ സംയുക്തങ്ങൾ}
+  tap_compound: {en: tap a compound to open it, te: వివరాల కోసం సమ్మేళనాన్ని నొక్కండి, hi: विवरण के लिए यौगिक पर टैप करें, or: ବିବରଣୀ ପାଇଁ ଯୌଗିକରେ ଟ୍ୟାପ୍ କରନ୍ତୁ, ta: விவரங்களுக்கு சேர்மத்தைத் தொடவும், ml: വിവരങ്ങൾക്ക് സംയുക്തത്തിൽ സ്പർശിക്കുക}
+  find_compound: {en: Find a compound…, te: సమ్మేళనాన్ని వెతకండి…, hi: यौगिक खोजें…, or: ଯୌଗିକ ଖୋଜନ୍ତୁ…, ta: சேர்மத்தைத் தேடுக…, ml: സംയുക്തം തിരയുക…}
+  iucn_red_list: {en: IUCN Red List, te: IUCN రెడ్ లిస్ట్, hi: IUCN रेड लिस्ट, or: IUCN ରେଡ୍ ଲିଷ୍ଟ, ta: IUCN சிவப்புப் பட்டியல், ml: IUCN ചുവപ്പ് പട്ടിക}
+  status_india: {en: Status in India, te: భారతదేశంలో స్థితి, hi: भारत में स्थिति, or: ଭାରତରେ ସ୍ଥିତି, ta: இந்தியாவில் நிலை, ml: ഇന്ത്യയിലെ നില}
+  endemic_to: {en: Endemic to, te: స్థానిక ప్రాంతం (ఇక్కడ మాత్రమే), hi: स्थानिक क्षेत्र (केवल यहीं), or: ସ୍ଥାନିକ ଅଞ୍ଚଳ (କେବଳ ଏଠାରେ), ta: தனிச்சிறப்பு வாழிடம், ml: തദ്ദേശീയ പ്രദേശം (ഇവിടെ മാത്രം)}
+  med_systems: {en: Systems of medicine, te: వైద్య విధానాలు, hi: चिकित्सा पद्धतियाँ, or: ଚିକିତ୍ସା ପଦ୍ଧତି, ta: மருத்துவ முறைகள், ml: ചികിത്സാ സമ്പ്രദായങ്ങൾ}
+  med_parts: {en: Parts used, te: ఉపయోగించే భాగాలు, hi: प्रयुक्त भाग, or: ବ୍ୟବହୃତ ଅଂଶ, ta: பயன்படும் பாகங்கள், ml: ഉപയോഗിക്കുന്ന ഭാഗങ്ങൾ}
+  med_used_for: {en: Traditionally used for, te: సంప్రదాయంగా వీటికి వాడతారు, hi: पारंपरिक रूप से इनमें उपयोग, or: ପାରମ୍ପରିକ ଭାବେ ଏଥିପାଇଁ ବ୍ୟବହୃତ, ta: பாரம்பரியமாகப் பயன்படுவது, ml: പരമ്പരാഗതമായി ഉപയോഗിക്കുന്നത്}
+  med_properties: {en: Medicinal properties, te: ఔషధ గుణాలు, hi: औषधीय गुण, or: ଔଷଧୀୟ ଗୁଣ, ta: மருத்துவ குணங்கள், ml: ഔഷധ ഗുണങ്ങൾ}
+  med_none: {en: No established medicinal use recorded., te: నమోదైన ఔషధ ఉపయోగాలు లేవు., hi: कोई स्थापित औषधीय उपयोग दर्ज नहीं है।, or: କୌଣସି ପ୍ରତିଷ୍ଠିତ ଔଷଧୀୟ ବ୍ୟବହାର ଲିପିବଦ୍ଧ ନାହିଁ।, ta: நிறுவப்பட்ட மருத்துவப் பயன் எதுவும் பதிவாகவில்லை., ml: സ്ഥാപിതമായ ഔഷധ ഉപയോഗമൊന്നും രേഖപ്പെടുത്തിയിട്ടില്ല.}
+  med_caution: {en: "For information only. Do not use for self-treatment; consult a qualified doctor.", te: "సమాచారం కోసం మాత్రమే. స్వయంగా చికిత్సకు వాడకండి; అర్హత గల వైద్యుడిని సంప్రదించండి.", hi: "केवल जानकारी के लिए। स्वयं उपचार न करें; योग्य चिकित्सक से परामर्श लें।", or: "କେବଳ ସୂଚନା ପାଇଁ। ନିଜେ ଚିକିତ୍ସା କରନ୍ତୁ ନାହିଁ; ଯୋଗ୍ୟ ଡାକ୍ତରଙ୍କ ପରାମର୍ଶ ନିଅନ୍ତୁ।", ta: "தகவலுக்கு மட்டுமே. சுயமாக சிகிச்சை செய்ய வேண்டாம்; தகுதியான மருத்துவரை அணுகவும்.", ml: "വിവരത്തിനു മാത്രം. സ്വയം ചികിത്സയ്ക്ക് ഉപയോഗിക്കരുത്; യോഗ്യതയുള്ള ഡോക്ടറെ സമീപിക്കുക."}
+  med_poison: {en: "Poisonous plant: harmful if eaten. Do not taste any part.", te: "విషపూరిత మొక్క: తింటే హానికరం. ఏ భాగాన్నీ రుచి చూడకండి.", hi: "ज़हरीला पौधा: खाने पर हानिकारक। किसी भी भाग को न चखें।", or: "ବିଷାକ୍ତ ଗଛ: ଖାଇଲେ କ୍ଷତିକାରକ। କୌଣସି ଅଂଶ ଚାଖନ୍ତୁ ନାହିଁ।", ta: "நச்சுத் தாவரம்: உண்டால் தீங்கு. எந்தப் பகுதியையும் சுவைக்க வேண்டாம்.", ml: "വിഷസസ്യം: കഴിച്ചാൽ ഹാനികരം. ഒരു ഭാഗവും രുചിച്ചു നോക്കരുത്."}
+  med_credit: {en: "Information from IMPPAT (IMSc, Chennai), compiled from books on traditional Indian medicine.", te: "సమాచారం: IMPPAT (IMSc, చెన్నై) – భారతీయ సంప్రదాయ వైద్య గ్రంథాల ఆధారంగా.", hi: "जानकारी: IMPPAT (IMSc, चेन्नई) – पारंपरिक भारतीय चिकित्सा ग्रंथों पर आधारित।", or: "ସୂଚନା: IMPPAT (IMSc, ଚେନ୍ନାଇ) – ପାରମ୍ପରିକ ଭାରତୀୟ ଚିକିତ୍ସା ଗ୍ରନ୍ଥ ଆଧାରରେ।", ta: "தகவல்: IMPPAT (IMSc, சென்னை) – பாரம்பரிய இந்திய மருத்துவ நூல்களின் அடிப்படையில்.", ml: "വിവരം: IMPPAT (IMSc, ചെന്നൈ) – പരമ്പരാഗത ഭാരതീയ വൈദ്യ ഗ്രന്ഥങ്ങളെ ആധാരമാക്കി."}
+  idx_title: {en: Plants of our campus, te: మా క్యాంపస్ మొక్కలు, hi: हमारे परिसर के पौधे, or: ଆମ କ୍ୟାମ୍ପସର ଗଛ, ta: எங்கள் வளாகத்தின் தாவரங்கள், ml: ഞങ്ങളുടെ ക്യാമ്പസിലെ സസ്യങ്ങൾ}
+  idx_lead: {en: "Scan the QR code on any plant tag, or explore them all below.", te: "ఏ మొక్క ట్యాగ్‌పైనైనా QR కోడ్‌ను స్కాన్ చేయండి, లేదా కింద అన్నీ చూడండి.", hi: "किसी भी पौधे के टैग पर QR कोड स्कैन करें, या नीचे सभी देखें।", or: "ଯେକୌଣସି ଗଛ ଟ୍ୟାଗରେ QR କୋଡ୍ ସ୍କାନ୍ କରନ୍ତୁ, କିମ୍ବା ତଳେ ସବୁ ଦେଖନ୍ତୁ।", ta: "எந்தத் தாவரக் குறிச்சீட்டிலும் QR குறியீட்டை ஸ்கேன் செய்யுங்கள், அல்லது கீழே அனைத்தையும் காணுங்கள்.", ml: "ഏതെങ്കിലും സസ്യ ടാഗിലെ QR കോഡ് സ്കാൻ ചെയ്യുക, അല്ലെങ്കിൽ താഴെ എല്ലാം കാണുക."}
+  species_n: {en: Species, te: జాతులు, hi: प्रजातियाँ, or: ପ୍ରଜାତି, ta: இனங்கள், ml: സ്പീഷീസുകൾ}
+  families_n: {en: Families, te: కుటుంబాలు, hi: कुल, or: କୁଳ, ta: குடும்பங்கள், ml: കുടുംബങ്ങൾ}
+  search_ph: {en: Search by name or family…, te: పేరు లేదా కుటుంబంతో వెతకండి…, hi: नाम या कुल से खोजें…, or: ନାମ କିମ୍ବା କୁଳ ଦ୍ୱାରା ଖୋଜନ୍ତୁ…, ta: பெயர் அல்லது குடும்பம் மூலம் தேடுக…, ml: പേരോ കുടുംബമോ ഉപയോഗിച്ച് തിരയുക…}
+  filter_all: {en: All, te: అన్నీ, hi: सभी, or: ସମସ୍ତ, ta: அனைத்தும், ml: എല്ലാം}
+  no_match: {en: No plants match your search., te: మీ శోధనకు సరిపడే మొక్కలు లేవు., hi: आपकी खोज से कोई पौधा मेल नहीं खाता।, or: ଆପଣଙ୍କ ସନ୍ଧାନ ସହ କୌଣସି ଗଛ ମେଳ ଖାଉନାହିଁ।, ta: உங்கள் தேடலுக்குப் பொருந்தும் தாவரம் இல்லை., ml: നിങ്ങളുടെ തിരയലുമായി പൊരുത്തപ്പെടുന്ന സസ്യങ്ങളില്ല.}
+  page_not_found: {en: Page not found, te: పేజీ కనబడలేదు, hi: पृष्ठ नहीं मिला, or: ପୃଷ୍ଠା ମିଳିଲା ନାହିଁ, ta: பக்கம் கிடைக்கவில்லை, ml: പേജ് കണ്ടെത്തിയില്ല}
+  see_all_plants: {en: See all plants on campus, te: క్యాంపస్‌లోని అన్ని మొక్కలు చూడండి, hi: परिसर के सभी पौधे देखें, or: କ୍ୟାମ୍ପସର ସମସ୍ତ ଗଛ ଦେଖନ୍ତୁ, ta: வளாகத்தின் அனைத்து தாவரங்களையும் காணுங்கள், ml: ക്യാമ്പസിലെ എല്ലാ സസ്യങ്ങളും കാണുക}
+
+# Scientific terms shown in the panels. The key on the left is the database's own term.
+terms:
+  # taxonomy ranks
+  "rank:Kingdom": {en: Kingdom, te: రాజ్యం, hi: जगत, or: ଜଗତ, ta: திணை, ml: സാമ്രാജ്യം}
+  "rank:Division (Phylum)": {en: Division (Phylum), te: విభాగం, hi: प्रभाग, or: ବିଭାଗ, ta: பிரிவு, ml: ഡിവിഷൻ}
+  "rank:Class": {en: Class, te: తరగతి, hi: वर्ग, or: ଶ୍ରେଣୀ, ta: வகுப்பு, ml: വർഗ്ഗം}
+  "rank:Subclass": {en: Subclass, te: ఉపతరగతి, hi: उपवर्ग, or: ଉପଶ୍ରେଣୀ, ta: துணை வகுப்பு, ml: ഉപവർഗ്ഗം}
+  "rank:Order": {en: Order, te: క్రమం, hi: गण, or: ବର୍ଗ, ta: வரிசை, ml: നിര}
+  "rank:Family": {en: Family, te: కుటుంబం, hi: कुल, or: କୁଳ, ta: குடும்பம், ml: കുടുംബം}
+  "rank:Subfamily": {en: Subfamily, te: ఉపకుటుంబం, hi: उपकुल, or: ଉପକୁଳ, ta: துணைக் குடும்பம், ml: ഉപകുടുംബം}
+  "rank:Tribe": {en: Tribe, te: ట్రైబ్, hi: ट्राइब, or: ଟ୍ରାଇବ, ta: இனக்குழு, ml: ട്രൈബ്}
+  "rank:Genus": {en: Genus, te: ప్రజాతి, hi: वंश, or: ବଂଶ, ta: பேரினம், ml: ജനുസ്സ്}
+  "rank:Species": {en: Species, te: జాతి, hi: प्रजाति, or: ପ୍ରଜାତି, ta: இனம், ml: സ്പീഷീസ്}
+  # IUCN Red List categories
+  "iucn:EX": {en: Extinct, te: అంతరించిపోయింది, hi: विलुप्त, or: ବିଲୁପ୍ତ, ta: அழிந்துவிட்டது, ml: വംശനാശം സംഭവിച്ചത്}
+  "iucn:EW": {en: Extinct in the Wild, te: అడవిలో అంతరించిపోయింది, hi: वन में विलुप्त, or: ଜଙ୍ଗଲରେ ବିଲୁପ୍ତ, ta: காடுகளில் அழிந்துவிட்டது, ml: കാട്ടിൽ വംശനാശം സംഭവിച്ചത്}
+  "iucn:CR": {en: Critically Endangered, te: తీవ్రంగా అంతరించిపోతున్నది, hi: गंभीर रूप से संकटग्रस्त, or: ଅତି ବିପନ୍ନ, ta: மிக அருகிவரும், ml: ഗുരുതര വംശനാശഭീഷണി}
+  "iucn:EN": {en: Endangered, te: అంతరించిపోతున్నది, hi: संकटग्रस्त, or: ବିପନ୍ନ, ta: அருகிவரும், ml: വംശനാശഭീഷണി}
+  "iucn:VU": {en: Vulnerable, te: ప్రమాదంలో ఉన్నది, hi: संवेदनशील, or: ସଙ୍କଟାପନ୍ନ, ta: பாதிக்கப்படக்கூடியது, ml: ദുർബലം}
+  "iucn:NT": {en: Near Threatened, te: ప్రమాదానికి దగ్గరగా, hi: संकट के निकट, or: ବିପଦ ନିକଟବର୍ତ୍ତୀ, ta: அச்சுறு நிலைக்கு அருகில், ml: ഭീഷണിക്ക് അടുത്ത്}
+  "iucn:LC": {en: Least Concern, te: తక్కువ ఆందోళన, hi: कम चिंतनीय, or: ସାମାନ୍ୟ ଚିନ୍ତାଜନକ, ta: குறைந்த அக்கறை, ml: ആശങ്ക കുറഞ്ഞത്}
+  "iucn:DD": {en: Data Deficient, te: సమాచారం సరిపోదు, hi: अपर्याप्त आँकड़े, or: ଅପର୍ଯ୍ୟାପ୍ତ ତଥ୍ୟ, ta: போதிய தரவு இல்லை, ml: വിവരങ്ങൾ അപര്യാപ്തം}
+  "iucn:NE": {en: Not Evaluated, te: మూల్యాంకనం చేయలేదు, hi: मूल्यांकन नहीं हुआ, or: ମୂଲ୍ୟାଙ୍କନ ହୋଇନାହିଁ, ta: மதிப்பிடப்படவில்லை, ml: വിലയിരുത്തിയിട്ടില്ല}
+  # native / introduced, and regions of India used by Kew's checklist
+  "means:native": {en: native, te: స్థానికం, hi: देशी, or: ଦେଶୀ, ta: உள்நாட்டு, ml: തദ്ദേശീയം}
+  "means:introduced": {en: introduced, te: బయటి నుండి తెచ్చినది, hi: बाहर से लाया गया, or: ବାହାରୁ ଅଣାଯାଇଥିବା, ta: அறிமுகப்படுத்தப்பட்டது, ml: പുറത്തുനിന്ന് കൊണ്ടുവന്നത്}
+  "place:India": {en: India, te: భారతదేశం, hi: भारत, or: ଭାରତ, ta: இந்தியா, ml: ഇന്ത്യ}
+  "place:Assam": {en: Assam, te: అస్సాం, hi: असम, or: ଆସାମ, ta: அசாம், ml: അസം}
+  "place:Andaman Is.": {en: Andaman Islands, te: అండమాన్ దీవులు, hi: अंडमान द्वीप, or: ଆଣ୍ଡାମାନ ଦ୍ୱୀପ, ta: அந்தமான் தீவுகள், ml: ആൻഡമാൻ ദ്വീപുകൾ}
+  "place:Nicobar Is.": {en: Nicobar Islands, te: నికోబార్ దీవులు, hi: निकोबार द्वीप, or: ନିକୋବର ଦ୍ୱୀପ, ta: நிக்கோபார் தீவுகள், ml: നിക്കോബാർ ദ്വീപുകൾ}
+  "place:Laccadive Is.": {en: Lakshadweep, te: లక్షద్వీప్, hi: लक्षद्वीप, or: ଲକ୍ଷଦ୍ୱୀପ, ta: இலட்சத்தீவு, ml: ലക്ഷദ്വീപ്}
+  # systems of medicine
+  "sys:Ayurveda": {en: Ayurveda, te: ఆయుర్వేదం, hi: आयुर्वेद, or: ଆୟୁର୍ବେଦ, ta: ஆயுர்வேதம், ml: ആയുർവേദം}
+  "sys:Siddha": {en: Siddha, te: సిద్ధ, hi: सिद्ध, or: ସିଦ୍ଧ, ta: சித்த மருத்துவம், ml: സിദ്ധ}
+  "sys:Unani": {en: Unani, te: యునాని, hi: यूनानी, or: ୟୁନାନୀ, ta: யுனானி, ml: യുനാനി}
+  "sys:Homeopathy": {en: Homeopathy, te: హోమియోపతి, hi: होम्योपैथी, or: ହୋମିଓପାଥି, ta: ஹோமியோபதி, ml: ഹോമിയോപ്പതി}
+  "sys:Sowa Rigpa": {en: Sowa Rigpa, te: సోవా రిగ్పా, hi: सोवा रिग्पा, or: ସୋୱା ରିଗପା, ta: சோவா ரிக்பா, ml: സോവ റിഗ്പ}
+  # plant parts
+  "part:leaf": {en: Leaf, te: ఆకు, hi: पत्ती, or: ପତ୍ର, ta: இலை, ml: ഇല}
+  "part:bark": {en: Bark, te: బెరడు, hi: छाल, or: ବକଳ, ta: பட்டை, ml: തൊലി}
+  "part:seed": {en: Seed, te: విత్తనం, hi: बीज, or: ମଞ୍ଜି, ta: விதை, ml: വിത്ത്}
+  "part:flower": {en: Flower, te: పువ్వు, hi: फूल, or: ଫୁଲ, ta: பூ, ml: പൂവ്}
+  "part:fruit": {en: Fruit, te: పండు, hi: फल, or: ଫଳ, ta: பழம், ml: ഫലം}
+  "part:root": {en: Root, te: వేరు, hi: जड़, or: ଚେର, ta: வேர், ml: വേര്}
+  "part:stem": {en: Stem, te: కాండం, hi: तना, or: କାଣ୍ଡ, ta: தண்டு, ml: തണ്ട്}
+  "part:whole plant": {en: Whole plant, te: మొత్తం మొక్క, hi: पूरा पौधा, or: ସମଗ୍ର ଗଛ, ta: முழுத் தாவரம், ml: സമ്പൂർണ്ണ സസ്യം}
+  "part:plant exudate": {en: Latex / gum, te: పాలు / జిగురు, hi: दूध / गोंद, or: କ୍ଷୀର / ଅଠା, ta: பால் / பிசின், ml: കറ / പശ}
+  # medicinal uses (conditions)
+  "use:skin diseases": {en: Skin diseases, te: చర్మ వ్యాధులు, hi: त्वचा रोग, or: ଚର୍ମ ରୋଗ, ta: தோல் நோய்கள், ml: ത്വക്ക് രോഗങ്ങൾ}
+  "use:malaria": {en: Malaria, te: మలేరియా, hi: मलेरिया, or: ମ୍ୟାଲେରିଆ, ta: மலேரியா, ml: മലേറിയ}
+  "use:ulcer": {en: Ulcers and sores, te: పుండ్లు, hi: छाले और घाव, or: ଘା, ta: புண்கள், ml: വ്രണങ്ങൾ}
+  "use:diabetes mellitus": {en: Diabetes, te: మధుమేహం, hi: मधुमेह, or: ମଧୁମେହ, ta: நீரிழிவு, ml: പ്രമേഹം}
+  "use:eczema": {en: Eczema, te: తామర, hi: एक्ज़िमा, or: ଏକଜିମା, ta: கரப்பான், ml: എക്സിമ}
+  "use:diarrhea": {en: Diarrhoea, te: విరేచనాలు, hi: दस्त, or: ଝାଡ଼ା, ta: வயிற்றுப்போக்கு, ml: വയറിളക്കം}
+  "use:scabies": {en: Scabies, te: గజ్జి, hi: खुजली (स्केबीज़), or: କୁଣ୍ଡିଆ, ta: சொறி சிரங்கு, ml: ചൊറി}
+  "use:menorrhagia": {en: Heavy menstrual bleeding, te: అధిక రుతుస్రావం, hi: अत्यधिक मासिक रक्तस्राव, or: ଅଧିକ ଋତୁସ୍ରାବ, ta: அதிக மாதவிடாய் இரத்தப்போக்கு, ml: അമിത ആർത്തവ രക്തസ്രാവം}
+  "use:hypotension": {en: Low blood pressure, te: తక్కువ రక్తపోటు, hi: निम्न रक्तचाप, or: ନିମ୍ନ ରକ୍ତଚାପ, ta: குறைந்த இரத்த அழுத்தம், ml: താഴ്ന്ന രക്തസമ്മർദ്ദം}
+  "use:cerebrovascular circulation": {en: Blood circulation to the brain, te: మెదడుకు రక్త ప్రసరణ, hi: मस्तिष्क में रक्त संचार, or: ମସ୍ତିଷ୍କକୁ ରକ୍ତ ସଞ୍ଚାଳନ, ta: மூளைக்கு இரத்த ஓட்டம், ml: തലച്ചോറിലേക്കുള്ള രക്തചംക്രമണം}
+  "use:common cold": {en: Common cold, te: జలుబు, hi: सर्दी-जुकाम, or: ଥଣ୍ଡା, ta: ஜலதோஷம், ml: ജലദോഷം}
+  "use:leprosy": {en: Leprosy, te: కుష్టు వ్యాధి, hi: कुष्ठ रोग, or: କୁଷ୍ଠ ରୋଗ, ta: தொழுநோய், ml: കുഷ്ഠരോഗം}
+  "use:endophthalmitis": {en: Eye inflammation, te: కంటి వాపు, hi: आँख की सूजन, or: ଆଖି ପ୍ରଦାହ, ta: கண் அழற்சி, ml: കണ്ണിലെ വീക്കം}
+  "use:hemorrhage": {en: Bleeding, te: రక్తస్రావం, hi: रक्तस्राव, or: ରକ୍ତସ୍ରାବ, ta: இரத்தப்போக்கு, ml: രക്തസ്രാവം}
+  "use:leukorrhea": {en: White discharge (leucorrhoea), te: తెల్లబట్ట, hi: श्वेत प्रदर, or: ଶ୍ୱେତ ପ୍ରଦର, ta: வெள்ளைப்படுதல், ml: വെള്ളപോക്ക്}
+  # medicinal properties
+  "use:anthelmintics": {en: Expels intestinal worms, te: నులిపురుగులను తొలగిస్తుంది, hi: पेट के कीड़े निकालता है, or: ପେଟ କୃମି ଦୂର କରେ, ta: குடற்புழுக்களை நீக்கும், ml: വിരകളെ നീക്കുന്നു}
+  "use:anti-infective agents, local": {en: Prevents infection in wounds, te: గాయాల్లో ఇన్ఫెక్షన్ నివారిస్తుంది, hi: घावों में संक्रमण रोकता है, or: ଘାଆରେ ସଂକ୍ରମଣ ରୋକେ, ta: காயங்களில் தொற்றைத் தடுக்கும், ml: മുറിവുകളിലെ അണുബാധ തടയുന്നു}
+  "use:anti-inflammatory agents": {en: Reduces swelling, te: వాపు తగ్గిస్తుంది, hi: सूजन कम करता है, or: ଫୁଲା କମାଏ, ta: வீக்கத்தைக் குறைக்கும், ml: വീക്കം കുറയ്ക്കുന്നു}
+  "use:antifungal agents": {en: Antifungal, te: శిలీంధ్ర నాశిని, hi: फफूंदरोधी, or: କବକନାଶୀ, ta: பூஞ்சை எதிர்ப்பு, ml: ഫംഗസ് പ്രതിരോധം}
+  "use:antirheumatic agents": {en: Relieves joint pain (rheumatism), te: కీళ్ల నొప్పులను తగ్గిస్తుంది, hi: जोड़ों का दर्द (गठिया) कम करता है, or: ଗଣ୍ଠି ବିନ୍ଧା କମାଏ, ta: மூட்டு வலியைக் குறைக்கும், ml: സന്ധിവേദന കുറയ്ക്കുന്നു}
+  "use:anti-bacterial agents": {en: Antibacterial, te: బ్యాక్టీరియా నాశిని, hi: जीवाणुरोधी, or: ଜୀବାଣୁନାଶୀ, ta: பாக்டீரியா எதிர்ப்பு, ml: ബാക്ടീരിയ പ്രതിരോധം}
+  "use:antiparasitic agents": {en: Acts against parasites, te: పరాన్నజీవులను నిరోధిస్తుంది, hi: परजीवी-रोधी, or: ପରଜୀବୀ ନାଶକ, ta: ஒட்டுண்ணி எதிர்ப்பு, ml: പരാദങ്ങൾക്കെതിരെ}
+  "use:hypnotics and sedatives": {en: Calming; helps sleep, te: ప్రశాంతత; నిద్రకు సహాయం, hi: शांत करता है; नींद में सहायक, or: ଶାନ୍ତ କରେ; ନିଦ୍ରାରେ ସାହାଯ୍ୟ, ta: அமைதிப்படுத்தும்; தூக்கத்திற்கு உதவும், ml: ശാന്തമാക്കുന്നു; ഉറക്കത്തിന് സഹായിക്കുന്നു}
+  "use:antiviral agents": {en: Antiviral, te: వైరస్ నిరోధకం, hi: विषाणुरोधी, or: ଭୂତାଣୁନାଶୀ, ta: வைரஸ் எதிர்ப்பு, ml: വൈറസ് പ്രതിരോധം}
+  "use:antineoplastic agents": {en: Source of anticancer medicines, te: క్యాన్సర్ నిరోధక ఔషధాల మూలం, hi: कैंसर-रोधी दवाओं का स्रोत, or: କର୍କଟ ପ୍ରତିରୋଧୀ ଔଷଧର ଉତ୍ସ, ta: புற்றுநோய் எதிர்ப்பு மருந்துகளின் மூலம், ml: കാൻസർ പ്രതിരോധ ഔഷധങ്ങളുടെ ഉറവിടം}
+  "use:antipruritics": {en: Relieves itching, te: దురద తగ్గిస్తుంది, hi: खुजली कम करता है, or: କୁଣ୍ଡେଇ କମାଏ, ta: அரிப்பைக் குறைக்கும், ml: ചൊറിച്ചിൽ കുറയ്ക്കുന്നു}
+  "use:diuretics": {en: Increases urine flow, te: మూత్రవర్ధకం, hi: मूत्रवर्धक, or: ମୂତ୍ରବର୍ଦ୍ଧକ, ta: சிறுநீர் பெருக்கி, ml: മൂത്രവർദ്ധകം}

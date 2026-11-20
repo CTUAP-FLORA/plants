@@ -16,7 +16,9 @@ import html
 import json
 import shutil
 
+import i18n
 import verified_html
+from i18n import t, term
 from common import OPTIONAL_TEXT_FIELDS, ROOT, load_config, load_plants
 
 OUT = ROOT / "_site"
@@ -126,7 +128,8 @@ a{color:inherit}
 .pill{display:inline-flex;align-items:center;gap:6px;text-decoration:none;color:#fff;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
  padding:7px 13px 7px 9px;border-radius:999px;font-weight:600;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 .pill .ic{width:16px;height:16px}
-.topbar .uni{margin-left:auto;text-align:right;opacity:.9;max-width:58%;line-height:1.35}
+.topbar .langsel{margin-left:auto}
+.uni{display:block;margin-top:10px;font-size:13px;opacity:.9;line-height:1.35}
 .hero-body{margin-top:auto;padding-top:40px}
 .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;opacity:.92}
 .eyebrow .ic{width:16px;height:16px}
@@ -248,9 +251,10 @@ def page(title, body, cfg, up, style="", cls="", color="#1f5f3a"):
 </head>
 <body class="{cls}" style="{style}">
 {body}
-<footer>{e(cfg['site_title'])} · {e(cfg['university_name'])}</footer>
+<footer>{t('site_title')} · {e(cfg['university_name'])}</footer>
 {REVEAL_JS}
 {verified_html.JS if 'class="vbtns"' in body else ""}
+<script src="{up}i18n.js"></script>
 </body>
 </html>
 """
@@ -281,25 +285,23 @@ def plant_page(p, cfg, plants):
 
     bg = f'<img class="bgimg" src="{up}photos/{e(photos[0]["file"])}" alt="">' if photos else DECOR
     h = [f'<header class="hero{" photo" if photos else ""}">{bg}<div class="wrap">',
-         f'<div class="topbar"><a class="pill" href="{up}">{icon("back")}All plants</a>'
-         f'<span class="uni">{e(cfg["university_name"])}</span></div>',
+         f'<div class="topbar"><a class="pill" href="{up}">{icon("back")}{t("all_plants")}</a>{i18n.switcher()}</div>'
+         f'<span class="uni">{e(cfg["university_name"])}</span>',
          '<div class="hero-body">',
-         f'<div class="eyebrow rise">{icon("leaf")}{e(cfg["site_title"])} · {e(p["family"])}</div>',
-         '<span class="lbl first rise d1">Scientific name</span>',
+         f'<div class="eyebrow rise">{icon("leaf")}{t("site_title")} · {e(p["family"])}</div>',
+         t("scientific_name", cls="lbl first rise d1"),
          f'<h1 class="rise d1" style="--chars:{max(len(w) for w in p["scientific_name"].split())}">{sci_name_html(p["scientific_name"])}</h1>']
-    if p.get("synonym"):
-        h.append(f'<p class="syn rise d2">Synonym: <i>{e(p["synonym"])}</i></p>')
-    if p["common_names"]:
-        h.append(f'<span class="lbl rise d3">{"Common names" if len(p["common_names"]) > 1 else "Common name"}</span>')
-        h.append('<ul class="chips rise d3">' + "".join(f"<li>{e(n)}</li>" for n in p["common_names"]) + "</ul>")
+    if p["telugu_names"]:
+        h.append(t("common_name_te", cls="lbl rise d3"))
+        h.append('<ul class="chips telugu rise d3" lang="te">' + "".join(f"<li>{e(n)}</li>" for n in p["telugu_names"]) + "</ul>")
     h.append(f"</div></div>{WAVE}</header>")
 
     genus = p["scientific_name"].split(" ")[0]
     m = ['<main class="wrap">',
          f'<section class="card taxo rise d4" aria-label="Classification">'
-         f'<div><small>Kingdom</small><b>Plantae</b></div>'
-         f'<div><small>Family</small><b style="--fs:16px;--n:{len(p["family"])}">{e(p["family"])}</b></div>'
-         f'<div><small>Genus</small><b class="g" style="--fs:18px;--n:{len(genus)}">{e(genus)}</b></div></section>']
+         f'<div>{term("rank", "Kingdom", tag="small")}<b>Plantae</b></div>'
+         f'<div>{term("rank", "Family", tag="small")}<b style="--fs:16px;--n:{len(p["family"])}">{e(p["family"])}</b></div>'
+         f'<div>{term("rank", "Genus", tag="small")}<b class="g" style="--fs:18px;--n:{len(genus)}">{e(genus)}</b></div></section>']
     m.append(verified_html.render(p["slug"]))
     if photos:
         m.append('<div class="gallery">')
@@ -315,19 +317,19 @@ def plant_page(p, cfg, plants):
             has_detail = True
             m.append(f'<section class="card info reveal"><h2>{icon(key)}{heading}</h2>{paragraphs(val)}</section>')
     if not has_detail and not photos:
-        m.append(f'<section class="card soon reveal">{SPROUT}<h2>More details coming soon</h2>'
-                 '<p>Description, uses, flowering season and photos will be added here.</p></section>')
+        m.append(f'<section class="card soon reveal">{SPROUT}{t("coming_soon_title", tag="h2")}'
+                 f'{t("coming_soon_text", tag="p")}</section>')
     same = sorted((q for q in plants if q["family"] == p["family"] and q["slug"] != p["slug"]),
                   key=lambda q: q["scientific_name"])
     if same:
-        m.append(f'<section class="card related reveal"><h2>Also in {e(p["family"])} on campus</h2><ul>'
+        m.append(f'<section class="card related reveal">{t("also_in", tag="h2", family=p["family"])}<ul>'
                  + "".join(f'<li><a href="{up}p/{q["slug"]}/">{e(q["scientific_name"])}</a></li>' for q in same)
                  + "</ul></section>")
     m.append(f'<nav class="pager reveal" aria-label="More plants">'
-             f'<a href="{up}p/{prev_p["slug"]}/" style="{theme(prev_p["family"])}"><small>{icon("back")}Previous</small><span>{e(prev_p["scientific_name"])}</span></a>'
-             f'<a class="nx" href="{up}p/{next_p["slug"]}/" style="{theme(next_p["family"])}"><small>Next{icon("next")}</small><span>{e(next_p["scientific_name"])}</span></a></nav>')
-    m.append(f'<a class="cta reveal" href="{up}">{icon("grid")}Explore all {len(plants)} plants on campus</a>'
-             f'<p class="count">Plant {i + 1} of {len(plants)}</p></main>')
+             f'<a href="{up}p/{prev_p["slug"]}/" style="{theme(prev_p["family"])}"><small>{icon("back")}{t("previous")}</small><span>{e(prev_p["scientific_name"])}</span></a>'
+             f'<a class="nx" href="{up}p/{next_p["slug"]}/" style="{theme(next_p["family"])}"><small>{t("next")}{icon("next")}</small><span>{e(next_p["scientific_name"])}</span></a></nav>')
+    m.append(f'<a class="cta reveal" href="{up}">{icon("grid")}{t("explore_all", n=len(plants))}</a>'
+             f'{t("plant_i_of_n", tag="p", cls="count", i=i + 1, n=len(plants))}</main>')
     color = f"hsl({hue(p['family'])} 65% 24%)"
     return page(f'{p["scientific_name"]} | {cfg["site_title"]}', "\n".join(h + m), cfg, up, theme(p["family"]), color=color)
 
@@ -335,31 +337,33 @@ def plant_page(p, cfg, plants):
 def index_page(plants, cfg):
     items = []
     for p in sorted(plants, key=lambda x: x["scientific_name"]):
-        search = " ".join([p["scientific_name"], p.get("synonym") or "", p["family"], *p["common_names"]]).lower()
+        search = " ".join([p["scientific_name"], p["family"], *p["common_names"], *p["telugu_names"]]).lower()
         items.append(
             f'<li data-s="{e(search)}" data-f="{e(p["family"])}" style="{theme(p["family"])}"><a href="p/{p["slug"]}/">'
             f'<span class="badge">{e(p["scientific_name"][0])}</span><span class="tx">'
             f'<span class="sci">{e(p["scientific_name"])}</span>'
-            f'<span class="cn"><b>Common {"names" if len(p["common_names"]) > 1 else "name"}:</b> {e(", ".join(p["common_names"]))}</span>'
-            f'<span class="fam">{e(p["family"])}</span></span></a></li>')
+            + (f'<span class="cn">{t("telugu_name", tag="b")} <span class="telugu" lang="te">{e(", ".join(p["telugu_names"]))}</span></span>'
+               if p["telugu_names"] else "") +
+            f'<span class="fam">'
+            f'{e(p["family"])}</span></span></a></li>')
     fams = sorted({p["family"] for p in plants})
-    fam_buttons = ['<button type="button" aria-pressed="true" data-f="" style="--c1:#123d27;--c2:#1f6b52;--c3:#7fdc9f"><i></i>All</button>']
+    fam_buttons = ['<button type="button" aria-pressed="true" data-f="" style="--c1:#123d27;--c2:#1f6b52;--c3:#7fdc9f"><i></i>' + t("filter_all") + '</button>']
     fam_buttons += [f'<button type="button" aria-pressed="false" data-f="{e(f)}" style="{theme(f)}"><i></i>{e(f)}</button>' for f in fams]
     body = f"""<header class="hero">{DECOR}<div class="wrap">
-<div class="topbar"><span class="uni" style="margin-left:0;text-align:left;max-width:100%">{e(cfg['university_name'])}</span></div>
+<div class="topbar"><span class="uni" style="margin:0">{e(cfg['university_name'])}</span>{i18n.switcher()}</div>
 <div class="hero-body">
-<div class="eyebrow rise">{icon("leaf")}{e(cfg['site_title'])}</div>
-<h1 class="rise d1">Plants of <i>our campus</i></h1>
-<p class="lead rise d2">Scan the QR code on any plant tag, or explore them all below.</p>
-<div class="stats rise d3"><div><b>{len(plants)}</b><small>Species</small></div><div><b>{len(fams)}</b><small>Families</small></div></div>
+<div class="eyebrow rise">{icon("leaf")}{t("site_title")}</div>
+{t("idx_title", tag="h1", cls="rise d1")}
+{t("idx_lead", tag="p", cls="lead rise d2")}
+<div class="stats rise d3"><div><b>{len(plants)}</b>{t("species_n", tag="small")}</div><div><b>{len(fams)}</b>{t("families_n", tag="small")}</div></div>
 </div></div>{WAVE}</header>
 <main class="wrap">
-<div class="searchbox rise d4">{icon("search")}<input type="search" id="q" placeholder="Search by name or family…" aria-label="Search plants" autocomplete="off"></div>
+<div class="searchbox rise d4">{icon("search")}<input type="search" id="q" placeholder="Search by name or family…" data-tp="search_ph" aria-label="Search plants" autocomplete="off"></div>
 <div class="fams" id="fams" role="group" aria-label="Filter by family">{"".join(fam_buttons)}</div>
 <ul class="grid" id="list">
 {chr(10).join(items)}
 </ul>
-<p id="none" class="none" hidden>No plants match your search.</p>
+<p id="none" class="none" hidden>{t("no_match")}</p>
 </main>
 <script>
 (function(){{var q=document.getElementById('q'),li=[].slice.call(document.querySelectorAll('#list li')),none=document.getElementById('none'),
@@ -377,7 +381,8 @@ def main():
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir()
-    (OUT / "style.css").write_text(CSS.strip() + "\n" + verified_html.CSS.strip() + "\n", encoding="utf-8")
+    (OUT / "style.css").write_text(CSS.strip() + "\n" + verified_html.CSS.strip() + "\n" + i18n.CSS.strip() + "\n",
+                                   encoding="utf-8")
     (OUT / ".nojekyll").write_text("")
     (OUT / "index.html").write_text(index_page(plants, cfg), encoding="utf-8")
     for p in plants:
@@ -385,9 +390,10 @@ def main():
         d.mkdir(parents=True)
         (d / "index.html").write_text(plant_page(p, cfg, plants), encoding="utf-8")
     root = cfg["base_url"] + "/"   # 404 can be served at any path, so use absolute links
-    nf = (f'<header class="hero" style="--c1:#123d27;--c2:#1f6b52;--c3:#7fdc9f;min-height:50vh">{DECOR}<div class="wrap"><div class="hero-body">'
-          f'<div class="eyebrow">{icon("leaf")}{e(cfg["site_title"])}</div><h1 style="font-style:normal">Page not found</h1></div></div>{WAVE}</header>'
-          f'<main class="wrap"><a class="cta" style="--c1:#123d27;--c2:#1f6b52" href="{root}">{icon("grid")}See all plants on campus</a></main>')
+    nf = (f'<header class="hero" style="--c1:#123d27;--c2:#1f6b52;--c3:#7fdc9f;min-height:50vh">{DECOR}<div class="wrap">'
+          f'<div class="topbar">{i18n.switcher()}</div><div class="hero-body">'
+          f'<div class="eyebrow">{icon("leaf")}{t("site_title")}</div>{t("page_not_found", tag="h1")}</div></div>{WAVE}</header>'
+          f'<main class="wrap"><a class="cta" style="--c1:#123d27;--c2:#1f6b52" href="{root}">{icon("grid")}{t("see_all_plants")}</a></main>')
     (OUT / "404.html").write_text(page("Page not found", nf, cfg, root), encoding="utf-8")
     photos = ROOT / "photos"
     if photos.exists():
@@ -395,6 +401,9 @@ def main():
     # machine-readable list, used by scripts/verify.py
     (OUT / "plants.json").write_text(json.dumps(
         [{"slug": p["slug"], "scientific_name": p["scientific_name"]} for p in plants], indent=1), encoding="utf-8")
+    (OUT / "i18n.js").write_text(i18n.script(), encoding="utf-8")
+    if i18n.MISSING:
+        print("Note: no translation yet for:", ", ".join(sorted(i18n.MISSING)), "(English is shown; add them to data/i18n.yaml)")
     print(f"Built {len(plants)} plant pages into {OUT.relative_to(ROOT)}/")
 
 

@@ -161,6 +161,12 @@ def section_conservation(p, g, taxa):
             out["iucn"] = [code, IUCN_NAMES.get(code, code)]
             out["sources"].append(["IUCN Red List category (published via GBIF)", f"https://www.gbif.org/species/{key}"])
         dist = (safe(get, f"https://api.gbif.org/v1/species/{key}/distributions", {"limit": 300}) or {}).get("results", [])
+        w = safe(wcvp_accepted, name)            # Kew's own record: its range data, if GBIF's backbone files the plant elsewhere
+        if w and w.get("key") and w["key"] != key:
+            extra = (safe(get, f"https://api.gbif.org/v1/species/{w['key']}/distributions", {"limit": 300}) or {}).get("results", [])
+            for x in extra:                       # rows in Kew's own dataset carry no source label
+                x["source"] = x.get("source") or "The World Checklist of Vascular Plants (WCVP)"
+            dist += extra
         seen = set()
         for d in dist:
             place = d.get("locality") or d.get("country") or ""

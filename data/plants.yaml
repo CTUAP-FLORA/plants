@@ -492,15 +492,15 @@ plants:
     photos: []
     notes:
 
-  - slug: moringa-oleifera
-    scientific_name: Moringa oleifera
-    telugu_name: "మునగ"    # source: Wikidata; Telugu Wikipedia
-    common_names: ["Drumstick tree"]
-    family: Moringaceae
+  - slug: morinda-pubescens
+    scientific_name: Morinda pubescens
+    telugu_name: "తొగరు"    # source: Telugu Wikipedia, Rubiaceae article ("మొరిండా టింక్టోరియా - తొగరు"); department: Morinda tinctoria
+    common_names: ["Indian mulberry", "Morinda tinctoria", "Morinda coreia"]
+    family: Rubiaceae
     copies: 2          # number of printed tags
     description:
     uses:
     native_to:
     flowering_season:
     photos: []
-    notes:
+    notes: "Morinda tinctoria Roxb. is a synonym; Kew's World Checklist accepts Morinda pubescens Sm."
